@@ -1,0 +1,24 @@
+# Party
+- id: rdm_magick_barrier
+  name: Magick Barrier
+  cooldown: 120
+  duration: 10
+  minLevel: 86
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% magic damage reduction for party. Increases HP recovered by healing actions by 5%.
+
+# Targeted
+- id: rdm_addle
+  name: Addle
+  cooldown: 90
+  duration: 10
+  minLevel: 8
+  scope: single
+  type: mitigation
+  durationUpgrade:
+    minLevel: 98
+    duration: 15
+  mitPercent: 10
+  description: Debuff on target. Reduces magical damage dealt by 10%, physical by 5%.

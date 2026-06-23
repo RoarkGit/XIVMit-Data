@@ -1,0 +1,109 @@
+# Limit Break
+- id: gnb_tank_lb3
+  name: Tank LB3
+  cooldown: null
+  duration: 8
+  minLevel: 1
+  scope: party
+  type: mitigation
+  mitPercent: 80
+  description: Party-wide 80% damage reduction.
+
+# Party
+- id: gnb_heart_of_light
+  name: Heart of Light
+  cooldown: 90
+  duration: 15
+  minLevel: 64
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% magic damage reduction for the party.
+- id: gnb_reprisal
+  name: Reprisal
+  cooldown: 60
+  duration: 10
+  minLevel: 22
+  scope: party
+  type: mitigation
+  durationUpgrade:
+    minLevel: 98
+    duration: 15
+  mitPercent: 10
+  description: Debuff on target. Reduces damage dealt by 10%.
+
+# Targeted
+- id: gnb_heart_of_corundum
+  name: Heart of Corundum
+  cooldown: 25
+  duration: 8
+  minLevel: 82
+  scope: single
+  type: mitigation
+  mitPercent: 15
+  chargeGroup: gnb_hot
+  replaces: gnb_heart_of_stone
+  description: 15% damage reduction on target. 30% total for first 4s (Clarity). Heals when HP drops below 50%.
+
+# Self
+- id: gnb_great_nebula
+  name: Great Nebula
+  cooldown: 120
+  duration: 15
+  minLevel: 92
+  scope: self
+  type: mitigation
+  mitPercent: 40
+  replaces: gnb_nebula
+  description: 40% damage reduction. Increases max HP by 20%.
+- id: gnb_heart_of_stone
+  name: Heart of Stone
+  cooldown: 25
+  duration: 7
+  minLevel: 68
+  scope: self
+  type: mitigation
+  chargeGroup: gnb_hot
+  mitPercent: 15
+  description: 15% damage reduction.
+- id: gnb_kitchen_sink
+  name: Kitchen Sink
+  cooldown: null
+  duration: 10
+  minLevel: 1
+  scope: self
+  type: mitigation
+  kitchenSinkFor:
+  - gnb_rampart
+  - gnb_nebula
+  - gnb_great_nebula
+  - gnb_aurora
+  - gnb_heart_of_stone
+  - gnb_heart_of_corundum
+  description: Combines all available self-mitigation cooldowns.
+- id: gnb_nebula
+  name: Nebula
+  cooldown: 120
+  duration: 15
+  minLevel: 38
+  scope: self
+  type: mitigation
+  mitPercent: 30
+  description: 30% damage reduction.
+- id: gnb_rampart
+  name: Rampart
+  cooldown: 90
+  duration: 20
+  minLevel: 8
+  scope: self
+  type: mitigation
+  mitPercent: 20
+  description: 20% damage reduction.
+- id: gnb_superbolide
+  name: Superbolide
+  cooldown: 360
+  duration: 10
+  minLevel: 50
+  scope: self
+  type: invuln
+  description: Drops HP to 1 and renders immune to most attacks.

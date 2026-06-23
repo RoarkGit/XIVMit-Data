@@ -1,0 +1,58 @@
+# Party
+- id: ast_collective_unconscious
+  name: Collective Unconscious
+  cooldown: 60
+  duration: 18
+  minLevel: 58
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% party damage reduction. Leaves regen area on exit.
+- id: ast_macrocosmos
+  name: Macrocosmos
+  cooldown: 180
+  duration: 15
+  minLevel: 90
+  scope: party
+  type: heal
+  description: Stores 50% of damage taken as healing. Detonates after duration or manual trigger.
+- id: ast_neutral_sect
+  name: Neutral Sect
+  cooldown: 120
+  duration: 20
+  minLevel: 80
+  scope: party
+  type: heal
+  description: Adds shield equal to heal amount on Aspected Helios/Benefic casts. Increases healing potency by 20%.
+- id: ast_sun_sign
+  name: Sun Sign
+  cooldown: 1
+  duration: 15
+  minLevel: 100
+  scope: party
+  type: mitigation
+  requiresWithin:
+    abilityId: ast_neutral_sect
+    window: 30
+  mitPercent: 10
+  description: 10% party damage reduction.
+
+# Targeted
+- id: ast_celestial_intersection
+  name: Celestial Intersection
+  cooldown: 30
+  duration: 30
+  charges: 2
+  minLevel: 74
+  scope: single
+  type: shield
+  description: Shield on target equal to ~8% of target's max HP.
+- id: ast_exaltation
+  name: Exaltation
+  cooldown: 60
+  duration: 8
+  minLevel: 86
+  scope: single
+  type: mitigation
+  mitPercent: 10
+  description: 10% damage reduction on target. Heals on expiry.

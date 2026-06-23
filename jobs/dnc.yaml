@@ -1,0 +1,12 @@
+- id: dnc_shield_samba
+  name: Shield Samba
+  cooldown: 90
+  duration: 15
+  minLevel: 56
+  scope: party
+  type: mitigation
+  cooldownUpgrade:
+    minLevel: 88
+    cooldown: 90
+  mitPercent: 10
+  description: 10% party damage reduction.

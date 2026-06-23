@@ -1,0 +1,115 @@
+# Limit Break
+- id: drk_tank_lb3
+  name: Tank LB3
+  cooldown: null
+  duration: 8
+  minLevel: 1
+  scope: party
+  type: mitigation
+  mitPercent: 80
+  description: Party-wide 80% damage reduction.
+
+# Party
+- id: drk_dark_missionary
+  name: Dark Missionary
+  cooldown: 90
+  duration: 15
+  minLevel: 66
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% magic damage reduction for the party.
+- id: drk_reprisal
+  name: Reprisal
+  cooldown: 60
+  duration: 10
+  minLevel: 22
+  scope: party
+  type: mitigation
+  durationUpgrade:
+    minLevel: 98
+    duration: 15
+  mitPercent: 10
+  description: Debuff on target. Reduces damage dealt by 10%.
+
+# Targeted
+- id: drk_oblation
+  name: Oblation
+  cooldown: 60
+  duration: 10
+  charges: 2
+  minLevel: 82
+  scope: single
+  type: mitigation
+  mitPercent: 10
+  description: 10% damage reduction on target.
+- id: drk_the_blackest_night
+  name: The Blackest Night
+  cooldown: 15
+  duration: 7
+  minLevel: 70
+  scope: single
+  type: shield
+  description: Shield equal to 25% of target's max HP.
+
+# Self
+- id: drk_dark_mind
+  name: Dark Mind
+  cooldown: 60
+  duration: 10
+  minLevel: 45
+  scope: self
+  type: mitigation
+  mitPercent: 10
+  description: 10% magic damage reduction (magic only).
+- id: drk_kitchen_sink
+  name: Kitchen Sink
+  cooldown: null
+  duration: 10
+  minLevel: 1
+  scope: self
+  type: mitigation
+  kitchenSinkFor:
+  - drk_rampart
+  - drk_shadow_wall
+  - drk_shadowed_vigil
+  - drk_dark_mind
+  - drk_the_blackest_night
+  - drk_oblation
+  description: Combines all available self-mitigation cooldowns.
+- id: drk_living_dead
+  name: Living Dead
+  cooldown: 300
+  duration: 10
+  minLevel: 50
+  scope: self
+  type: invuln
+  description: Cannot drop below 1 HP. Gradually restores HP during Walking Dead.
+- id: drk_rampart
+  name: Rampart
+  cooldown: 90
+  duration: 20
+  minLevel: 8
+  scope: self
+  type: mitigation
+  mitPercent: 20
+  description: 20% damage reduction.
+- id: drk_shadow_wall
+  name: Shadow Wall
+  cooldown: 120
+  duration: 15
+  minLevel: 38
+  scope: self
+  type: mitigation
+  mitPercent: 30
+  description: 30% damage reduction.
+- id: drk_shadowed_vigil
+  name: Shadowed Vigil
+  cooldown: 120
+  duration: 15
+  minLevel: 92
+  scope: self
+  type: mitigation
+  mitPercent: 40
+  replaces: drk_shadow_wall
+  description: 40% damage reduction. Restores HP proportional to damage taken on expiry.

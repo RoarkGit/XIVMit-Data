@@ -1,0 +1,24 @@
+# Party
+- id: mch_tactician
+  name: Tactician
+  cooldown: 90
+  duration: 15
+  minLevel: 56
+  scope: party
+  type: mitigation
+  cooldownUpgrade:
+    minLevel: 88
+    cooldown: 90
+  mitPercent: 10
+  description: 10% party damage reduction.
+
+# Targeted
+- id: mch_dismantle
+  name: Dismantle
+  cooldown: 120
+  duration: 10
+  minLevel: 62
+  scope: single
+  type: mitigation
+  mitPercent: 10
+  description: Debuff on target. Reduces damage dealt by 10%.

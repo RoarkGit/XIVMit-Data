@@ -1,0 +1,23 @@
+# Party
+- id: mnk_mantra
+  name: Mantra
+  cooldown: 90
+  duration: 15
+  minLevel: 42
+  scope: party
+  type: heal
+  description: Increases HP recovery via healing actions for party by 10%.
+
+# Targeted
+- id: mnk_feint
+  name: Feint
+  cooldown: 90
+  duration: 10
+  minLevel: 22
+  scope: single
+  type: mitigation
+  durationUpgrade:
+    minLevel: 98
+    duration: 15
+  mitPercent: 10
+  description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.

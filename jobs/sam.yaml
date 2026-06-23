@@ -1,0 +1,12 @@
+- id: sam_feint
+  name: Feint
+  cooldown: 90
+  duration: 10
+  minLevel: 22
+  scope: single
+  type: mitigation
+  durationUpgrade:
+    minLevel: 98
+    duration: 15
+  mitPercent: 10
+  description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.

@@ -1,0 +1,58 @@
+# Party
+- id: whm_divine_caress
+  name: Divine Caress
+  cooldown: null
+  duration: 10
+  minLevel: 100
+  scope: party
+  type: shield
+  requiresWithin:
+    abilityId: whm_temperance
+    window: 30
+  description: Party shield. ~10% max HP barrier.
+- id: whm_liturgy_of_the_bell
+  name: Liturgy of the Bell
+  cooldown: 180
+  duration: 20
+  minLevel: 90
+  scope: party
+  type: heal
+  description: Places a bell that heals party when hit by damage. Stacks consumed per hit.
+- id: whm_plenary_indulgence
+  name: Plenary Indulgence
+  cooldown: 60
+  duration: 10
+  minLevel: 70
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% party damage reduction.
+- id: whm_temperance
+  name: Temperance
+  cooldown: 120
+  duration: 20
+  minLevel: 80
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% party damage reduction. Increases healing magic potency by 20%.
+
+# Targeted
+- id: whm_aquaveil
+  name: Aquaveil
+  cooldown: 60
+  duration: 8
+  minLevel: 86
+  scope: single
+  type: mitigation
+  mitPercent: 15
+  description: 15% damage reduction on target.
+- id: whm_divine_benison
+  name: Divine Benison
+  cooldown: 30
+  duration: 15
+  charges: 2
+  minLevel: 66
+  scope: single
+  type: shield
+  description: Shield on target equal to ~15% of target's max HP.

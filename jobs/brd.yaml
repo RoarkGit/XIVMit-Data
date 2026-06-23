@@ -1,0 +1,23 @@
+# Party
+- id: brd_troubadour
+  name: Troubadour
+  cooldown: 120
+  duration: 15
+  minLevel: 62
+  scope: party
+  type: mitigation
+  cooldownUpgrade:
+    minLevel: 88
+    cooldown: 90
+  mitPercent: 10
+  description: 10% party damage reduction.
+
+# Targeted
+- id: brd_natures_minne
+  name: Nature's Minne
+  cooldown: 120
+  duration: 15
+  minLevel: 66
+  scope: single
+  type: heal
+  description: Increases HP recovery via healing actions on target by 20%.

@@ -1,0 +1,169 @@
+id: m11s
+name: AAC Heavyweight M3 (Savage)
+shortName: M11S
+duration: 11:02
+maxLevel: 100
+mechanics:
+  - name: Trophy Weapons 1
+    startTime: 0:35
+    endTime: 1:00
+  - name: Trophy Weapons 2
+    startTime: 1:09
+    endTime: 1:56
+  - name: Ultimate Trophy Weapons
+    startTime: 3:02
+    endTime: 3:47
+  - name: Meteorain
+    startTime: 4:48
+    endTime: 5:31
+  - name: Majestic Meteor
+    startTime: 6:12
+    endTime: 7:40
+  - name: Ecliptic Stampede
+    startTime: 8:51
+    endTime: 9:33
+bossActions:
+  - name: Crown of Arcadia
+    castStart: 0:05
+    time: 0:10
+    type: raid
+  - name: Raw Steel Trophy
+    time: 0:25
+    type: raid
+  - name: Assault Evolved 1
+    time: 0:50
+    type: raid
+  - name: Assault Evolved 2
+    time: 0:55
+    type: raid
+  - name: Assault Evolved 3
+    time: 1:00
+    type: raid
+  - name: Void Stardust Stack / Spreads
+    time: 1:29
+    type: raid
+  - name: Assault Evolved 1
+    time: 1:35
+    type: raid
+  - name: Assault Evolved 2
+    time: 1:40
+    type: raid
+  - name: Assault Evolved 3
+    time: 1:45
+    type: raid
+  - name: Void Stardust Stack / Spreads
+    time: 1:56
+    type: raid
+  - name: Crown of Arcadia
+    castStart: 1:57
+    time: 2:02
+    type: raid
+  - name: Dance of Domination Hits
+    castStart: 2:21
+    time: 2:26
+    type: raid
+  - name: Dance of Domination Stacks
+    time: 2:30
+    type: raid
+  - name: Raw Steel Trophy
+    time: 2:44
+    type: raid
+  - name: Charybdistopia
+    time: 2:59
+    type: raid
+  - name: Assault Evolved 1
+    time: 3:15
+    type: raid
+  - name: Assault Evolved 2
+    time: 3:20
+    type: raid
+  - name: Assault Evolved 3
+    time: 3:25
+    type: raid
+  - name: Assault Evolved 4
+    time: 3:30
+    type: raid
+  - name: Assault Evolved 5
+    time: 3:35
+    type: raid
+  - name: Assault Evolved 6
+    time: 3:40
+    type: raid
+  - name: Powerful Gust
+    time: 3:47
+    type: raid
+  - name: One and Only
+    castStart: 3:52
+    time: 4:01
+    type: raid
+  - name: Great Wall of Fire
+    castStart: 4:08
+    time: 4:17
+    type: tb
+  - name: Meteor 1
+    time: 5:01
+    type: raid
+  - name: Meteor 2
+    time: 5:11
+    type: raid
+  - name: Meteor 3
+    time: 5:21
+    type: raid
+  - name: Meteor 4
+    time: 5:31
+    type: raid
+  - name: Tether / Marker Bait 1
+    time: 6:15
+    type: raid
+  - name: Tether / Marker Bait 2
+    time: 7:17
+    type: raid
+  - name: Massive Meteor
+    castStart: 7:21
+    time: 7:27
+    type: raid
+  - name: Crown of Arcadia
+    castStart: 7:56
+    time: 8:01
+    type: raid
+  - name: Great Wall of Fire
+    castStart: 8:08
+    time: 8:16
+    type: tb
+  - name: Crown of Arcadia
+    castStart: 8:39
+    time: 8:44
+    type: raid
+  - name: Mammoth Meteor
+    time: 9:03
+    type: raid
+  - name: Atomic Impact
+    castStart: 9:04
+    time: 9:17
+    type: raid
+  - name: Tether Bait
+    time: 9:29
+    type: raid
+  - name: Fourway / Twoway Fireball
+    time: 9:33
+    type: raid
+  - name: Crown of Arcadia
+    castStart: 9:37
+    time: 9:42
+    type: raid
+  - name: Heartbreak Kick 1
+    castStart: 9:50
+    time: 9:56
+    type: raid
+  - name: Heartbreak Kick 2
+    castStart: 10:09
+    time: 10:15
+    type: raid
+  - name: Heartbreak Kick 3
+    castStart: 10:30
+    time: 10:36
+    type: raid
+  - name: Heartbreaker
+    castStart: 10:54
+    time: 11:02
+    type: enrage

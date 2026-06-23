@@ -1,0 +1,257 @@
+id: m12sp2
+name: AAC Heavyweight M4 (Savage) - Phase 2
+shortName: M12SP2
+duration: 9:05
+maxLevel: 100
+phases: []
+mechanics:
+  - name: Replication 1
+    startTime: 0:28.7
+    endTime: 1:04
+  - name: Replication 2
+    startTime: 1:26
+    endTime: 2:55
+  - name: Candies
+    startTime: 2:58
+    endTime: 4:00
+  - name: Idyllic Dream
+    startTime: 4:20
+    endTime: 7:55
+  - name: Enrage
+    startTime: 8:12
+    endTime: 9:13
+bossActions:
+  # ===== Opener =====
+  - name: Arcadia Aflame
+    time: 0:16.4
+    type: raid
+    castStart: 0:11.4
+  # ===== Replication 1 =====
+  - name: First Fire/Dark
+    time: 0:40.2
+    type: raid
+    castStart: 0:37.2
+  - name: Snaking Kick
+    time: 0:46
+    type: raid
+  - name: Second Fire/Dark
+    time: 1:01.7
+    type: raid
+    castStart: 0:58.7
+  - name: Double Sobat
+    time: 1:10.2
+    type: tb
+    castStart: 1:05.2
+  - name: Double Sobat
+    time: 1:15.5
+    type: tb
+  - name: Esoteric Finisher
+    time: 1:19
+    type: raid
+
+  # ===== Staging =====
+  - name: Staging
+    time: 1:32.2
+    type: mech
+    castStart: 1:29.2
+  # ===== Replication 2 =====
+  - name: Replication 2
+    time: 1:46.4
+    type: mech
+    castStart: 1:43.4
+  - name: First Clones
+    time: 2:08.6
+    type: raid
+    castStart: 2:02.9
+  - name: Second Clones
+    time: 2:16.4
+    type: raid
+  - name: Snaking Kick
+    time: 2:21.8
+    type: raid
+
+  # ===== Reenactment 1 =====
+  - name: Reenactment 1
+    time: 2:32
+    type: mech
+    castStart: 2:29.1
+  - name: Third Clones
+    time: 2:41.5
+    type: raid
+    castStart: 2:35.2
+  - name: Fourth Clones
+    time: 2:44.2
+    type: raid
+  - name: Fifth Clones
+    time: 2:48.2
+    type: raid
+  - name: Sixth Clones
+    time: 2:52.2
+    type: raid
+
+  # ===== Blood Mechanic =====
+  - name: Mutating Cells
+    time: 3:04.6
+    type: mech
+    castStart: 3:01.6
+  - name: Blood Mana
+    time: 3:10.7
+    type: raid
+    castStart: 3:07.8
+  - name: Candies
+    time: 3:22.3
+    type: raid
+
+  # ===== Blood Wakening =====
+  - name: Blood Wakening
+    time: 3:38
+    type: raid
+    castStart: 3:35
+  - name: Netherworld Near/Far
+    time: 3:49.2
+    type: raid
+    castStart: 3:44.2
+  - name: Arcadia Aflame
+    time: 3:57.3
+    type: raid
+    castStart: 3:52.4
+  # ===== Double Sobat 2 =====
+  - name: Double Sobat
+    time: 4:06.6
+    type: tb
+    castStart: 4:01.6
+  - name: Double Sobat
+    time: 4:11.7
+    type: tb
+  - name: Esoteric Finisher
+    time: 4:14.2
+    type: raid
+
+  # ===== Idyllic Dream =====
+  - name: Idyllic Dream
+    time: 4:30.4
+    type: raid
+    castStart: 4:25.4
+  - name: Staging
+    time: 4:36.6
+    type: mech
+    castStart: 4:33.6
+  # ===== Twisted Vision: Replication 3 =====
+  - name: Twisted Vision 1
+    time: 4:51.7
+    type: mech
+    castStart: 4:47.7
+  - name: Replication 3
+    time: 4:57.8
+    type: mech
+    castStart: 4:54.8
+  - name: Twisted Vision 2
+    time: 5:10.2
+    type: mech
+    castStart: 5:06.3
+  - name: Replication 4
+    time: 5:16.4
+    type: mech
+    castStart: 5:13.4
+  - name: Twisted Vision 3
+    time: 5:35.9
+    type: mech
+    castStart: 5:31.9
+  - name: Lindwurm's Meteor
+    time: 5:44.4
+    type: raid
+    castStart: 5:39.4
+  - name: Downfall
+    time: 5:50.6
+    type: raid
+    castStart: 5:47.6
+  - name: Arcadian Arcanum
+    time: 5:56.7
+    type: raid
+    castStart: 5:53.7
+  # ===== Clone Attacks =====
+  - name: Twisted Vision 4
+    time: 6:04.8
+    type: mech
+    castStart: 6:00.8
+  - name: Stack/Defam 1
+    time: 6:11.3
+    type: raid
+  - name: Stack/Defam 2
+    time: 6:16.3
+    type: raid
+  - name: Stack/Defam 3
+    time: 6:21.3
+    type: raid
+  - name: Stack/Defam 4
+    time: 6:26.3
+    type: raid
+
+  # ===== Cosmic Kiss =====
+  - name: Twisted Vision 5
+    time: 6:35.3
+    type: mech
+    castStart: 6:31.3
+  - name: Tower Resolution
+    time: 6:40
+    type: raid
+  - name: Temporal Curtain
+    time: 6:58.8
+    type: mech
+    castStart: 6:55.8
+  # ===== Reenactment 2 =====
+  - name: Twisted Vision 6
+    time: 7:11.4
+    type: mech
+    castStart: 7:07.4
+  - name: Reenactment 2
+    time: 7:17.5
+    type: mech
+    castStart: 7:14.6
+  - name: Stack/Spread 1
+    time: 7:19.6
+    type: raid
+  - name: Twisted Vision 7
+    time: 7:26.7
+    type: mech
+    castStart: 7:22.7
+  - name: Stack/Spread 2
+    time: 7:40.6
+    type: raid
+  - name: Power Gusher
+    time: 7:45.7
+    type: raid
+
+  # ===== Final stretch =====
+  - name: Idyllic Dream
+    time: 7:52.7
+    type: raid
+    castStart: 7:47.8
+  - name: Double Sobat
+    time: 8:00.9
+    type: tb
+    castStart: 7:55.9
+  - name: Double Sobat
+    time: 8:06.1
+    type: tb
+  - name: Esoteric Finisher
+    time: 8:08.6
+    type: raid
+
+  # ===== Enrage =====
+  - name: Replication 5
+    time: 8:22.3
+    type: mech
+    castStart: 8:17.3
+  - name: Arcadian Hell 1
+    time: 8:35.8
+    type: raid
+    castStart: 8:30.8
+  - name: Arcadian Hell 2
+    time: 8:52.1
+    type: raid
+    castStart: 8:47.1
+  - name: Arcadian Hell (Enrage)
+    time: 9:13
+    type: enrage
+    castStart: 9:03

@@ -1,0 +1,92 @@
+# Party
+- id: sch_concitation
+  name: Concitation
+  duration: 30
+  minLevel: 96
+  scope: party
+  type: shield
+  replaces: sch_succor
+  description: Party heal + shield. ~10% max HP barrier.
+- id: sch_consolation
+  name: Consolation
+  cooldown: 30
+  duration: 30
+  charges: 2
+  minLevel: 80
+  scope: party
+  type: shield
+  requiresWithin:
+    abilityId: sch_seraph
+    window: 22
+  description: Party heal + shield. ~7% max HP barrier per use. 2 charges per Seraph.
+- id: sch_expedient
+  name: Expedient
+  cooldown: 120
+  duration: 20
+  minLevel: 90
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% party damage reduction + movement speed buff.
+- id: sch_fey_illumination
+  name: Fey Illumination
+  cooldown: 120
+  duration: 20
+  minLevel: 40
+  scope: party
+  type: mitigation
+  mitPercent: 5
+  description: 5% magic damage reduction for party. Increases healing potency by 10%.
+- id: sch_sacred_soil
+  name: Sacred Soil
+  cooldown: 30
+  duration: 15
+  minLevel: 50
+  scope: party
+  type: heal
+  mitPercent: 10
+  description: 10% party damage reduction in area. Grants regen.
+- id: sch_seraphism
+  name: Seraphism
+  cooldown: 180
+  duration: 20
+  minLevel: 100
+  scope: party
+  type: heal
+  description: Transforms Adloquitum and Succor into shield-enhanced versions. Increases healing potency.
+- id: sch_spreadlo
+  name: Spreadlo
+  cooldown: 120
+  duration: 30
+  minLevel: 56
+  scope: party
+  type: shield
+  cooldownUpgrade:
+    minLevel: 88
+    cooldown: 90
+  description: Spreads Galvanize barrier to all party members. ~25% max HP barrier.
+- id: sch_succor
+  name: Succor
+  duration: 30
+  minLevel: 35
+  scope: party
+  type: shield
+  description: Party heal + shield. ~8% max HP barrier.
+- id: sch_seraph
+  name: Summon Seraph
+  cooldown: 120
+  duration: 22
+  minLevel: 80
+  scope: party
+  type: heal
+  description: Summons Seraph. Enables Consolation and enhances Embrace.
+
+# Targeted
+- id: sch_excogitation
+  name: Excogitation
+  cooldown: 45
+  duration: 45
+  minLevel: 62
+  scope: single
+  type: heal
+  description: Heals target when HP drops below 50%, or on expiry.

@@ -1,0 +1,79 @@
+# Party
+- id: sge_eukrasian_prognosis
+  name: Eukrasian Prognosis
+  duration: 30
+  minLevel: 30
+  scope: party
+  type: shield
+  description: Party shield. ~8% max HP barrier.
+- id: sge_eukrasian_prognosis_ii
+  name: Eukrasian Prognosis II
+  duration: 30
+  minLevel: 96
+  scope: party
+  type: shield
+  replaces: sge_eukrasian_prognosis
+  description: Party shield. ~9% max HP barrier.
+- id: sge_holos
+  name: Holos
+  cooldown: 120
+  duration: 30
+  minLevel: 76
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% party damage reduction + ~5% max HP shield.
+- id: sge_ixochole
+  name: Ixochole
+  cooldown: 30
+  duration: 0
+  minLevel: 52
+  scope: party
+  type: heal
+  description: Party heal. Costs 1 Addersgall.
+- id: sge_kerachole
+  name: Kerachole
+  cooldown: 30
+  duration: 15
+  minLevel: 50
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% party damage reduction + regen. Costs 1 Addersgall.
+- id: sge_panhaima
+  name: Panhaima
+  cooldown: 120
+  duration: 15
+  minLevel: 80
+  scope: party
+  type: shield
+  shieldStacks: 5
+  description: 5-stack party shield. Each stack deploys ~3% max HP barrier when hit.
+- id: sge_philosophia
+  name: Philosophia
+  cooldown: 180
+  duration: 20
+  minLevel: 100
+  scope: party
+  type: heal
+  description: Party heal. Increases HP recovered by healing actions by 10%.
+
+# Targeted
+- id: sge_haima
+  name: Haima
+  cooldown: 120
+  duration: 15
+  minLevel: 70
+  scope: single
+  type: shield
+  shieldStacks: 5
+  description: 5-stack shield on target. Each stack deploys ~6% max HP barrier when hit.
+- id: sge_taurochole
+  name: Taurochole
+  cooldown: 45
+  duration: 15
+  minLevel: 62
+  scope: single
+  type: mitigation
+  mitPercent: 10
+  description: 10% damage reduction on target + heal. Costs 1 Addersgall.
