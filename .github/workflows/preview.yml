@@ -1,0 +1,73 @@
+name: Deploy PR preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Clone server repo
+        env:
+          GH_TOKEN: ${{ secrets.SERVER_REPO_TOKEN }}
+        run: git clone --depth 1 https://x-access-token:${GH_TOKEN}@github.com/RoarkGit/xivmit.app.git server
+
+      - name: Install pnpm
+        run: npm i -g pnpm@10
+
+      - name: Generate static API data
+        run: |
+          npm i js-yaml
+          node scripts/build-static-api.mjs . server/client/public
+
+      - name: Build client in preview mode
+        working-directory: server/client
+        run: |
+          pnpm install --frozen-lockfile
+          VITE_PREVIEW=true pnpm build
+
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy server/client/dist --project-name=xivmit-preview --branch=pr-${{ github.event.pull_request.number }}
+
+      - name: Comment preview URL
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const url = `https://pr-${prNumber}.xivmit-preview.pages.dev`;
+            const body = `Preview deployed: ${url}`;
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+            const existing = comments.find(c => c.body?.startsWith('Preview deployed:'));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body,
+              });
+            }
