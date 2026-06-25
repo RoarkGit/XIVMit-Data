@@ -1,0 +1,47 @@
+# Extras - notable job-specific DPS mitigations beyond role actions
+- id: brd_natures_minne
+  name: Nature's Minne
+  cooldown: 120
+  duration: 15
+  minLevel: 66
+  scope: single
+  type: heal
+  description: Increases HP recovery via healing actions on target by 20%.
+
+- id: mch_dismantle
+  name: Dismantle
+  cooldown: 120
+  duration: 10
+  minLevel: 62
+  scope: single
+  type: mitigation
+  mitPercent: 10
+  description: Debuff on target. Reduces damage dealt by 10%.
+
+- id: mnk_mantra
+  name: Mantra
+  cooldown: 90
+  duration: 15
+  minLevel: 42
+  scope: party
+  type: heal
+  description: Increases HP recovery via healing actions for party by 10%.
+
+- id: rdm_magick_barrier
+  name: Magick Barrier
+  cooldown: 120
+  duration: 10
+  minLevel: 86
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% magic damage reduction for party. Increases HP recovered by healing actions by 5%.
+
+- id: pct_tempera_grassa
+  name: Tempera Grassa
+  cooldown: 120
+  duration: 10
+  minLevel: 88
+  scope: party
+  type: shield
+  description: Party shield. ~10% max HP barrier. Grants additional shield on self.
