@@ -1,0 +1,10 @@
+# Generic Ranged - role abilities only
+- id: ranged_party_mit
+  name: Party Mit
+  cooldown: 90
+  duration: 15
+  minLevel: 56
+  scope: party
+  type: mitigation
+  mitPercent: 10
+  description: 10% damage reduction for the party. (Troubadour / Tactician / Shield Samba)

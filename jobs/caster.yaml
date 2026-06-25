@@ -1,0 +1,13 @@
+# Generic Caster - role abilities only
+- id: caster_addle
+  name: Addle
+  cooldown: 90
+  duration: 10
+  minLevel: 8
+  scope: single
+  type: mitigation
+  durationUpgrade:
+    minLevel: 98
+    duration: 15
+  mitPercent: 10
+  description: Debuff on target. Reduces magic damage dealt by 10%, physical by 5%.
