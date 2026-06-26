@@ -319,3 +319,7 @@ bossActions:
     castStart: 18:33
     time: 18:39
     type: raid
+  - name: "Run: ***mi*"
+    castStart: 18:42
+    time: 19:12
+    type: enrage
