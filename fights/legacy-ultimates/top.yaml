@@ -97,7 +97,7 @@ bossActions:
     time: 1:48
     type: raid
   - name: Diffuse Wave Cannon Kyrios TB 
-    startTime: 1:48
+    castStart: 1:48
     time: 1:56
     type: tb
   - name: Wave Cannon Kyrios 2 Spreads
@@ -105,7 +105,7 @@ bossActions:
     type: raid
 # P2
   - name: Solar Ray
-    startTime: 2:23
+    castStart: 2:23
     time: 2:28
     type: tb
 # Party Synergy
@@ -195,12 +195,12 @@ bossActions:
     type: raid
 # P5
   - name: Solar Ray 1 / 2
-    startTime: 9:06
+    castStart: 9:06
     time: 9:15
     type: tb
 # Delta
   - name: "Run: ****mi* (Delta Version)"
-    startTime: 9:24
+    castStart: 9:24
     time: 9:29
     type: raid
   - name: 1st Patch Set (approximate)
@@ -215,19 +215,19 @@ bossActions:
     time: 10:05
     type: note
   - name: Hello, Near / Distant World 1
-    startTime: 10:13
+    castStart: 10:13
     time: 10:15
     type: raid
   - name: 4th Patch Set (approximate)
     time: 10:20
     type: raid
   - name: Solar Ray 3 / 4
-    startTime: 10:30
+    castStart: 10:30
     time: 10:34
     type: tb
 # Sigma
   - name: "Run: ****mi* (Sigma Version)"
-    startTime: 10:46
+    castStart: 10:46
     time: 10:51
     type: raid
   - name: Hyper Pulse / Wave Cannon
@@ -249,7 +249,7 @@ bossActions:
     type: tb
 # Omega 
   - name: "Run: ****mi* (Omega Version)"
-    startTime: 12:15
+    castStart: 12:15
     time: 12:19
     type: raid
   - name: Diffuse Wave Cannon 
@@ -259,27 +259,27 @@ bossActions:
     time: 12:51
     type: raid
   - name: Hello, Near / Distant World 3
-    startTime: 12:53
+    castStart: 12:53
     time: 12:55
     type: raid
   - name: Blaster
     time: 13:07
     type: raid
   - name: Hello, Near / Distant World 4
-    startTime: 13:11
+    castStart: 13:11
     time: 13:13
     type: raid
   - name: Solar Ray 7 / 8
-    startTime: 13:22
+    castStart: 13:22
     time: 13:37
     type: tb
 # P6
   - name: Cosmo Memory 
-    startTime: 14:54
+    castStart: 14:54
     time: 15:00
     type: raid
   - name: Cosmo Dive 1
-    startTime: 15:25
+    castStart: 15:25
     time: 15:33
     type: raid
   - name: Wave Cannon Spread 1
@@ -301,7 +301,7 @@ bossActions:
     time: 16:43
     type: raid
   - name: Cosmo Dive 2
-    startTime: 17:18
+    castStart: 17:18
     time: 17:27
     type: raid
   - name: AOEs
@@ -311,10 +311,10 @@ bossActions:
     time: 18:03
     type: raid
   - name: Magic Number 1
-    startTime: 18:15
+    castStart: 18:15
     time: 18:20
     type: raid
   - name: Magic Number 2
-    startTime: 18:33
+    castStart: 18:33
     time: 18:39
     type: raid
