@@ -99,6 +99,15 @@
   type: mitigation
   mitPercent: 20
   description: 20% damage reduction.
+- id: gnb_camouflage
+  name: Camouflage
+  cooldown: 90
+  duration: 10
+  minLevel: 6
+  scope: self
+  type: mitigation
+  mitPercent: 10
+  description: Increases parry rate by 50% and grants 10% damage reduction.
 - id: gnb_superbolide
   name: Superbolide
   cooldown: 360
