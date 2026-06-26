@@ -1,6 +1,6 @@
 id: top
 name: The Omega Protocol
-shortName: top
+shortName: TOP
 duration: 19:12
 maxLevel: 90
 phases:
@@ -42,16 +42,16 @@ mechanics:
     startTime: 5:13
     endTime: 7:00
   - name: Wave Cannon
-    startTime: 7:55
+    startTime: 7:53
     endTime: 8:33
   - name: "Run: ****mi* (Delta Version)"
-    startTime: 9:22
+    startTime: 9:21
     endTime: 10:23
   - name: "Run: ****mi* (Sigma Version)"
-    startTime: 10:44
+    startTime: 10:43
     endTime: 11:51
   - name: "Run: ****mi* (Omega Version)"
-    startTime: 12:13
+    startTime: 12:12
     endTime: 13:15
   - name: First set
     startTime: 15:08
@@ -221,7 +221,6 @@ bossActions:
     time: 10:05
     type: raid
   - name: "Hello, Near / Distant World 1"
-    castStart: 10:13
     time: 10:15
     type: raid
   - name: 4th Patch Set (approximate)
@@ -246,7 +245,6 @@ bossActions:
     time: 11:21
     type: raid
   - name: "Hello, Near / Distant World 2"
-    castStart: 11:47
     time: 11:49
     type: raid
   - name: Solar Ray 5 / 6
@@ -264,7 +262,7 @@ bossActions:
   - name: Oversampled Wave Cannon 
     time: 12:51
     type: raid
-  - name: "Hello, Near / Distant World 3"
+  - name: Hello, Near / Distant World 3
     castStart: 12:53
     time: 12:55
     type: raid
@@ -272,7 +270,6 @@ bossActions:
     time: 13:07
     type: raid
   - name: Hello, Near / Distant World 4
-    castStart: 13:11
     time: 13:13
     type: raid
   - name: Solar Ray 7 / 8
