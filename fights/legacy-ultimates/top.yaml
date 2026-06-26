@@ -8,11 +8,11 @@ phases:
     startTime: 0:00
     endTime: 2:03
   - name: Omega M/F
-    startTime: :12
+    startTime: 2:12
     endTime: 4:32
   - name: P3 Transition
     startTime: 4:43
-    end: 5:02
+    endTime: 5:02
   - name: Final Omega
     startTime: 5:05
     endTime: 7:39
@@ -42,7 +42,7 @@ mechanics:
     startTime: 5:13
     endTime: 7:00
   - name: Wave Cannon
-    startTime: 7:54
+    startTime: 7:55
     endTime: 8:33
   - name: "Run: ****mi* (Delta Version)"
     startTime: 9:22
@@ -194,6 +194,10 @@ bossActions:
   - name: Wave Cannon 3 Stacks 
     time: 8:27
     type: raid
+  - name: Blue Screen 
+    castStart: 8:43
+    time: 8:52
+    type: raid
 # P5
   - name: Solar Ray 1 / 2
     castStart: 9:06
@@ -210,13 +214,13 @@ bossActions:
   - name: 2nd Patch Set (approximate)
     time: 9:49
     type: raid
-  - name: Oversampled Wave Cannon / Pile Pitch
+  - name: Monitors / Stack
     time: 9:58
     type: raid 
   - name: 3rd Patch Set (approximate)
     time: 10:05
     type: raid
-  - name: Hello, Near / Distant World 1
+  - name: "Hello, Near / Distant World 1"
     castStart: 10:13
     time: 10:15
     type: raid
@@ -241,7 +245,7 @@ bossActions:
   - name: Storage Violation 
     time: 11:21
     type: raid
-  - name: Hello, Near / Distant World 2
+  - name: "Hello, Near / Distant World 2"
     castStart: 11:47
     time: 11:49
     type: raid
@@ -260,7 +264,7 @@ bossActions:
   - name: Oversampled Wave Cannon 
     time: 12:51
     type: raid
-  - name: Hello, Near / Distant World 3
+  - name: "Hello, Near / Distant World 3"
     castStart: 12:53
     time: 12:55
     type: raid
