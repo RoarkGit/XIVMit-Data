@@ -42,7 +42,7 @@ mechanics:
     startTime: 5:13
     endTime: 7:00
   - name: Wave Cannon
-    startTime: 7:55
+    startTime: 7:54
     endTime: 8:33
   - name: "Run: ****mi* (Delta Version)"
     startTime: 9:22
@@ -220,7 +220,7 @@ bossActions:
   - name: 3rd Patch Set (approximate)
     time: 10:05
     type: raid
-  - name: Hello, Near / Distant World 1
+  - name: "Hello, Near / Distant World 1"
     castStart: 10:13
     time: 10:15
     type: raid
@@ -245,7 +245,7 @@ bossActions:
   - name: Storage Violation 
     time: 11:21
     type: raid
-  - name: Hello, Near / Distant World 2
+  - name: "Hello, Near / Distant World 2"
     castStart: 11:47
     time: 11:49
     type: raid
