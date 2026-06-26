@@ -51,6 +51,7 @@ mechanics:
     startTime: 11:34
     endTime: 12:51
 bossActions:
+# ===== Phase 1: Fatebreaker =====
   - name: Cyclonic Break 1
     time: 00:14.2
     type: raid
@@ -98,6 +99,8 @@ bossActions:
     time: 02:26.4
     type: raid
   - name: Burn Mark
+
+# ===== Phase 2: Shiva =====
     time: 02:26.8
     type: tb
   - name: Quadruple Slap
@@ -162,6 +165,8 @@ bossActions:
     time: 05:51.5
     type: raid
   - name: Junction
+
+# ===== Phase 3: Gaia =====
     time: 07:09
     type: raid
   - name: Ultimate Relativity
@@ -227,6 +232,8 @@ bossActions:
     time: 10:01
     type: raid
     castTime: 9.7
+
+# ===== Phase 4: Enter the Dragon =====
   - name: Crystal Pulse
     time: 10:35
     type: raid
@@ -290,6 +297,8 @@ bossActions:
     time: 12:54
     type: raid
     castTime: 5.7
+
+# ===== Phase 5: Pandora =====
   - name: Fulgent Blade 1
     time: 14:24
     type: raid

@@ -54,7 +54,7 @@ mechanics:
     startTime: 17:31
     endTime: 18:42
 bossActions:
-  # ===== Phase 1: Kefka =====
+# ===== Phase 1: Kefka =====
   - name: Revolting Ruin III
     time: 0:16
     type: tb
@@ -116,7 +116,7 @@ bossActions:
     time: 3:07.9
     type: raid
 
-  # ===== Phase 2: God Kefka =====
+# ===== Phase 2: God Kefka =====
   - name: Ultimate Embrace
     time: 3:41
     type: tb
@@ -159,7 +159,8 @@ bossActions:
     time: 6:17.8
     type: tb
     castStart: 6:12.8
-  # ===== Phase 3: Chaos & Exdeath =====
+
+# ===== Phase 3: Chaos & Exdeath =====
   - name: Bowels of Agony
     time: 7:30.5
     type: raid
@@ -243,7 +244,8 @@ bossActions:
     time: 11:45.5
     type: raid
     castStart: 11:40.5
-  # ===== Phase 4: Kefka Says =====
+
+# ===== Phase 4: Kefka Says =====
   - name: Grand Cross 1
     time: 12:43
     type: raid
@@ -275,7 +277,7 @@ bossActions:
     time: 14:31
     type: raid
 
-  # ===== Phase 5: Ultima Kefka =====
+# ===== Phase 5: Ultima Kefka =====
   - name: Ultima Repeater
     time: 15:11.6
     type: raid
