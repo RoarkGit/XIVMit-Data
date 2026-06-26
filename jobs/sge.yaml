@@ -14,6 +14,17 @@
   type: shield
   replaces: sge_eukrasian_prognosis
   description: Party shield. ~9% max HP barrier.
+- id: sge_zoe
+  name: Zoe
+  cooldown: 120
+  duration: 30
+  minLevel: 56
+  scope: party
+  type: heal
+  cooldownUpgrade:
+    minLevel: 88
+    cooldown: 90
+  description: Buffs next heal by 50%.
 - id: sge_holos
   name: Holos
   cooldown: 120
