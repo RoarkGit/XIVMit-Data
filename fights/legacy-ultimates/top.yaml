@@ -46,7 +46,7 @@ mechanics:
     endTime: 8:33
   - name: "Run: ****mi* (Delta Version)"
     startTime: 9:22
-    endTime: 10:16
+    endTime: 10:23
   - name: "Run: ****mi* (Sigma Version)"
     startTime: 10:44
     endTime: 11:51
@@ -58,12 +58,12 @@ mechanics:
     endTime: 16:10
   - name: Second set
     startTime: 16:24
-    endTime: 17:15
+    endTime: 17:30
   - name: Cosmo Meteor
     startTime: 17:38
     endTime:  18:03
   - name: Enrage
-    startTime: 18:15
+    startTime: 18:13
     endTime: 19:12
 bossActions:
 # P1
@@ -205,15 +205,16 @@ bossActions:
     type: raid
   - name: 1st Patch Set (approximate)
     time: 9:36
-    type: note
+    type: raid
   - name: 2nd Patch Set (approximate)
     time: 9:49
+    type: raid
   - name: Oversampled Wave Cannon / Pile Pitch
     time: 9:58
     type: raid 
   - name: 3rd Patch Set (approximate)
     time: 10:05
-    type: note
+    type: raid
   - name: Hello, Near / Distant World 1
     castStart: 10:13
     time: 10:15
