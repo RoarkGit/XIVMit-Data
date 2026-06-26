@@ -24,4 +24,59 @@ mechanics:
   - name: Death of the Heavens
   - name: Wroth Flames
 bossActions: 
+# P1
+# Adelphel/Grinnaux
+  - name: Holiest of Holy 
+  - name: Holy Shield Bash
+  - name: Heavensblaze
+  - name: Holy Bladedance
+  - name: Hyperdimensional Slash 1
+  - name: Hyperdimensional Slash 2
+  - name: Faith Unmoving
+  - name: Holiest of Holy 
+  - name: Execution
+  - name: Heavensflame
+  - name: Faith Unmoving
+  - name: Holiest of Holy 
+  - name: Holiest of Holy 
+  - name: Planar Prison
+# Charibert
+  - name: Pure of Heart 
+  - name: Shockwave 
+  - name: Brightwing 
+  - name: Skyblind
+    time: 2:36
+    type: raid
+# P2
+  - name: Ascalon's Might
+# Strength of the Ward
+  - name: The Dragon's Rage 
+  - name: Holy Shield Bash 
+  - name: Holy Bladedance
+  - name: Conviction 
+  - name: Ancient Quaga 
+  - name: Heavenly Heel 
+  - name: Ascalon's Might
+# Sanctity of the Ward 
+  - name: Sacred Sever 1
+  - name: Sacred Sever 2
+  - name: Sacred Sever 3
+  - name: Sacred Sever 4
+  - name: Conviction 
+  - name: Hiernal Storm 
+  - name: Holy Comet 
+    castStart: 2:15
+    time: 2:23
+    type: raid
+  - name: Conviction 
+  - name: Ultimate End 
+    time: 5:21
+# P3
+  - name: Final Chrous 
+# Dive From Grace 
+  - name: Set 1
+    time: 
+  - name: Eye of the Tyrant 
+  - name: Darkdragon Dive 
+  - name: Set 2
   - name: 
