@@ -281,6 +281,9 @@ bossActions:
   - name: Spirit Taker
     time: 12:23.6
     type: raid
+  - name: Hallowed Wings (Front)
+    time: 12:30
+    type: tb
   - name: Hallowed Wings
     time: 12:30
     type: raid
