@@ -4,7 +4,7 @@
   cooldown: 60
   duration: 10
   minLevel: 22
-  scope: party
+  scope: enemy
   type: mitigation
   durationUpgrade:
     minLevel: 98

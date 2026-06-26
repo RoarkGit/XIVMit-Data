@@ -242,7 +242,7 @@ bossActions:
     type: raid
     castTime: 4.7
   - name: Path of Light
-    time: 10:56.3
+    time: 10:54
     type: raid
     castTime: 7.7
   - name: Spirit Taker
@@ -266,7 +266,7 @@ bossActions:
     type: raid
     castTime: 5.7
   - name: Crystallize Time
-    time: 11:46.3
+    time: 11:44
     type: raid
     castTime: 9.7
   - name: Crystal Pulse

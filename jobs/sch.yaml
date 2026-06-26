@@ -54,6 +54,15 @@
   scope: party
   type: heal
   description: Transforms Adloquitum and Succor into shield-enhanced versions. Increases healing potency.
+- id: sch_recitation
+  name: Recitation
+  cooldown: 90
+  duration: 15
+  minLevel: 74
+  scope: self
+  type: heal
+  chargeGroup: sch_recitation_spreadlo
+  description: Next Adloquium/Succor/Indomitability/Excogitation is free and auto-critical.
 - id: sch_spreadlo
   name: Spreadlo
   cooldown: 120
@@ -61,6 +70,7 @@
   minLevel: 56
   scope: party
   type: shield
+  chargeGroup: sch_recitation_spreadlo
   cooldownUpgrade:
     minLevel: 88
     cooldown: 90

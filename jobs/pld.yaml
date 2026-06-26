@@ -4,7 +4,7 @@
   cooldown: null
   duration: 8
   minLevel: 1
-  scope: party
+  scope: enemy
   type: mitigation
   mitPercent: 80
   description: Party-wide 80% damage reduction.
@@ -15,7 +15,7 @@
   cooldown: 90
   duration: 30
   minLevel: 56
-  scope: party
+  scope: enemy
   type: shield
   description: Party shield equal to 10% of PLD's max HP.
 - id: pld_passage_of_arms
@@ -23,7 +23,7 @@
   cooldown: 120
   duration: 18
   minLevel: 70
-  scope: party
+  scope: enemy
   type: mitigation
   mitPercent: 15
   description: 15% party damage reduction. Channeled; buff persists briefly after moving.
@@ -32,7 +32,7 @@
   cooldown: 60
   duration: 10
   minLevel: 22
-  scope: party
+  scope: enemy
   type: mitigation
   durationUpgrade:
     minLevel: 98

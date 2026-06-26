@@ -4,7 +4,7 @@
   cooldown: null
   duration: 8
   minLevel: 1
-  scope: party
+  scope: enemy
   type: mitigation
   mitPercent: 80
   description: Party-wide 80% damage reduction.
@@ -15,7 +15,7 @@
   cooldown: 90
   duration: 15
   minLevel: 64
-  scope: party
+  scope: enemy
   type: mitigation
   mitPercent: 10
   description: 10% magic damage reduction for the party.
@@ -24,7 +24,7 @@
   cooldown: 60
   duration: 10
   minLevel: 22
-  scope: party
+  scope: enemy
   type: mitigation
   durationUpgrade:
     minLevel: 98

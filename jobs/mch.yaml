@@ -18,7 +18,7 @@
   cooldown: 120
   duration: 10
   minLevel: 62
-  scope: single
+  scope: enemy
   type: mitigation
   mitPercent: 10
   description: Debuff on target. Reduces damage dealt by 10%.

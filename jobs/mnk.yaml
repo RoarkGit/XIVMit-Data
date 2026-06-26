@@ -14,7 +14,7 @@
   cooldown: 90
   duration: 10
   minLevel: 22
-  scope: single
+  scope: enemy
   type: mitigation
   durationUpgrade:
     minLevel: 98
