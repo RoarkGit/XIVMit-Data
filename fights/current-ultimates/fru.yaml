@@ -73,7 +73,7 @@ bossActions:
   - name: Fire/Lightning
     time: 00:59
     type: raid
-  - name: Fire/Lightning Tether
+  - name: Jail Tethers
     time: 01:19
     type: raid
   - name: Burnished Glory
