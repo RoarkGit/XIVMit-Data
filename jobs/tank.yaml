@@ -21,6 +21,15 @@
   type: mitigation
   description: Party shield / mitigation. (Shake It Off / Divine Veil / Dark Missionary / Heart of Light)
 
+- id: tank_shake_veil
+  name: Shake/Veil
+  cooldown: 90
+  duration: 30
+  minLevel: 1
+  scope: party
+  type: shield
+  description: Party shield, cast early. (Shake It Off / Divine Veil)
+
 - id: tank_short_cd
   name: Short CD
   cooldown: 25
