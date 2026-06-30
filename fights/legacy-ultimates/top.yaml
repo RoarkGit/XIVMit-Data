@@ -53,12 +53,6 @@ mechanics:
   - name: "Run: ****mi* (Omega Version)"
     startTime: 12:12
     endTime: 13:15
-  - name: First set
-    startTime: 15:08
-    endTime: 16:10
-  - name: Second set
-    startTime: 16:24
-    endTime: 17:30
   - name: Cosmo Meteor
     startTime: 17:38
     endTime:  18:03
