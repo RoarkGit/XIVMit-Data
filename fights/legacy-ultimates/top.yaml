@@ -96,13 +96,11 @@ bossActions:
   - name: Wave Cannon Spread 1
     time: 1:48
     type: raid
-  - name: Diffuse Wave Cannon TB 
+  - name: (Diffuse) Wave Cannon
     castStart: 1:48
-    time: 1:56
-    type: tb
-  - name: Wave Cannon Spread 2
     time: 1:57
     type: raid
+    tbAlso: true
 # P2
   - name: Solar Ray
     castStart: 2:23
@@ -122,6 +120,7 @@ bossActions:
   - name: Optimized Meteor / Pile Pitch
     time: 4:00
     type: raid
+    tbAlso: true
   - name: Cosmo Memory
     time: 4:16
     type: raid
@@ -284,6 +283,7 @@ bossActions:
     castStart: 15:25
     time: 15:33
     type: raid
+    tbAlso: true
   - name: Wave Cannon Spread 1
     time: 16:02
     type: raid
@@ -293,6 +293,7 @@ bossActions:
   - name: Wave Cannon Wild Charge 1
     time: 16:10
     type: raid 
+    tbAlso: true
   - name: Wave Cannon Spread 3
     time: 16:35
     type: raid
@@ -302,10 +303,12 @@ bossActions:
   - name: Wave Cannon Wild Charge 2
     time: 16:43
     type: raid
+    tbAlso: true
   - name: Cosmo Dive 2
     castStart: 17:18
     time: 17:27
     type: raid
+    tbAlso: true
   - name: AOEs
     time: 17:45
     type: raid 
