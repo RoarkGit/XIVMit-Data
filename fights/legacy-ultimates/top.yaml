@@ -87,9 +87,6 @@ bossActions:
   - name: 4th Solo AOE / Party Stack 
     time: 1:39
     type: raid
-  - name: Wave Cannon Spread 1
-    time: 1:48
-    type: raid
   - name: (Diffuse) Wave Cannon
     castStart: 1:48
     time: 1:57
