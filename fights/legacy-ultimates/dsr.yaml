@@ -8,7 +8,7 @@ phases:
     startTime: 0:00
     endTime: 2:36
   - name: Thordan
-    startTime: 2:37
+    startTime: 2:44
     endTime: 5:47
   - name: Nidstinien
     startTime: 5:56
@@ -30,11 +30,11 @@ phases:
     endTime: 22:14
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
-    startTime: 0:00
-    endTime: 2:00
+    startTime: 0:02
+    endTime: 1:45
   - name: Ser Charibert
-    startTime: 2:03
-    endTime: 2:43
+    startTime: 1:49
+    endTime: 2:35
   - name: Strength of the Ward
     startTime: 3:02
     endTime: 3:41
@@ -86,18 +86,18 @@ bossActions:
     type: raid
 # Charibert
   - name: Planar Prison
-    time: 2:05
+    time: 1:52
     type: raid
   - name: Shockwave 
-    castStart: 2:11
-    time: 2:18
+    castStart: 1:58
+    time: 2:04
     type: raid
   - name: Brightwing 
-    castStart: 2:15
-    time: 2:30
+    castStart: 2:02
+    time: 2:17
     type: raid
   - name: Pure of Heart 
-    time: 2:32
+    time: 2:19
     type: raid
 # P2 
   - name: Ascalon's Might
