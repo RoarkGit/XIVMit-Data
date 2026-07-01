@@ -43,14 +43,14 @@
 # Targeted
 - id: pld_cover
   name: Cover
-  cooldown: 25
+  cooldown: 120
   duration: 12
-  charges: 2
+  charges: 1
   minLevel: 45
   scope: single
   type: mitigation
-  chargeGroup: pld_oath
-  description: Takes most of target's damage for PLD. Redirected damage reduced by 50%.
+  sharedCharge: pld_oath
+  description: Takes all damage intended for target.
 - id: pld_intervention
   name: Intervention
   cooldown: 25

@@ -102,6 +102,8 @@ function validateJobFile(filePath) {
         if (typeof ab.cooldownUpgrade.cooldown !== 'number') errors.push(`${ctx}.cooldownUpgrade.cooldown: required number`)
       }
     }
+    if (ab.sharedCharge !== undefined && typeof ab.sharedCharge !== 'string')
+      errors.push(`${ctx}.sharedCharge: must be a string (chargeGroup name)`)
     if (ab.requiresWithin != null) {
       if (typeof ab.requiresWithin !== 'object') errors.push(`${ctx}.requiresWithin: must be an object`)
       else {
