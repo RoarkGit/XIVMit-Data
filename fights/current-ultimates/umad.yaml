@@ -44,12 +44,18 @@ mechanics:
   - name: Black Hole
     startTime: 9:25
     endTime: 11:35
+  - name: Maddening Orchestra
+    startTime: 15:35
+    endTime: 15:54
   - name: Celestriad (Finale)
     startTime: 16:00
     endTime: 16:42
   - name: Stray Apocalypse
     startTime: 16:44
     endTime: 17:05
+  - name: Maddening Orchestra
+    startTime: 17:08
+    endTime: 17:30
   - name: Forsaken
     startTime: 17:31
     endTime: 18:42
