@@ -38,7 +38,7 @@ function loadFight(id, path) {
       const time = parseTime(ba.time)
       const castStart = ba.castStart != null ? parseTime(ba.castStart) : undefined
       const { castStart: _, time: __, ...rest } = ba
-      return { id: `${id}_ba${i}`, ...rest, time, ...(castStart != null ? { castTime: time - castStart } : {}) }
+      return { id: `${id}_ba${i}`, ...rest, type: rest.type ?? 'raid', time, ...(castStart != null ? { castTime: time - castStart } : {}) }
     }),
     mechanics: (raw.mechanics ?? []).map((m, i) => ({
       ...m,

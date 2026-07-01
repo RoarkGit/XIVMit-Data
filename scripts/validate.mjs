@@ -155,7 +155,7 @@ function validateFightFile(filePath) {
       if (typeof ba !== 'object' || ba === null) { errors.push(`${ctx}: must be an object`); continue }
       if (typeof ba.name !== 'string')    errors.push(`${ctx}.name: required string`)
       if (!isValidTime(ba.time))          errors.push(`${ctx}.time: invalid time value ${JSON.stringify(ba.time)}`)
-      if (!VALID_BA_TYPE.has(ba.type))
+      if (ba.type !== undefined && !VALID_BA_TYPE.has(ba.type))
         errors.push(`${ctx}.type: must be one of ${[...VALID_BA_TYPE].join('|')}, got ${JSON.stringify(ba.type)}`)
       if (ba.castStart !== undefined && !isValidTime(ba.castStart))
         errors.push(`${ctx}.castStart: invalid time value ${JSON.stringify(ba.castStart)}`)
