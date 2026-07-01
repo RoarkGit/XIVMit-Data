@@ -31,88 +31,76 @@ phases:
     endTime: 22:14
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
-    startTime: 
-    endTime: 
+    startTime: 0:00
+    endTime: 2:00
   - name: Ser Charibert
-    startTime: 
-    endTime: 
+    startTime: 2:03
+    endTime: 2:43
   - name: Strength of the Ward
-    startTime: 
-    endTime: 
+    startTime: 3:02
+    endTime: 3:41
   - name: Sanctity of the Ward 
-    startTime: 
-    endTime: 
+    startTime: 4:14
+    endTime: 5:04
   - name: Dive from Grace
-    startTime: 
-    endTime: 
+    startTime: 6:11
+    endTime: 6:54
   - name: Wrath of the Heavens
-    startTime: 
-    endTime: 
+    startTime: 11:08
+    endTime: 11:35
   - name: Death of the Heavens
-    startTime: 
-    endTime: 
+    startTime: 12:04
+    endTime: 13:02
   - name: Wroth Flames
-    startTime: 
-    endTime: 
+    startTime: 15:48
+    endTime: 16:16
 bossActions: 
 # P1
 # Adelphel/Grinnaux
   - name: Holiest of Holy 
-    time: 
-    type: 
-  - name: Holy Shield Bash
-    time: 
-    type: 
-  - name: Heavensblaze
-    time: 
-    type: 
-  - name: Holy Bladedance
-    time: 
-    type: 
-  - name: Hyperdimensional Slash 1
-    time: 
-    type: 
-  - name: Hyperdimensional Slash 2
-    time: 
-    type: 
-  - name: Faith Unmoving
-    time: 
-    type: 
-  - name: Holiest of Holy 
-    time: 
-    type: 
-  - name: Execution
-    time: 
-    type: 
-  - name: Heavensflame
-    time: 
-    type: 
-  - name: Faith Unmoving
-    time: 
-    type: 
-  - name: Holiest of Holy 
-    time: 
-    type: 
-  - name: Holiest of Holy 
-    time: 
-    type: 
-  - name: Planar Prison
-    time: 
-    type: 
-# Charibert
-  - name: Pure of Heart 
-    time: 
-    type: 
-  - name: Shockwave 
-    time: 
-    type: 
-  - name: Brightwing 
-    time: 
-    type: 
-  - name: Skyblind
-    time: 2:36
+    time: 0:10
     type: raid
-# P2 2:37
+  - name: Holy Shield Bash
+    time: 0:23
+    type: tb
+  - name: Heavensblaze / Holy Bladedance
+    time: 0:28
+    type: raid
+    tbAlso: true
+  - name: Hyperdimensional Slash 1
+    time: 0:43
+    type: raid
+  - name: Hyperdimensional Slash 2
+    time: 0:50
+    type: raid
+  - name: Holiest of Holy / Faith Unmoving
+    time: 1:00 
+    type: raid
+  - name: Execution
+    time: 1:09
+    type: tb
+  - name: Heavensflame / Faith Unmoving
+    time: 1:27
+    type: raid
+  - name: Holiest of Holy 
+    time: 1:41
+    type: raid
+# Charibert
+  - name: Planar Prison
+    time: 2:05
+    type: raid
+  - name: Shockwave 
+    castStart: 2:11
+    time: 2:18
+    type: raid
+  - name: Brightwing 
+    castStart: 2:15
+    time: 2:30
+    type: raid
+  - name: Pure of Heart 
+    time: 2:32
+    type: raid
+# P2 
   - name: Ascalon's Might
     time: 2:54
     type: tb
@@ -152,34 +140,25 @@ bossActions:
   - name: Aetheric Burst 
     time: 5:47
     type: raid
-# P3 5:58
+# P3 5:56
   - name: Final Chorus
     time: 5:58
     type: raid
 # Dive from Grace 
-  - name: Dark Jump / Dive / Stack 1
-    time: 6:27
-    type: raid 
-  - name: Darkdragon Dive 1
-    time: 6:33
+  - name: First Towers
+    time: 6:25
     type: raid
-  - name: Dark Jump / Dive 2
-    time: 6:36
-    type: raid 
-  - name: Darkdragon Dive 2
-    time: 6:44
-    type: raid 
-  - name: Dark High Jump / Stack 2
-    time: 
+  - name: Second Towers
+    time: 6:31
     type: raid
-  - name: Darkdragon Dive 3
-    time: 
-    type: raid 
-  - name: Darkdragon Dive 4
-    time: 
+  - name: Third Towers
+    time: 6:41
+    type: raid
+  - name: Darkdragon Dive - 4 Towers
+    time: 6:52
     type: raid
   - name: Soul Tether
-    time: 
+    time: 7:18
     type: tb
   - name: Revenge of the Horde
     time: 7:57
@@ -210,7 +189,7 @@ bossActions:
     castStart: 9:13
     time: 9:19
     type: enrage 
-# Rewind 9:39
+# Rewind
   - name: Planar Prison 
     time: 9:39
     type: raid
@@ -223,6 +202,7 @@ bossActions:
     type: 10:06
   - name: Pure of Heart 
     time: 10:15
+    type: raid
 # P4 
 # Wrath of the Heavens
   - name: Skyward Leap / Spiral Pierce
