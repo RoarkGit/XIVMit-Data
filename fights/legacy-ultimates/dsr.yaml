@@ -33,7 +33,7 @@ mechanics:
     startTime: 0:03
     endTime: 1:43
   - name: Ser Charibert
-    startTime: 1:48
+    startTime: 1:46
     endTime: 2:35
   - name: Strength of the Ward
     startTime: 3:06
@@ -195,12 +195,12 @@ bossActions:
     castStart: 9:50
     time: 10:18
     type: raid
+  - name: Pure of Heart 
+    time: 10:15
+    type: raid
   - name: Bright Wing 
     castStart: 9:54
     time: 10:05
-    type: raid
-  - name: Pure of Heart 
-    time: 10:15
     type: raid
 # P4 
 # Wrath of the Heavens
@@ -285,7 +285,7 @@ bossActions:
     type: raid
   - name: Alternate End
     time: 17:34
-    type: 
+    type: raid
 # P6
   - name: Exaflare's Edge 1 
     castStart: 17:49
