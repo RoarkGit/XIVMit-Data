@@ -11,7 +11,7 @@ phases:
     startTime: 2:39
     endTime: 5:49
   - name: Nidstinien
-    startTime: 5:55
+    startTime: 5:53
     endTime: 7:57
   - name: Eyes
     startTime: 8:13
@@ -31,9 +31,9 @@ phases:
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
     startTime: 0:03
-    endTime: 1:48
+    endTime: 1:43
   - name: Ser Charibert
-    startTime: 1:49
+    startTime: 1:48
     endTime: 2:35
   - name: Strength of the Ward
     startTime: 3:06
@@ -43,16 +43,16 @@ mechanics:
     endTime: 5:04
   - name: Dive from Grace
     startTime: 6:09
-    endTime: 6:53
+    endTime: 6:48
   - name: Wrath of the Heavens
-    startTime: 11:08
-    endTime: 11:35
+    startTime: 11:14
+    endTime: 11:37
   - name: Death of the Heavens
-    startTime: 12:04
-    endTime: 13:02
+    startTime: 12:10
+    endTime: 12:44
   - name: Wroth Flames
-    startTime: 15:48
-    endTime: 16:16
+    startTime: 15:03
+    endTime: 15:28
 bossActions: 
 # P1
 # Adelphel/Grinnaux
@@ -99,7 +99,7 @@ bossActions:
   - name: Pure of Heart 
     time: 2:27
     type: raid
-# P2 2:39
+# P2
   - name: Ascalon's Might
     time: 2:57
     type: tb
@@ -116,7 +116,7 @@ bossActions:
   - name: Ancient Quaga 
     time: 3:49
     type: raid
-  - name: Heavenly Heel / Ascalon's might
+  - name: Heavenly Heel / Ascalon's Might
     castStart: 3:59
     time: 4:05
     type: tb
@@ -138,7 +138,7 @@ bossActions:
   - name: Ultimate End 
     time: 5:24
     type: raid
-# P3 5:59
+# P3 
   - name: Final Chorus
     time: 5:59
     type: raid
@@ -196,7 +196,8 @@ bossActions:
     time: 10:18
     type: raid
   - name: Bright Wing 
-    time: 10:06
+    castStart: 9:54
+    time: 10:05
     type: raid
   - name: Pure of Heart 
     time: 10:15
@@ -238,7 +239,7 @@ bossActions:
     castStart: 13:40
     time: 13:46
     type: enrage 
-# P5 14:03
+# P5 
   - name: Wyrmsbreath 1
     time: 14:15
     type: raid 
@@ -285,7 +286,7 @@ bossActions:
   - name: Alternate End
     time: 17:34
     type: 
-# P6 17:39
+# P6
   - name: Exaflare's Edge 1 
     castStart: 17:49
     time: 17:56
