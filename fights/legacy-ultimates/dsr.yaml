@@ -2,140 +2,333 @@ id: dsr
 name: "Dragonsong's Reprise Ultimate"
 wip: true
 shortName: DSR
-duration: 19:53
+duration: 22:14
 maxLevel: 90
 phases: 
   - name: Knights of the Round
+    startTime: 0:00
+    endTime: 2:36
   - name: Thordan
+    startTime: 2:37
+    endTime: 5:47
   - name: Nidstinien
-  - name: Eyes and Rewind
+    startTime: 5:56
+    endTime: 7:57
+  - name: Eyes
+    startTime: 8:15
+    endTime: 9:19
+  - name: Rewind
+    startTime: 9:37
+    endTime: 10:30
   - name: Dark Thordan
+    startTime: 10:46
+    endTime: 14:37
   - name: Double Dragons
+    startTime: 14:51
+    endTime: 17:25
   - name: Dragon-king Thordan
+    startTime: 18:26
+    endTime: 22:14
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
+    startTime: 
+    endTime: 
   - name: Ser Charibert
+    startTime: 
+    endTime: 
   - name: Strength of the Ward
+    startTime: 
+    endTime: 
   - name: Sanctity of the Ward 
-  - name: Bait Set 1
-  - name: Bait Set 2
-  - name: Eyes
-  - name: Rewind 
+    startTime: 
+    endTime: 
+  - name: Dive from Grace
+    startTime: 
+    endTime: 
   - name: Wrath of the Heavens
+    startTime: 
+    endTime: 
   - name: Death of the Heavens
+    startTime: 
+    endTime: 
   - name: Wroth Flames
+    startTime: 
+    endTime: 
 bossActions: 
 # P1
 # Adelphel/Grinnaux
   - name: Holiest of Holy 
+    time: 
+    type: 
   - name: Holy Shield Bash
+    time: 
+    type: 
   - name: Heavensblaze
+    time: 
+    type: 
   - name: Holy Bladedance
+    time: 
+    type: 
   - name: Hyperdimensional Slash 1
+    time: 
+    type: 
   - name: Hyperdimensional Slash 2
+    time: 
+    type: 
   - name: Faith Unmoving
+    time: 
+    type: 
   - name: Holiest of Holy 
+    time: 
+    type: 
   - name: Execution
+    time: 
+    type: 
   - name: Heavensflame
+    time: 
+    type: 
   - name: Faith Unmoving
+    time: 
+    type: 
   - name: Holiest of Holy 
+    time: 
+    type: 
   - name: Holiest of Holy 
+    time: 
+    type: 
   - name: Planar Prison
+    time: 
+    type: 
 # Charibert
   - name: Pure of Heart 
+    time: 
+    type: 
   - name: Shockwave 
+    time: 
+    type: 
   - name: Brightwing 
+    time: 
+    type: 
   - name: Skyblind
     time: 2:36
     type: raid
-# P2
+# P2 2:37
   - name: Ascalon's Might
+    time: 2:54
+    type: tb
 # Strength of the Ward
-  - name: The Dragon's Rage 
-  - name: Holy Shield Bash 
-  - name: Holy Bladedance
-  - name: Conviction 
-  - name: Ancient Quaga 
-  - name: Heavenly Heel 
-  - name: Ascalon's Might
-# Sanctity of the Ward 
-  - name: Sacred Sever 1
-  - name: Sacred Sever 2
-  - name: Sacred Sever 3
-  - name: Sacred Sever 4
-  - name: Conviction 
-  - name: Hiernal Storm 
-  - name: Holy Comet 
-    castStart: 2:15
-    time: 2:23
+  - name: The Dragon's Rage / Holy Shield Bash
+    time: 3:52
     type: raid
-  - name: Conviction 
+    tbAlso: true
+  - name: Holy Bladedance
+    time: 3:57
+    type: tb
+  - name: Ancient Quaga 
+    time: 4:03
+    type: raid
+  - name: Heavenly Heel / Ascalon's might
+    castStart: 4:13
+    time: 4:19
+    type: tb
+# Sanctity of the Ward 
+  - name: Sacred Sever 1-4
+    castStart: 4:28
+    time: 4:33
+    type: raid
+  - name: Hiemal Storm 
+    time: 4:46
+    type: raid
+  - name: Holy Comet 
+    castStart: 4:38
+    time: 4:50
+    type: raid
+  - name: Faith Unmoving 
+    time: 5:01
+    type: raid
   - name: Ultimate End 
     time: 5:21
-# P3
-  - name: Final Chrous 
-
-# todo : need to watch vod to sort out mechanics that matter 
-# update mechanics above to encapsulate sets of mechs
-
-  - name: Jump / Dive 1
-  - name: Eye of the Tyrant 1
-  - name: Darkdragon Dive 1
-  - name: Jump / Dive 2
-  - name: Darkdragon Dive 2
-  - 
-  - name: Bait Set 2
-  - name: Soul Tether
-  - name: Revenge of the Horde
-    type: enrage
-# Eyes
-  - name: Resentment 
-  - name: Flare Nova
-  - name: Flare Star
-  - name: Mirage Dive 1
-  - name: Mirage Dive 2
-  - name: Mirage Dive 3
-  - name: Mirage Dive 4
-  - name: Steep in Rage
-    time: 8:42
-# Intermission
-  - name: Planar Prison 
-  - name: Pure of Heart 
-  - name: Shockwave 
-  - name: Bright Wing 
-# P4
-  - name: Skyward Leap / Spiral Pierce
-  - name: Ascalon's Mercy Revealed 
-  - name: Altar Flare 
-  - name: Liquid Heaven
-  - name: Ancient Quaga 
-  - name: Spear of the Fury 
-  - name: Lightning Storm
-  - name: Heavensflame 
-  - name: Faith Unmoving 
-  - name: Ancient Quaga 
-  - name: Heavenly Heel 
-  - name: Ascalon's Might 
+    type: raid
   - name: Aetheric Burst 
-    time: 12:49
+    time: 5:47
+    type: raid
+# P3 5:58
+  - name: Final Chorus
+    time: 5:58
+    type: raid
+# Dive from Grace 
+  - name: Dark Jump / Dive / Stack 1
+    time: 6:27
+    type: raid 
+  - name: Darkdragon Dive 1
+    time: 6:33
+    type: raid
+  - name: Dark Jump / Dive 2
+    time: 6:36
+    type: raid 
+  - name: Darkdragon Dive 2
+    time: 6:44
+    type: raid 
+  - name: Dark High Jump / Stack 2
+    time: 
+    type: raid
+  - name: Darkdragon Dive 3
+    time: 
+    type: raid 
+  - name: Darkdragon Dive 4
+    time: 
+    type: raid
+  - name: Soul Tether
+    time: 
+    type: tb
+  - name: Revenge of the Horde
+    time: 7:57
+    type: enrage
+# Eyes 
+  - name: Resentment 
+    time: 8:19
+    type: raid 
+  - name: Flare Nova (approximate)
+    time: 8:28
+    type: raid
+  - name: Flare Star (approximate)
+    time: 8:34
+    type: raid
+  - name: Mirage Dive 1
+    time: 8:53
+    type: raid
+  - name: Mirage Dive 2
+    time: 8:59
+    type: raid
+  - name: Mirage Dive 3
+    time: 9:04
+    type: raid
+  - name: Mirage Dive 4
+    time: 9:10
+    type: raid
+  - name: Steep in Rage
+    castStart: 9:13
+    time: 9:19
     type: enrage 
-# P5 
-# todo - add more mechs that do damage here - mit sheet sucks at this 
-  - name: Mortal Vow 
-  - name: Hallowed Plume 
-  - name: Hallowed Plume 
-  - name: Staggering Breath
-  - name: Alternate End 
-    time: 16:20
-# P6
-  - name: Exaflare's Edge 1
+# Rewind 9:39
+  - name: Planar Prison 
+    time: 9:39
+    type: raid
+  - name: Shockwave 
+    castStart: 9:50
+    time: 10:18
+    type: raid
+  - name: Bright Wing 
+    time: 9:55
+    type: 10:06
+  - name: Pure of Heart 
+    time: 10:15
+# P4 
+# Wrath of the Heavens
+  - name: Skyward Leap / Spiral Pierce
+    time: 11:24
+    type: raid
+  - name: Ascalon's Mercy Revealed 
+    time: 11:27
+    type: raid
+  - name: Altar Flare / Liquid Heaven
+    castStart: 11:31
+    time: 11:38
+    type: raid
+  - name: Ancient Quaga 
+    time: 11:44
+    type: raid
+  - name: Heavenly Heel / Ascalon's Might 
+    castStart: 11:52
+    time: 11:59
+    type: tb
+# Death of the Heavens
+  - name: Spear of the Fury / Lightning Storm
+    time: 12:26
+    type: raid
+  - name: Heavensflame 
+    time: 12:41
+    type: raid
+  - name: Ancient Quaga 
+    time: 13:18
+    type: raid
+  - name: Heavenly Heel / Ascalon's Might
+    castStart: 13:28
+    time: 13:35
+    type: tb
+  - name: Aetheric Burst 
+    castStart: 13:40
+    time: 13:46
+    type: enrage 
+# P5
+  - name: Wyrmsbreath 1
+    time: 15:03
+    type: raid 
+    tbAlso: true
+  - name: Akh Afah 1
+    time: 15:22
+    type: raid
+  - name: Hallowed Plume 1
+    time: 15:37
+    type: tb
+# Wroth Flames
+  - name: Akh Morn x4
+    castStart: 15:54
+    time: 16:02
+    type: raid 
+  - name: Entangled Flames 
+    time: 16:16
+  - name: Akh Afah 2
+    time: 16:32
+    type: raid
+  - name: Hallowed Plume 2
+    time: 16:45
+    type: tb
+  - name: Wyrmsbreath 2
+    time: 17:04
+    type: raid
+    tbAlso: true
+  - name: Cauterize 
+    time: 17:17
+    type: raid 
+    tbAlso: true
+  - name: Revenge of the Horde 
+    time: 17:25
+    type: enrage
+# P6 
+  - name: Resentment + Bleeding
+    time: 17:50
+    type: raid
+  - name: Shockwave + Bleeding
+    time: 18:07
+    type: raid
+  - name: Alternate End
+    time: 18:22
+    type: raid
   - name: Akh Morn's Edge 1
+    castStart: 18:56
+    time: 19:03
+    type: raid
+    tbAlso: true
   - name: Gigaflare's Edge 1
-  - name: Exaflare's Edge 2
+    castStart: 19:19
+    time: 19:27
+    type: raid
   - name: Akh Morn's Edge 2
+    castStart: 20:14
+    time: 20:20
+    type: raid
+    tbAlso: true
   - name: Gigaflare's Edge 2
-  - name: Exaflare's Edge 3
+    castStart: 20:40
+    time: 20:47
+    type: raid
   - name: Akh Morn's Edge 3
+    castStart: 21:42
+    time: 21:48
+    type: raid
+    tbAlso: true
   - name: Morn Afah's Edge
-    time: 19:53
+    castStart: 22:04
+    time: 22:14
     type: enrage
