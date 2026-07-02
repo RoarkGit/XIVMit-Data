@@ -41,6 +41,8 @@
   scope: party
   type: mitigation
   mitPercent: 5
+  blockedDuringActive:
+  - sch_dissipation
   description: 5% magic damage reduction for party. Increases healing potency by 10%.
 - id: sch_sacred_soil
   name: Sacred Soil
@@ -58,6 +60,10 @@
   minLevel: 100
   scope: party
   type: heal
+  blockedDuringActive:
+  - sch_dissipation
+  canceledBy:
+  - sch_dissipation
   description: Transforms Adloquitum and Succor into shield-enhanced versions. Increases healing potency.
 - id: sch_spreadlo
   name: Spreadlo
@@ -95,7 +101,19 @@
   minLevel: 80
   scope: party
   type: heal
+  blockedDuringActive:
+  - sch_dissipation
   description: Summons Seraph. Enables Consolation and enhances Embrace.
+- id: sch_dissipation
+  name: Dissipation
+  cooldown: 60
+  duration: 30
+  minLevel: 60
+  scope: self
+  type: heal
+  blockedDuringActive:
+  - sch_seraph
+  description: Sacrifices fairy to increase own healing magic potency by 20%. Grants Aetherflow.
 
 # Targeted
 - id: sch_excogitation

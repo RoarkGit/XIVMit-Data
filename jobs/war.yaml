@@ -54,6 +54,8 @@
   mitPercent: 10
   chargeGroup: war_bw_nf
   replaces: war_raw_intuition
+  canceledBy:
+  - war_shake_it_off
   description: 10% damage reduction. Heals on each attack.
 - id: war_damnation
   name: Damnation
@@ -64,6 +66,8 @@
   type: mitigation
   mitPercent: 40
   replaces: war_vengeance
+  canceledBy:
+  - war_shake_it_off
   description: 40% damage reduction. Counterattacks when hit.
 - id: war_holmgang
   name: Holmgang
@@ -106,6 +110,8 @@
   type: mitigation
   mitPercent: 10
   chargeGroup: war_bw_nf
+  canceledBy:
+  - war_shake_it_off
   description: 10% damage reduction.
 - id: war_thrill_of_battle
   name: Thrill of Battle
@@ -114,6 +120,8 @@
   minLevel: 30
   scope: self
   type: heal
+  canceledBy:
+  - war_shake_it_off
   description: Increases max HP by 20% and restores the amount.
 - id: war_vengeance
   name: Vengeance
