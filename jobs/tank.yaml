@@ -71,6 +71,20 @@
   mitPercent: 40
   description: 120s self-mitigation. (Damnation / Great Nebula / Guardian / Shadowed Vigil)
 
+- id: tank_kitchen_sink
+  name: Kitchen Sink
+  cooldown: null
+  duration: 15
+  minLevel: 1
+  scope: self
+  type: mitigation
+  kitchenSinkFor:
+  - tank_short_cd
+  - tank_rampart
+  - tank_medium_cd
+  - tank_long_cd
+  description: Combines all available self-mitigation cooldowns.
+
 - id: tank_invuln
   name: Invuln
   cooldown: null
