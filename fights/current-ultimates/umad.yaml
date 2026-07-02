@@ -290,7 +290,8 @@ bossActions:
     castStart: 15:08.4
   - name: Fell Forces
     time: 15:20.6
-    type: tb
+    type: raid
+    tbAlso: true
     castStart: 15:14.4
   - name: Chaotic Flood
     time: 15:30
@@ -306,6 +307,7 @@ bossActions:
   - name: Fell Forces
     time: 15:54.4
     type: raid
+    tbAlso: true
     castStart: 15:51.3
   - name: Elemental Barrage
     time: 16:22
@@ -318,6 +320,7 @@ bossActions:
   - name: Fell Forces
     time: 16:39.5
     type: raid
+    tbAlso: true
     castStart: 16:36.3
   - name: Stray Entropy
     time: 17:03
@@ -332,6 +335,7 @@ bossActions:
   - name: Fell Forces
     time: 17:29.7
     type: raid
+    tbAlso: true
     castStart: 17:23.4
   - name: Forsaken
     time: 17:41
