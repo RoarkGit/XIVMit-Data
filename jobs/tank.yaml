@@ -71,15 +71,6 @@
   mitPercent: 40
   description: 120s self-mitigation. (Damnation / Great Nebula / Guardian / Shadowed Vigil)
 
-- id: tank_invuln
-  name: Invuln
-  cooldown: null
-  duration: 10
-  minLevel: 50
-  scope: self
-  type: invuln
-  description: Tank invulnerability. No shared cooldown, since each tank's invuln recast differs. Represents any tank's invuln. (Hallowed Ground / Holmgang / Living Dead / Superbolide)
-
 - id: tank_lb3
   name: LB3
   cooldown: 300
