@@ -115,7 +115,7 @@
   description: Summons Seraph. Enables Consolation and enhances Embrace.
 - id: sch_dissipation
   name: Dissipation
-  cooldown: 60
+  cooldown: 180
   duration: 30
   minLevel: 60
   scope: self
