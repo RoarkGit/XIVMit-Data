@@ -1,7 +1,7 @@
 # Party
 - id: pct_tempera_grassa
   name: Tempera Grassa
-  cooldown: 1
+  cooldown: 120
   duration: 10
   minLevel: 88
   scope: party
