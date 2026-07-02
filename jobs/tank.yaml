@@ -77,7 +77,7 @@
   duration: 8
   minLevel: 1
   scope: party
-  type: shield
+  type: mitigation
   description: Tank LB3. Large HP-based barrier for all party members. (Last Bastion / Land Waker / Dark Force / Gunmetal Soul)
 
 - id: tank_buddy_mit
