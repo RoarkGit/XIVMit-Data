@@ -10,6 +10,9 @@
     name: Recitation
     group: sch_recitation
     cooldown: 90
+    cooldownUpgrade:
+      minLevel: 98
+      cooldown: 60
     maxOffset: 15
   description: Party heal + shield. ~10% max HP barrier.
 - id: sch_consolation
@@ -79,6 +82,9 @@
     name: Recitation
     group: sch_recitation
     cooldown: 90
+    cooldownUpgrade:
+      minLevel: 98
+      cooldown: 60
     maxOffset: 15
     defaultPaired: true
   description: Spreads Galvanize barrier to all party members. ~25% max HP barrier.
@@ -92,6 +98,9 @@
     name: Recitation
     group: sch_recitation
     cooldown: 90
+    cooldownUpgrade:
+      minLevel: 98
+      cooldown: 60
     maxOffset: 15
   description: Party heal + shield. ~8% max HP barrier.
 - id: sch_seraph
