@@ -4,7 +4,7 @@
   cooldown: null
   duration: 8
   minLevel: 1
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 80
   abilityId: 4241
@@ -16,7 +16,7 @@
   cooldown: 90
   duration: 15
   minLevel: 66
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 10
   abilityId: 16471
@@ -123,3 +123,21 @@
   replaces: drk_shadow_wall
   abilityId: 36927
   description: 40% damage reduction. Restores HP proportional to damage taken on expiry.
+
+# Utility
+- id: drk_provoke
+  name: Provoke
+  cooldown: 30
+  duration: 0
+  minLevel: 15
+  scope: enemy
+  type: utility
+  description: Places you at the top of the target's enmity list.
+- id: drk_shirk
+  name: Shirk
+  cooldown: 120
+  duration: 0
+  minLevel: 48
+  scope: single
+  type: utility
+  description: Transfers 25% of your target enmity to a nominated party member.

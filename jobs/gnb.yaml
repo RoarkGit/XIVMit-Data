@@ -4,7 +4,7 @@
   cooldown: null
   duration: 8
   minLevel: 1
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 80
   abilityId: 17105
@@ -16,7 +16,7 @@
   cooldown: 90
   duration: 15
   minLevel: 64
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 10
   abilityId: 16160
@@ -83,7 +83,6 @@
   - gnb_rampart
   - gnb_nebula
   - gnb_great_nebula
-  - gnb_aurora
   - gnb_heart_of_stone
   - gnb_heart_of_corundum
   description: Combines all available self-mitigation cooldowns.
@@ -126,3 +125,21 @@
   type: invuln
   abilityId: 16152
   description: Drops HP to 1 and renders immune to most attacks.
+
+# Utility
+- id: gnb_provoke
+  name: Provoke
+  cooldown: 30
+  duration: 0
+  minLevel: 15
+  scope: enemy
+  type: utility
+  description: Places you at the top of the target's enmity list.
+- id: gnb_shirk
+  name: Shirk
+  cooldown: 120
+  duration: 0
+  minLevel: 48
+  scope: single
+  type: utility
+  description: Transfers 25% of your target enmity to a nominated party member.

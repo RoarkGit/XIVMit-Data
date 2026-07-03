@@ -8,7 +8,7 @@ const JOBS_DIR   = join(ROOT, 'jobs')
 const FIGHTS_DIR = join(ROOT, 'fights')
 
 const VALID_SCOPE   = new Set(['self', 'single', 'party', 'enemy'])
-const VALID_TYPE    = new Set(['mitigation', 'shield', 'heal', 'invuln'])
+const VALID_TYPE    = new Set(['mitigation', 'shield', 'heal', 'invuln', 'utility'])
 const VALID_BA_TYPE = new Set(['raid', 'tb', 'mech', 'enrage', 'note'])
 const VALID_LEVELS  = new Set([70, 80, 90, 100])
 const TIME_RE = /^(\d+):(\d{2}(?:\.\d+)?)$/
@@ -65,6 +65,26 @@ function validateJobFile(filePath) {
 
   if (!Array.isArray(raw)) return ['Expected top-level array of abilities']
 
+  // Pre-pass: collect every id and chargeGroup name declared in this file, so cross-reference
+  // checks below don't care about declaration order (an ability can reference one defined later).
+  const allIds = new Set()
+  const chargeGroups = new Set()
+  for (const ab of raw) {
+    if (typeof ab !== 'object' || ab === null) continue
+    if (typeof ab.id === 'string' && ab.id) allIds.add(ab.id)
+    if (typeof ab.chargeGroup === 'string' && ab.chargeGroup) chargeGroups.add(ab.chargeGroup)
+  }
+
+  function checkIdRef(ctx, field, id) {
+    if (typeof id !== 'string') { errors.push(`${ctx}.${field}: must be a string`); return }
+    if (!allIds.has(id)) errors.push(`${ctx}.${field}: references unknown id "${id}" (not declared in this file - if you renamed it, update this reference too)`)
+  }
+
+  function checkIdRefArray(ctx, field, arr) {
+    if (!Array.isArray(arr)) { errors.push(`${ctx}.${field}: must be an array`); return }
+    for (const id of arr) checkIdRef(ctx, field, id)
+  }
+
   const seenIds = new Set()
   for (let i = 0; i < raw.length; i++) {
     const ab = raw[i]
@@ -102,15 +122,23 @@ function validateJobFile(filePath) {
         if (typeof ab.cooldownUpgrade.cooldown !== 'number') errors.push(`${ctx}.cooldownUpgrade.cooldown: required number`)
       }
     }
-    if (ab.sharedCharge !== undefined && typeof ab.sharedCharge !== 'string')
-      errors.push(`${ctx}.sharedCharge: must be a string (chargeGroup name)`)
+    if (ab.replaces !== undefined) checkIdRef(ctx, 'replaces', ab.replaces)
+    if (ab.sharedCharge !== undefined) {
+      if (typeof ab.sharedCharge !== 'string') errors.push(`${ctx}.sharedCharge: must be a string (chargeGroup name)`)
+      else if (!chargeGroups.has(ab.sharedCharge))
+        errors.push(`${ctx}.sharedCharge: no ability in this file declares chargeGroup "${ab.sharedCharge}"`)
+    }
     if (ab.requiresWithin != null) {
       if (typeof ab.requiresWithin !== 'object') errors.push(`${ctx}.requiresWithin: must be an object`)
       else {
-        if (typeof ab.requiresWithin.abilityId !== 'string') errors.push(`${ctx}.requiresWithin.abilityId: required string`)
+        if (ab.requiresWithin.abilityId !== undefined) checkIdRef(ctx, 'requiresWithin.abilityId', ab.requiresWithin.abilityId)
+        else errors.push(`${ctx}.requiresWithin.abilityId: required string`)
         if (typeof ab.requiresWithin.window !== 'number')    errors.push(`${ctx}.requiresWithin.window: required number`)
       }
     }
+    if (ab.blockedDuringActive !== undefined) checkIdRefArray(ctx, 'blockedDuringActive', ab.blockedDuringActive)
+    if (ab.canceledBy !== undefined) checkIdRefArray(ctx, 'canceledBy', ab.canceledBy)
+    if (ab.kitchenSinkFor !== undefined) checkIdRefArray(ctx, 'kitchenSinkFor', ab.kitchenSinkFor)
   }
 
   return errors

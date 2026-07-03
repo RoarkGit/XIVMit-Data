@@ -4,7 +4,7 @@
   cooldown: null
   duration: 8
   minLevel: 1
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 80
   abilityId: 199
@@ -16,7 +16,7 @@
   cooldown: 90
   duration: 30
   minLevel: 56
-  scope: enemy
+  scope: party
   type: shield
   abilityId: 3540
   description: Party shield equal to 10% of PLD's max HP.
@@ -25,7 +25,7 @@
   cooldown: 120
   duration: 18
   minLevel: 70
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 15
   abilityId: 7385
@@ -160,3 +160,21 @@
   chargeGroup: pld_oath
   abilityId: 3542
   description: 15% damage reduction via guaranteed block.
+
+# Utility
+- id: pld_provoke
+  name: Provoke
+  cooldown: 30
+  duration: 0
+  minLevel: 15
+  scope: enemy
+  type: utility
+  description: Places you at the top of the target's enmity list.
+- id: pld_shirk
+  name: Shirk
+  cooldown: 120
+  duration: 0
+  minLevel: 48
+  scope: single
+  type: utility
+  description: Transfers 25% of your target enmity to a nominated party member.

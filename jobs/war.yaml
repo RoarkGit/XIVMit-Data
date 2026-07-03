@@ -4,7 +4,7 @@
   cooldown: null
   duration: 8
   minLevel: 1
-  scope: enemy
+  scope: party
   type: mitigation
   mitPercent: 80
   abilityId: 4240
@@ -143,3 +143,21 @@
   mitPercent: 30
   abilityId: 44
   description: 30% damage reduction. Counterattacks when hit.
+
+# Utility
+- id: war_provoke
+  name: Provoke
+  cooldown: 30
+  duration: 0
+  minLevel: 15
+  scope: enemy
+  type: utility
+  description: Places you at the top of the target's enmity list.
+- id: war_shirk
+  name: Shirk
+  cooldown: 120
+  duration: 0
+  minLevel: 48
+  scope: single
+  type: utility
+  description: Transfers 25% of your target enmity to a nominated party member.
