@@ -62,3 +62,56 @@
   type: shield
   abilityId: 7432
   description: Shield on target equal to ~15% of target's max HP.
+
+# Heal
+- id: whm_tetragrammaton
+  name: Tetragrammaton
+  cooldown: 60
+  charges: 2
+  minLevel: 60
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 3570
+  description: Restores target's HP. 700 potency.
+- id: whm_benediction
+  name: Benediction
+  cooldown: 180
+  minLevel: 50
+  scope: single
+  type: heal
+  abilityId: 140
+  description: Restores all of target's HP.
+- id: whm_asylum
+  name: Asylum
+  cooldown: 90
+  duration: 24
+  minLevel: 52
+  scope: party
+  type: heal
+  abilityId: 3569
+  description: Ground-targeted party heal over time. Increases healing received by 10% within the area.
+- id: whm_afflatus_solace
+  name: Afflatus Solace
+  cooldown: null
+  minLevel: 52
+  scope: single
+  type: heal
+  quickHeal: true
+  gauge:
+    type: Lily
+    cost: 1
+  abilityId: 16531
+  description: Restores target's HP. 800 potency. Costs 1 Blood Lily.
+- id: whm_afflatus_rapture
+  name: Afflatus Rapture
+  cooldown: null
+  minLevel: 76
+  scope: party
+  type: heal
+  quickHeal: true
+  gauge:
+    type: Lily
+    cost: 1
+  abilityId: 16534
+  description: Restores own HP and nearby party members' HP. 400 potency. Costs 1 Blood Lily.

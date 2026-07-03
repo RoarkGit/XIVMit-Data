@@ -10,6 +10,7 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7535
   description: Debuff on target. Reduces damage dealt by 10%.
 
 - id: tank_party_mit
@@ -49,6 +50,7 @@
   scope: self
   type: mitigation
   mitPercent: 20
+  abilityId: 7531
   description: 20% damage reduction.
 
 - id: tank_medium_cd
@@ -117,17 +119,17 @@
 - id: tank_provoke
   name: Provoke
   cooldown: 30
-  duration: 0
   minLevel: 15
   scope: enemy
   type: utility
+  abilityId: 7533
   description: Places you at the top of the target's enmity list.
 
 - id: tank_shirk
   name: Shirk
   cooldown: 120
-  duration: 0
   minLevel: 48
   scope: single
   type: utility
+  abilityId: 7537
   description: Transfers 25% of your target enmity to a nominated party member.

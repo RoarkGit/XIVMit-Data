@@ -54,10 +54,8 @@ bossActions:
 # ===== Phase 1: Fatebreaker =====
   - name: Cyclonic Break 1
     time: 00:14.2
-    type: raid
   - name: Fire/Lightning
     time: 00:17
-    type: raid
   - name: Powder Mark
     time: 00:24.9
     type: tb
@@ -66,41 +64,30 @@ bossActions:
     type: tb
   - name: Fire/Lightning
     time: 00:50.5
-    type: raid
   - name: Cyclonic Break 2
     time: 00:56.7
-    type: raid
   - name: Fire/Lightning
     time: 00:59
-    type: raid
   - name: Jail Tethers
     time: 01:19
-    type: raid
   - name: Burnished Glory
     time: 01:27
-    type: raid
     castTime: 4.7
   - name: Tether 1
     time: 01:46.5
-    type: raid
   - name: Tether 2
     time: 01:49.5
-    type: raid
   - name: Tether 3
     time: 01:52
-    type: raid
   - name: Tether 4
     time: 01:54.5
-    type: raid
   - name: Burnished Glory
     time: 02:02.5
-    type: raid
   - name: Powder Mark
     time: 02:10.9
     type: tb
   - name: Towers
     time: 02:26.4
-    type: raid
   - name: Burn Mark
 
 # ===== Phase 2: Shiva =====
@@ -114,20 +101,16 @@ bossActions:
     type: tb
   - name: Diamond Dust
     time: 03:18
-    type: raid
     castTime: 4.7
   - name: House of Light
     time: 03:27.3
-    type: raid
   - name: Frigid Stone
     time: 03:28.6
-    type: raid
   - name: Heavenly Strike
     time: 03:33.5
     type: mech
   - name: Sinbound Holy
     time: 03:42
-    type: raid
     castTime: 5
   - name: Stillness/Silence
     time: 03:52
@@ -135,74 +118,54 @@ bossActions:
     castTime: 7
   - name: Hallowed Ray
     time: 04:06
-    type: raid
   - name: Axe/Scythe Kick
     time: 04:28.2
     type: mech
     castTime: 5.7
   - name: House of Light
     time: 04:29.5
-    type: raid
   - name: House of Light
     time: 04:39.6
-    type: raid
   - name: Banish
     time: 04:45
-    type: raid
     castTime: 4.7
   - name: Light Rampant
     time: 04:55
-    type: raid
     castTime: 4.7
   - name: Powerful Light
     time: 05:11.6
-    type: raid
   - name: Banish
     time: 05:23
-    type: raid
     castTime: 4.7
   - name: House of Light
     time: 05:32.5
-    type: raid
   - name: Absolute Zero
     time: 05:51.5
-    type: raid
   - name: Junction
 
 # ===== Phase 3: Gaia =====
     time: 07:09
-    type: raid
   - name: Ultimate Relativity
     time: 07:42
-    type: raid
     castTime: 9.7
   - name: Fire/Dark 1
     time: 07:54
-    type: raid
   - name: Beam 1
     time: 07:58.8
-    type: raid
   - name: Fire/Dark 2
     time: 08:04
-    type: raid
   - name: Beam 2
     time: 08:08.9
-    type: raid
   - name: Fire/Dark 3
     time: 08:13.7
-    type: raid
   - name: Beam 3
     time: 08:19.9
-    type: raid
   - name: Water/Eruption
     time: 08:25.7
-    type: raid
   - name: Shell Crusher
     time: 08:30.5
-    type: raid
   - name: Shockwave Pulsar
     time: 08:38.5
-    type: raid
     castTime: 4.7
   - name: Black Halo
     time: 08:46.9
@@ -210,106 +173,80 @@ bossActions:
     castTime: 4.7
   - name: Water
     time: 09:14.6
-    type: raid
   - name: Spirit Taker
     time: 09:16.8
-    type: raid
   - name: Eruption
     time: 09:27
-    type: raid
   - name: Water
     time: 09:33.5
-    type: raid
   - name: Darkest Dance
     time: 09:36
     type: tb
     castTime: 4.7
   - name: Water
     time: 09:42.5
-    type: raid
   - name: Shockwave Pulsar
     time: 09:48
-    type: raid
     castTime: 4.7
   - name: Memory's End
     time: 10:01
-    type: raid
     castTime: 9.7
 
 # ===== Phase 4: Enter the Dragon =====
   - name: Crystal Pulse
     time: 10:35
-    type: raid
   - name: Darklit Dragonsong
     time: 10:44.5
-    type: raid
     castTime: 4.7
   - name: Path of Light
     time: 10:54
-    type: raid
     castTime: 7.7
   - name: Spirit Taker
     time: 10:59.3
-    type: raid
   - name: Water
     time: 11:03
-    type: raid
   - name: Somber Dance
     time: 11:10.9
     type: tb
     castTime: 8
   - name: Crystal Pulse
     time: 11:13.7
-    type: raid
   - name: Akh Morn
     time: 11:20
-    type: raid
     tbAlso: true
   - name: Morn Afah
     time: 11:31.3
-    type: raid
     castTime: 5.7
   - name: Crystallize Time
     time: 11:44
-    type: raid
     castTime: 9.7
   - name: Crystal Pulse
     time: 11:52
-    type: raid
   - name: Debuff Damage
     time: 12:00
-    type: raid
   - name: Quietus
     time: 12:18
-    type: raid
   - name: Spirit Taker
     time: 12:23.6
-    type: raid
   - name: Hallowed Wings (Front)
     time: 12:30
     type: tb
   - name: Hallowed Wings
     time: 12:30
-    type: raid
   - name: Hallowed Wings
     time: 12:34.5
-    type: raid
   - name: Akh Morn
     time: 12:42
-    type: raid
     tbAlso: true
   - name: Crystal Pulse
     time: 12:51
-    type: raid
   - name: Morn Afah
     time: 12:54
-    type: raid
     castTime: 5.7
 
 # ===== Phase 5: Pandora =====
   - name: Fulgent Blade 1
     time: 14:24
-    type: raid
     castTime: 5.7
   - name: Exawaves
     time: 14:48
@@ -317,7 +254,6 @@ bossActions:
     castTime: 9
   - name: Akh Morn 1
     time: 14:51
-    type: raid
     castTime: 7.7
   - name: Wings Dark and Light 1
     time: 15:09
@@ -325,24 +261,18 @@ bossActions:
     castTime: 6.6
   - name: Polarizing Strikes
     time: 15:31
-    type: raid
     castTime: 6.2
   - name: Polarizing Strikes
     time: 15:36
-    type: raid
   - name: Polarizing Strikes
     time: 15:41
-    type: raid
   - name: Polarizing Strikes
     time: 15:46
-    type: raid
   - name: Pandora's Box
     time: 16:07
-    type: raid
     castTime: 11.7
   - name: Fulgent Blade 2
     time: 16:17.8
-    type: raid
     castTime: 5.7
   - name: Exawaves
     time: 16:41
@@ -350,7 +280,6 @@ bossActions:
     castTime: 9
   - name: Akh Morn 2
     time: 16:44
-    type: raid
     castTime: 7.7
   - name: Wings Dark and Light 2
     time: 17:07
@@ -358,27 +287,21 @@ bossActions:
     castTime: 6.6
   - name: Polarizing Strikes
     time: 17:23
-    type: raid
     castTime: 6.2
   - name: Polarizing Strikes
     time: 17:28
-    type: raid
   - name: Polarizing Strikes
     time: 17:33
-    type: raid
   - name: Polarizing Strikes
     time: 17:38
-    type: raid
   - name: Fulgent Blade 3
     time: 17:48.3
-    type: raid
   - name: Exawaves
     time: 18:12
     type: mech
     castTime: 9
   - name: Akh Morn 3
     time: 18:15
-    type: raid
     castTime: 7.7
   - name: Paradise Lost
     time: 18:45

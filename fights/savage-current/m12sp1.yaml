@@ -30,111 +30,83 @@ bossActions:
   - name: The Fixer 
     castStart: 0:10
     time: 0:15
-    type: raid
 # Mortal Slayer 1
   - name: Mortal Slayer 1
     time: 0:41
-    type: raid
   - name: Mortal Slayer 2 
     time: 0:44
-    type: raid
   - name: Mortal Slayer 3
     time: 0:47
-    type: raid
   - name: Mortal Slayer 4
     time: 0:50
-    type: raid
 # Act 1
   - name: Stack / Spreads
     time: 1:28
-    type: raid
   - name: Visceral Burst
     time: 1:37
     type: tb
   - name: The Fixer 
     castStart: 1:42
     time: 1:47
-    type: raid
 # Act 2
   - name: Cruel Coil 
     time: 2:15
     type: mech
   - name: Tether break 1
     time: 2:30
-    type: raid
   - name: Tether break 2
     time: 2:34
-    type: raid
   - name: Tether break 3 
     time: 2:39
-    type: raid
   - name: Tether break 4
     time: 2:44
-    type: raid
   - name: Splattershed
     castStart: 3:03
     time: 3:08
-    type: raid
 # Act 3
   - name: Metamitosis 
     time: 3:39
-    type: raid
   - name: Split Scourge 
     time: 3:48
     type: tb 
   - name: Venomous Scourge
     time: 3:52
-    type: raid
   - name: The Fixer 
     castStart: 3:56
     time: 4:01
-    type: raid
 # Curtain Call
   - name: Ravenous Reach / Spreads
     time: 4:28
-    type: raid
   - name: Dramatic Lysis
     time: 4:36
-    type: raid
   - name: Splattershed 
     castStart: 4:44
     time: 4:50
-    type: raid
 # Mortal Slayer 2
   - name: Mortal Slayer 1
     time: 5:16
-    type: raid
   - name: Mortal Slayer 2 
     time: 5:19
-    type: raid
   - name: Mortal Slayer 3
     time: 5:22
-    type: raid
   - name: Mortal Slayer 4
     time: 5:25
-    type: raid
 # Enrage
   - name: Slaughtershed 
     castStart: 5:37
     time: 5:40
-    type: raid
   - name: Stack / Spreads 1
     time: 5:51
-    type: raid
   - name: Slaughtershed 
     castStart: 6:06
     time: 6:09
-    type: raid
   - name: Stack / Spreads 2
     time: 6:20
-    type: raid
   - name: Slaughtershed
     castStart: 6:35
     time: 6:40
-    type: raid
   - name: Stack / Spreads 3
     time: 6:59
-    type: raid
   - name: Refreshing Overkill
     castStart: 7:08
     time: 7:18

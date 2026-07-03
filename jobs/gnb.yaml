@@ -130,16 +130,16 @@
 - id: gnb_provoke
   name: Provoke
   cooldown: 30
-  duration: 0
   minLevel: 15
   scope: enemy
   type: utility
+  abilityId: 7533
   description: Places you at the top of the target's enmity list.
 - id: gnb_shirk
   name: Shirk
   cooldown: 120
-  duration: 0
   minLevel: 48
   scope: single
   type: utility
+  abilityId: 7537
   description: Transfers 25% of your target enmity to a nominated party member.

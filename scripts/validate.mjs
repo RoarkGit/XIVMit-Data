@@ -99,8 +99,8 @@ function validateJobFile(filePath) {
     if (typeof ab.name !== 'string' || !ab.name)        errors.push(`${ctx}.name: required string`)
     if (ab.cooldown !== undefined && ab.cooldown !== null && typeof ab.cooldown !== 'number')
       errors.push(`${ctx}.cooldown: must be number or null`)
-    if (typeof ab.duration !== 'number' || ab.duration < 0)
-      errors.push(`${ctx}.duration: must be non-negative number`)
+    if (ab.duration !== undefined && (typeof ab.duration !== 'number' || ab.duration < 0))
+      errors.push(`${ctx}.duration: must be a non-negative number if present (defaults to 0)`)
     if (typeof ab.minLevel !== 'number')                errors.push(`${ctx}.minLevel: required number`)
     if (!VALID_SCOPE.has(ab.scope))
       errors.push(`${ctx}.scope: must be one of ${[...VALID_SCOPE].join('|')}, got ${JSON.stringify(ab.scope)}`)
@@ -134,6 +134,16 @@ function validateJobFile(filePath) {
         if (ab.requiresWithin.abilityId !== undefined) checkIdRef(ctx, 'requiresWithin.abilityId', ab.requiresWithin.abilityId)
         else errors.push(`${ctx}.requiresWithin.abilityId: required string`)
         if (typeof ab.requiresWithin.window !== 'number')    errors.push(`${ctx}.requiresWithin.window: required number`)
+      }
+    }
+    if (ab.quickHeal !== undefined && typeof ab.quickHeal !== 'boolean')
+      errors.push(`${ctx}.quickHeal: must be a boolean`)
+    if (ab.gauge != null) {
+      if (typeof ab.gauge !== 'object') errors.push(`${ctx}.gauge: must be an object`)
+      else {
+        if (typeof ab.gauge.type !== 'string' || !ab.gauge.type) errors.push(`${ctx}.gauge.type: required string`)
+        if (typeof ab.gauge.cost !== 'number') errors.push(`${ctx}.gauge.cost: required number`)
+        if (ab.cooldown != null) errors.push(`${ctx}.gauge: set alongside a non-null cooldown - gauge label only shows when cooldown is null`)
       }
     }
     if (ab.blockedDuringActive !== undefined) checkIdRefArray(ctx, 'blockedDuringActive', ab.blockedDuringActive)

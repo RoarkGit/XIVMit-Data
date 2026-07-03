@@ -143,5 +143,67 @@
   minLevel: 62
   scope: single
   type: heal
+  quickHeal: true
   abilityId: 7434
   description: Heals target when HP drops below 50%, or on expiry.
+- id: sch_aetherpact
+  name: Aetherpact
+  cooldown: null
+  duration: 15
+  minLevel: 70
+  scope: single
+  type: heal
+  quickHeal: true
+  gauge:
+    type: Faerie Gauge
+    cost: 10
+  abilityId: 7437
+  description: Orders fairy to attach a heal-over-time to target. 300 potency per tick, drains Faerie Gauge. No fixed cooldown - drop-in replacement for Soteria.
+- id: sch_lustrate
+  name: Lustrate
+  cooldown: 10
+  minLevel: 45
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 189
+  description: Restores target's HP. 600 potency. Costs 1 Aetherflow stack.
+- id: sch_indomitability
+  name: Indomitability
+  cooldown: 30
+  minLevel: 52
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 3583
+  description: Restores own HP and nearby party members' HP. 400 potency. Costs 1 Aetherflow stack.
+- id: sch_protraction
+  name: Protraction
+  cooldown: 60
+  duration: 10
+  minLevel: 86
+  scope: single
+  type: heal
+  abilityId: 25867
+  description: Increases max HP of self or target by 10% and restores the amount increased. Increases healing received by 10% for 10s.
+
+# Heal
+- id: sch_whispering_dawn
+  name: Whispering Dawn
+  cooldown: 60
+  duration: 21
+  minLevel: 20
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 16537
+  description: Orders fairy to heal nearby party members over time. Executes Angel's Whisper instead if Seraph is summoned.
+- id: sch_fey_blessing
+  name: Fey Blessing
+  cooldown: 60
+  minLevel: 76
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 16543
+  description: Orders fairy to heal all nearby party members. 320 potency.

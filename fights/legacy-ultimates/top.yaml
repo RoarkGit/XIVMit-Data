@@ -64,33 +64,24 @@ bossActions:
 # Program Loop
   - name: 1st Tower / 3rd Tether 
     time: 0:29
-    type: raid
   - name: 2nd Tower / 4th Tether 
     time: 0:38
-    type: raid
   - name: 3rd Tower / 1st Tether 
     time: 0:47
-    type: raid
   - name: 4th Tower / 2nd Tether 
     time: 0:55
-    type: raid
 # Pantokrator
   - name: 1st Solo AOE / Party Stack
     time: 1:21
-    type: raid
   - name: 2nd Solo AOE / Party Stack 
     time: 1:27
-    type: raid
   - name: 3rd Solo AOE / Party Stack 
     time: 1:33
-    type: raid
   - name: 4th Solo AOE / Party Stack 
     time: 1:39
-    type: raid
   - name: (Diffuse) Wave Cannon
     castStart: 1:48
     time: 1:57
-    type: raid
     tbAlso: true
 # P2
   - name: Solar Ray
@@ -100,94 +91,68 @@ bossActions:
 # Party Synergy
   - name: Optimized Fire III Spreads
     time: 2:57
-    type: raid
   - name: Spotlight Stacks
     time: 3:09
-    type: raid
 # Limitless Synergy
   - name: Optimized Bladedance
     time: 3:45
     type: tb
   - name: Optimized Meteor / Pile Pitch
     time: 4:00
-    type: raid
     tbAlso: true
   - name: Cosmo Memory
     time: 4:16
-    type: raid
 # P3
 # Wave Repeater
   - name: (High-powered) Sniper Cannon
     time: 5:00
-    type: raid
 # Hello World 
   - name: Tower Set 1
     time: 5:37
-    type: raid
   - name: 1st Patch Set (approximate)
     time: 5:40
-    type: raid
   - name: 2nd Patch Set (approximate)
     time: 5:44
-    type: raid
   - name: Tower Set 2
     time: 5:59
-    type: raid
   - name: 3rd Patch Set (approximate)
     time: 6:02
-    type: raid
   - name: 4th Patch Set (approximate)
     time: 6:06
-    type: raid
   - name: Tower Set 3
     time: 6:20
-    type: raid
   - name: 5th Patch Set (approximate)
     time: 6:23
-    type: raid
   - name: 6th Patch Set (approximate)
     time: 6:27
-    type: raid
   - name: Tower Set 4
     time: 6:41
-    type: raid
   - name: 7th Patch Set (approximate)
     time: 6:44
-    type: raid
   - name: 8th Patch Set (approximate)
     time: 6:48
-    type: raid
   - name: Critical Error
     castStart: 7:01
     time: 7:09
-    type: raid
   - name: Oversampled Wave Cannon
     castStart: 7:23
     time: 7:33
-    type: raid
 # P4 Intermission
   - name: Wave Cannon 1 Spreads 
     time: 8:00
-    type: raid
   - name: Wave Cannon 1 Stacks 
     time: 8:05
-    type: raid
   - name: Wave Cannon 2 Spreads 
     time: 8:09
-    type: raid
   - name: Wave Cannon 2 Stacks 
     time: 8:17
-    type: raid
   - name: Wave Cannon 3 Spreads 
     time: 8:23
-    type: raid
   - name: Wave Cannon 3 Stacks 
     time: 8:27
-    type: raid
   - name: Blue Screen 
     castStart: 8:43
     time: 8:52
-    type: raid
 # P5
   - name: Solar Ray 1 / 2
     castStart: 9:06
@@ -197,25 +162,18 @@ bossActions:
   - name: "Run: ****mi* (Delta Version)"
     castStart: 9:24
     time: 9:29
-    type: raid
   - name: 1st Patch Set (approximate)
     time: 9:36
-    type: raid
   - name: 2nd Patch Set (approximate)
     time: 9:49
-    type: raid
   - name: Monitors / Stack
     time: 9:58
-    type: raid 
   - name: 3rd Patch Set (approximate)
     time: 10:05
-    type: raid
   - name: "Hello, Near / Distant World 1"
     time: 10:15
-    type: raid
   - name: 4th Patch Set (approximate)
     time: 10:20
-    type: raid
   - name: Solar Ray 3 / 4
     castStart: 10:30
     time: 10:34
@@ -224,19 +182,14 @@ bossActions:
   - name: "Run: ****mi* (Sigma Version)"
     castStart: 10:46
     time: 10:51
-    type: raid
   - name: Hyper Pulse / Wave Cannon
     time: 11:08
-    type: raid
   - name: Discharge 
     time: 11:17
-    type: raid
   - name: Storage Violation 
     time: 11:21
-    type: raid
   - name: "Hello, Near / Distant World 2"
     time: 11:49
-    type: raid
   - name: Solar Ray 5 / 6
     castStart: 11:59
     time: 12:03
@@ -245,22 +198,16 @@ bossActions:
   - name: "Run: ****mi* (Omega Version)"
     castStart: 12:15
     time: 12:19
-    type: raid
   - name: Diffuse Wave Cannon 
     time: 12:38
-    type: raid 
   - name: Oversampled Wave Cannon 
     time: 12:51
-    type: raid
   - name: Hello, Near / Distant World 3
     time: 12:55
-    type: raid
   - name: Blaster
     time: 13:07
-    type: raid
   - name: Hello, Near / Distant World 4
     time: 13:13
-    type: raid
   - name: Solar Ray 7 / 8
     castStart: 13:22
     time: 13:37
@@ -269,51 +216,38 @@ bossActions:
   - name: Cosmo Memory 
     castStart: 14:54
     time: 15:00
-    type: raid
   - name: Cosmo Dive 1
     castStart: 15:25
     time: 15:33
-    type: raid
     tbAlso: true
   - name: Wave Cannon Spread 1
     time: 16:02
-    type: raid
   - name: Wave Cannon Spread 2
     time: 16:04
-    type: raid 
   - name: Wave Cannon Wild Charge 1
     time: 16:10
-    type: raid 
     tbAlso: true
   - name: Wave Cannon Spread 3
     time: 16:35
-    type: raid
   - name: Wave Cannon Spread 4
     time: 16:37
-    type: raid
   - name: Wave Cannon Wild Charge 2
     time: 16:43
-    type: raid
     tbAlso: true
   - name: Cosmo Dive 2
     castStart: 17:18
     time: 17:27
-    type: raid
     tbAlso: true
   - name: AOEs
     time: 17:45
-    type: raid 
   - name: Flares
     time: 18:03
-    type: raid
   - name: Magic Number 1
     castStart: 18:15
     time: 18:20
-    type: raid
   - name: Magic Number 2
     castStart: 18:33
     time: 18:39
-    type: raid
   - name: "Run: ***mi*"
     castStart: 18:42
     time: 19:12

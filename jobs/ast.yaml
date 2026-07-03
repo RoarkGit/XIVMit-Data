@@ -62,3 +62,45 @@
   mitPercent: 10
   abilityId: 25873
   description: 10% damage reduction on target. Heals on expiry.
+
+# Heal
+- id: ast_essential_dignity
+  name: Essential Dignity
+  cooldown: 40
+  charges: 3
+  minLevel: 15
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 3614
+  description: Restores target's HP. Potency increases up to 900 as target HP drops, maxed below 30%.
+- id: ast_synastry
+  name: Synastry
+  cooldown: 120
+  duration: 20
+  minLevel: 50
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 3612
+  description: Bonds with target - your single-target heals also restore 40% of the amount to them.
+- id: ast_celestial_opposition
+  name: Celestial Opposition
+  cooldown: 60
+  duration: 15
+  minLevel: 60
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 16553
+  description: Restores own HP and nearby party members' HP. 200 potency + regen.
+- id: ast_horoscope
+  name: Horoscope
+  cooldown: 60
+  duration: 30
+  minLevel: 76
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 16557
+  description: Grants party a buff that heals when triggered a second time. Base duration 10s, but almost always upgraded to Horoscope Helios (30s, bigger heal) via Helios/Helios Conjunction.

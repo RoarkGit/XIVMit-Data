@@ -45,10 +45,10 @@
 - id: sge_ixochole
   name: Ixochole
   cooldown: 30
-  duration: 0
   minLevel: 52
   scope: party
   type: heal
+  quickHeal: true
   abilityId: 24299
   description: Party heal. Costs 1 Addersgall.
 - id: sge_kerachole
@@ -102,3 +102,53 @@
   mitPercent: 10
   abilityId: 24303
   description: 10% damage reduction on target + heal. Costs 1 Addersgall.
+- id: sge_druochole
+  name: Druochole
+  cooldown: 30
+  minLevel: 45
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 24296
+  description: Restores target's HP. 600 potency. Costs 1 Addersgall.
+
+# Heal
+- id: sge_physis
+  name: Physis
+  cooldown: 60
+  duration: 15
+  minLevel: 20
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 24288
+  description: Gradually restores own HP and nearby party members' HP.
+- id: sge_physis_ii
+  name: Physis II
+  cooldown: 60
+  duration: 15
+  minLevel: 60
+  scope: party
+  type: heal
+  quickHeal: true
+  replaces: sge_physis
+  abilityId: 24302
+  description: Gradually restores own HP and nearby party members' HP. Increases healing received by 10%.
+- id: sge_pneuma
+  name: Pneuma
+  cooldown: 120
+  minLevel: 90
+  scope: party
+  type: heal
+  abilityId: 24318
+  description: Line AoE damage + restores own HP and nearby party members' HP. 600 potency.
+- id: sge_soteria
+  name: Soteria
+  cooldown: 90
+  duration: 15
+  minLevel: 35
+  scope: self
+  type: heal
+  quickHeal: true
+  abilityId: 24294
+  description: Grants 4 stacks increasing the potency of your Kardia healing by 70% each.

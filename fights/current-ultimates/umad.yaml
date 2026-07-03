@@ -3,7 +3,6 @@ name: Dancing Mad (Ultimate)
 shortName: UMAD
 duration: 18:42
 maxLevel: 100
-fflogsEncounterId: 1085
 phases:
   - name: Kefka
     startTime: 0:00
@@ -70,26 +69,20 @@ bossActions:
     type: tb
   - name: Flagrant Fire III
     time: 0:38.7
-    type: raid
   - name: Wave Cannon
     time: 0:42.9
-    type: raid
   - name: Explosion
     time: 0:46.6
-    type: raid
   - name: Confetti
     time: 0:50.2
-    type: raid
   - name: Light of Judgment
     time: 1:03.3
-    type: raid
   - name: Hyperdrive
     time: 1:10.6
     type: tb
     castStart: 1:06.4
   - name: Gravitas
     time: 1:28.1
-    type: raid
   - name: Revolting Ruin III
     time: 1:38
     type: tb
@@ -98,16 +91,12 @@ bossActions:
     type: tb
   - name: Gravitas
     time: 1:46.5
-    type: raid
   - name: Confetti
     time: 1:58.9
-    type: raid
   - name: Gravity III
     time: 2:03.4
-    type: raid
   - name: Light of Judgment
     time: 2:13.1
-    type: raid
     castStart: 2:08.1
   - name: Hyperdrive
     time: 2:20.4
@@ -115,13 +104,10 @@ bossActions:
     castStart: 2:16.2
   - name: Confetti
     time: 2:48.5
-    type: raid
   - name: Sleep/Confuse
     time: 2:54.2
-    type: raid
   - name: Flagrant Fire III
     time: 3:07.9
-    type: raid
 
 # ===== Phase 2: God Kefka =====
   - name: Ultimate Embrace
@@ -129,35 +115,25 @@ bossActions:
     type: tb
   - name: Forsaken
     time: 3:56.2
-    type: raid
     castStart: 3:49.2
   - name: Tower 1
     time: 4:10.1
-    type: raid
   - name: Tower 2
     time: 4:19
-    type: raid
   - name: Tower 3
     time: 4:31.1
-    type: raid
   - name: Tower 4
     time: 4:40
-    type: raid
   - name: Tower 5
     time: 4:52.2
-    type: raid
   - name: Tower 6
     time: 5:00.8
-    type: raid
   - name: Tower 7
     time: 5:13.2
-    type: raid
   - name: Tower 8
     time: 5:21.8
-    type: raid
   - name: Light of Judgment
     time: 5:42.1
-    type: raid
     castStart: 5:37.1
   - name: Wings of Destruction
     time: 6:10.7
@@ -170,24 +146,19 @@ bossActions:
 # ===== Phase 3: Chaos & Exdeath =====
   - name: Bowels of Agony
     time: 7:30.5
-    type: raid
     castStart: 7:25.5
   - name: Elements 1
     time: 7:50.6
-    type: raid
   - name: "Thunder III"
     time: 8:01.9
     type: tb
     castStart: 7:58.9
   - name: Elements 2
     time: 8:17
-    type: raid
   - name: Vacuum Wave
     time: 8:28
-    type: raid
   - name: Ultima Blaster
     time: 8:51.3
-    type: raid
   - name: "Thunder III"
     time: 9:00.5
     type: tb
@@ -198,171 +169,127 @@ bossActions:
     castStart: 9:14.6
   - name: Earthquake
     time: 9:21.5
-    type: raid
     castTime: 4.7
   - name: Kefka Slap 1
     time: 9:38.4
-    type: raid
   - name: Tether Set 1
     time: 9:46
-    type: raid
   - name: Tether Set 2
     time: 09:53
-    type: raid
   - name: "Thunder III"
     time: 9:59.2
     type: tb
     castStart: 9:56.2
   - name: Kefka Slap 2
     time: 10:08.8
-    type: raid
   - name: Tether Set 3
     time: 10:16.4
-    type: raid
   - name: Tether Set 4
     time: 10:21.4
-    type: raid
   - name: Tether Set 5
     time: 10:26.5
-    type: raid
   - name: "Thunder III"
     time: 10:40.4
     type: tb
     castStart: 10:37.4
   - name: Tether Set 6
     time: 10:50.6
-    type: raid
   - name: Tether Set 7
     time: 10:55.7
-    type: raid
   - name: Tether Set 8
     time: 11:00.7
-    type: raid
   - name: Kefka Slap 3
     time: 11:16.8
-    type: raid
   - name: Tether Set 9
     time: 11:24.2
-    type: raid
   - name: Tether Set 10
     time: 11:31.3
-    type: raid
   - name: Stomp-a-Mole
     time: 11:45.5
-    type: raid
     castStart: 11:40.5
 
 # ===== Phase 4: Kefka Says =====
   - name: Grand Cross 1
     time: 12:43
-    type: raid
   - name: Inferno
     time: 12:48
-    type: raid
   - name: Grand Cross 2
     time: 12:58
-    type: raid
   - name: Tsunami
     time: 13:01
-    type: raid
   - name: Grand Cross 3
     time: 13:13
-    type: raid
   - name: Antilight
     time: 13:24
-    type: raid
   - name: Wave/Bolt
     time: 13:32
-    type: raid
   - name: Ultima Upsurge
     time: 13:53
-    type: raid
   - name: Wave/Bolt
     time: 13:59
-    type: raid
   - name: Ultima Upsurge
     time: 14:31
-    type: raid
 
 # ===== Phase 5: Ultima Kefka =====
   - name: Ultima Repeater
     time: 15:11.6
-    type: raid
     castStart: 15:08.4
   - name: Fell Forces
     time: 15:20.6
-    type: raid
     tbAlso: true
     castStart: 15:14.4
   - name: Chaotic Flood
     time: 15:30
-    type: raid
     castStart: 15:27
   - name: Holy/Flare
     time: 15:43.2
-    type: raid
     castStart: 15:40
   - name: Chaotic Holy
     time: 15:46.7
     type: tb
   - name: Fell Forces
     time: 15:54.4
-    type: raid
     tbAlso: true
     castStart: 15:51.3
   - name: Elemental Barrage
     time: 16:22
-    type: raid
     castStart: 16:10
   - name: Ultima Repeater
     time: 16:33.5
-    type: raid
     castStart: 16:30.3
   - name: Fell Forces
     time: 16:39.5
-    type: raid
     tbAlso: true
     castStart: 16:36.3
   - name: Stray Entropy
     time: 17:03
-    type: raid
   - name: Holy/Flare
     time: 17:15.3
-    type: raid
     castStart: 17:12.1
   - name: Chaotic Holy
     time: 17:18.8
     type: tb
   - name: Fell Forces
     time: 17:29.7
-    type: raid
     tbAlso: true
     castStart: 17:23.4
   - name: Forsaken
     time: 17:41
-    type: raid
     castStart: 17:31
   - name: Forsaken Bonds
     time: 17:46.1
-    type: raid
   - name: Forsaken
     time: 17:49.2
-    type: raid
   - name: Forsaken Bonds
     time: 17:54.2
-    type: raid
   - name: Forsaken
     time: 17:57.3
-    type: raid
   - name: Forsaken Bonds
     time: 18:02.4
-    type: raid
   - name: Forsaken
     time: 18:05.5
-    type: raid
   - name: Forsaken Bonds
     time: 18:10.5
-    type: raid
   - name: Forsaken Null
     time: 18:42
     type: enrage

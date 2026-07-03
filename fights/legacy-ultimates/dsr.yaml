@@ -58,47 +58,36 @@ bossActions:
 # Adelphel/Grinnaux
   - name: Holiest of Holy 
     time: 0:10
-    type: raid
   - name: Holy Shield Bash
     time: 0:23
     type: tb
   - name: Heavensblaze / Holy Bladedance
     time: 0:28
-    type: raid
     tbAlso: true
   - name: Hyperdimensional Slash 1
     time: 0:43
-    type: raid
   - name: Hyperdimensional Slash 2
     time: 0:50
-    type: raid
   - name: Holiest of Holy / Faith Unmoving
     time: 1:00 
-    type: raid
   - name: Execution
     time: 1:09
     type: tb
   - name: Heavensflame / Faith Unmoving
     time: 1:27
-    type: raid
   - name: Holiest of Holy 
     time: 1:41
-    type: raid
 # Charibert
   - name: Planar Prison
     time: 1:51
-    type: raid
   - name: Shockwave 
     castStart: 2:02
     time: 2:09
-    type: raid
   - name: Brightwing 
     castStart: 2:06
     time: 2:25
-    type: raid
   - name: Pure of Heart 
     time: 2:27
-    type: raid
 # P2
   - name: Ascalon's Might
     time: 2:57
@@ -108,14 +97,12 @@ bossActions:
     time: 3:21
   - name: The Dragon's Rage / Holy Shield Bash
     time: 3:36
-    type: raid
     tbAlso: true
   - name: Holy Bladedance
     time: 3:42
     type: tb
   - name: Ancient Quaga 
     time: 3:49
-    type: raid
   - name: Heavenly Heel / Ascalon's Might
     castStart: 3:59
     time: 4:05
@@ -124,37 +111,27 @@ bossActions:
   - name: Sacred Sever 1-4
     castStart: 4:30
     time: 4:35
-    type: raid
   - name: Hiemal Storm 
     time: 4:48
-    type: raid
   - name: Holy Comet 
     castStart: 4:40
     time: 4:52
-    type: raid
   - name: Faith Unmoving 
     time: 5:03
-    type: raid
   - name: Ultimate End 
     time: 5:24
-    type: raid
 # P3 
   - name: Final Chorus
     time: 5:59
-    type: raid
 # Dive from Grace 
   - name: First Towers
     time: 6:28
-    type: raid
   - name: Second Towers
     time: 6:34
-    type: raid
   - name: Third Towers
     time: 6:44
-    type: raid
   - name: Darkdragon Dive - 4 Towers
     time: 6:55
-    type: raid
   - name: Soul Tether
     time: 7:21
     type: tb
@@ -164,25 +141,18 @@ bossActions:
 # Eyes 
   - name: Resentment 
     time: 8:19
-    type: raid 
   - name: Flare Nova (approximate)
     time: 8:28
-    type: raid
   - name: Flare Star (approximate)
     time: 8:34
-    type: raid
   - name: Mirage Dive 1
     time: 8:53
-    type: raid
   - name: Mirage Dive 2
     time: 8:59
-    type: raid
   - name: Mirage Dive 3
     time: 9:04
-    type: raid
   - name: Mirage Dive 4
     time: 9:10
-    type: raid
   - name: Steep in Rage
     castStart: 9:13
     time: 9:19
@@ -190,33 +160,25 @@ bossActions:
 # Rewind
   - name: Planar Prison 
     time: 9:39
-    type: raid
   - name: Shockwave 
     castStart: 9:50
     time: 10:18
-    type: raid
   - name: Pure of Heart 
     time: 10:15
-    type: raid
   - name: Bright Wing 
     castStart: 9:54
     time: 10:05
-    type: raid
 # P4 
 # Wrath of the Heavens
   - name: Skyward Leap / Spiral Pierce
     time: 11:24
-    type: raid
   - name: Ascalon's Mercy Revealed 
     time: 11:27
-    type: raid
   - name: Altar Flare / Liquid Heaven
     castStart: 11:31
     time: 11:38
-    type: raid
   - name: Ancient Quaga 
     time: 11:44
-    type: raid
   - name: Heavenly Heel / Ascalon's Might 
     castStart: 11:52
     time: 11:59
@@ -224,13 +186,10 @@ bossActions:
 # Death of the Heavens
   - name: Spear of the Fury / Lightning Storm
     time: 12:26
-    type: raid
   - name: Heavensflame 
     time: 12:41
-    type: raid
   - name: Ancient Quaga 
     time: 13:18
-    type: raid
   - name: Heavenly Heel / Ascalon's Might
     castStart: 13:28
     time: 13:35
@@ -242,11 +201,9 @@ bossActions:
 # P5 
   - name: Wyrmsbreath 1
     time: 14:15
-    type: raid 
     tbAlso: true
   - name: Akh Afah 1
     time: 14:34
-    type: raid
   - name: Hallowed Plume 1
     time: 14:49
     type: tb
@@ -254,23 +211,18 @@ bossActions:
   - name: Akh Morn x4
     castStart: 15:06
     time: 15:14
-    type: raid 
   - name: Entangled Flames 
     time: 15:28
-    type: raid
   - name: Akh Afah 2
     time: 15:44
-    type: raid
   - name: Hallowed Plume 2
     time: 15:57
     type: tb
   - name: Wyrmsbreath 2
     time: 16:16
-    type: raid
     tbAlso: true
   - name: Cauterize 
     time: 16:29
-    type: raid 
     tbAlso: true
   - name: Revenge of the Horde 
     castStart: 16:37
@@ -279,13 +231,10 @@ bossActions:
 # Transition
   - name: Resentment + Bleeding
     time: 17:02
-    type: raid
   - name: Shockwave + Bleeding
     time: 17:19
-    type: raid
   - name: Alternate End
     time: 17:34
-    type: raid
 # P6
   - name: Exaflare's Edge 1 
     castStart: 17:49
@@ -294,12 +243,10 @@ bossActions:
   - name: Akh Morn's Edge 1
     castStart: 18:09
     time: 18:17
-    type: raid
     tbAlso: true
   - name: Gigaflare's Edge 1
     castStart: 18:35
     time: 18:45
-    type: raid
   - name: Exaflare's Edge 2
     castStart: 19:01
     time: 19:07
@@ -307,12 +254,10 @@ bossActions:
   - name: Akh Morn's Edge 2
     castStart: 19:28
     time: 19:39
-    type: raid
     tbAlso: true
   - name: Gigaflare's Edge 2
     castStart: 19:54
     time: 20:12
-    type: raid
   - name: Exaflare's Edge 3
     castStart: 20:28
     time: 20:34
@@ -320,7 +265,6 @@ bossActions:
   - name: Akh Morn's Edge 3
     castStart: 20:50
     time: 21:01
-    type: raid
     tbAlso: true
   - name: Morn Afah's Edge
     castStart: 21:12
