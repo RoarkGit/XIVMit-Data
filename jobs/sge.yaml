@@ -13,6 +13,7 @@
       minLevel: 88
       cooldown: 90
     maxOffset: 30
+  abilityId: 24292
   description: Party shield. ~8% max HP barrier.
 - id: sge_eukrasian_prognosis_ii
   name: Eukrasian Prognosis II
@@ -29,6 +30,7 @@
       minLevel: 88
       cooldown: 90
     maxOffset: 30
+  abilityId: 37034
   description: Party shield. ~9% max HP barrier.
 - id: sge_holos
   name: Holos
@@ -38,6 +40,7 @@
   scope: party
   type: mitigation
   mitPercent: 10
+  abilityId: 24310
   description: 10% party damage reduction + ~5% max HP shield.
 - id: sge_ixochole
   name: Ixochole
@@ -46,6 +49,7 @@
   minLevel: 52
   scope: party
   type: heal
+  abilityId: 24299
   description: Party heal. Costs 1 Addersgall.
 - id: sge_kerachole
   name: Kerachole
@@ -55,6 +59,7 @@
   scope: party
   type: mitigation
   mitPercent: 10
+  abilityId: 24298
   description: 10% party damage reduction + regen. Costs 1 Addersgall.
 - id: sge_panhaima
   name: Panhaima
@@ -64,6 +69,7 @@
   scope: party
   type: shield
   shieldStacks: 5
+  abilityId: 24311
   description: 5-stack party shield. Each stack deploys ~3% max HP barrier when hit.
 - id: sge_philosophia
   name: Philosophia
@@ -72,6 +78,7 @@
   minLevel: 100
   scope: party
   type: heal
+  abilityId: 37035
   description: Party heal. Increases HP recovered by healing actions by 10%.
 
 # Targeted
@@ -83,6 +90,7 @@
   scope: single
   type: shield
   shieldStacks: 5
+  abilityId: 24305
   description: 5-stack shield on target. Each stack deploys ~6% max HP barrier when hit.
 - id: sge_taurochole
   name: Taurochole
@@ -92,4 +100,5 @@
   scope: single
   type: mitigation
   mitPercent: 10
+  abilityId: 24303
   description: 10% damage reduction on target + heal. Costs 1 Addersgall.

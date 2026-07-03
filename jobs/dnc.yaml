@@ -9,4 +9,5 @@
     minLevel: 88
     cooldown: 90
   mitPercent: 10
+  abilityId: 16012
   description: 10% party damage reduction.

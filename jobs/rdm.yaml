@@ -7,6 +7,7 @@
   scope: party
   type: mitigation
   mitPercent: 10
+  abilityId: 25857
   description: 10% magic damage reduction for party. Increases HP recovered by healing actions by 5%.
 
 # Targeted
@@ -21,4 +22,5 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7560
   description: Debuff on target. Reduces magical damage dealt by 10%, physical by 5%.

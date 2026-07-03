@@ -6,6 +6,7 @@
   minLevel: 42
   scope: party
   type: heal
+  abilityId: 65
   description: Increases HP recovery via healing actions for party by 10%.
 
 # Targeted
@@ -20,4 +21,5 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7549
   description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.

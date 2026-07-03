@@ -10,6 +10,7 @@
     minLevel: 88
     cooldown: 90
   mitPercent: 10
+  abilityId: 16889
   description: 10% party damage reduction.
 
 # Targeted
@@ -21,4 +22,5 @@
   scope: enemy
   type: mitigation
   mitPercent: 10
+  abilityId: 2887
   description: Debuff on target. Reduces damage dealt by 10%.

@@ -7,6 +7,7 @@
   scope: party
   type: mitigation
   mitPercent: 10
+  abilityId: 3613
   description: 10% party damage reduction. Leaves regen area on exit.
 - id: ast_macrocosmos
   name: Macrocosmos
@@ -15,6 +16,7 @@
   minLevel: 90
   scope: party
   type: heal
+  abilityId: 25874
   description: Stores 50% of damage taken as healing. Detonates after duration or manual trigger.
 - id: ast_neutral_sect
   name: Neutral Sect
@@ -23,6 +25,7 @@
   minLevel: 80
   scope: party
   type: heal
+  abilityId: 16559
   description: Adds shield equal to heal amount on Aspected Helios/Benefic casts. Increases healing potency by 20%.
 - id: ast_sun_sign
   name: Sun Sign
@@ -35,6 +38,7 @@
     abilityId: ast_neutral_sect
     window: 30
   mitPercent: 10
+  abilityId: 37031
   description: 10% party damage reduction.
 
 # Targeted
@@ -46,6 +50,7 @@
   minLevel: 74
   scope: single
   type: shield
+  abilityId: 16556
   description: Shield on target equal to ~8% of target's max HP.
 - id: ast_exaltation
   name: Exaltation
@@ -55,4 +60,5 @@
   scope: single
   type: mitigation
   mitPercent: 10
+  abilityId: 25873
   description: 10% damage reduction on target. Heals on expiry.

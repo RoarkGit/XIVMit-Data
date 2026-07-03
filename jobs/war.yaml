@@ -7,6 +7,7 @@
   scope: enemy
   type: mitigation
   mitPercent: 80
+  abilityId: 4240
   description: Party-wide 80% damage reduction.
 
 # Party
@@ -21,6 +22,7 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7535
   description: Debuff on target. Reduces damage dealt by 10%.
 - id: war_shake_it_off
   name: Shake It Off
@@ -29,6 +31,7 @@
   minLevel: 68
   scope: party
   type: shield
+  abilityId: 7388
   description: Party shield equal to 12% of max HP. Additional 2% per active WAR buff consumed. Grants regen.
 
 # Targeted
@@ -41,6 +44,7 @@
   type: mitigation
   mitPercent: 10
   chargeGroup: war_bw_nf
+  abilityId: 16464
   description: 10% damage reduction on target. Heals WAR on each attack.
 
 # Self
@@ -56,6 +60,7 @@
   replaces: war_raw_intuition
   canceledBy:
   - war_shake_it_off
+  abilityId: 25751
   description: 10% damage reduction. Heals on each attack.
 - id: war_damnation
   name: Damnation
@@ -68,6 +73,7 @@
   replaces: war_vengeance
   canceledBy:
   - war_shake_it_off
+  abilityId: 36923
   description: 40% damage reduction. Counterattacks when hit.
 - id: war_holmgang
   name: Holmgang
@@ -76,11 +82,12 @@
   minLevel: 42
   scope: self
   type: invuln
+  abilityId: 43
   description: Cannot drop below 1 HP.
 - id: war_kitchen_sink
   name: Kitchen Sink
   cooldown: null
-  duration: 10
+  duration: 20
   minLevel: 1
   scope: self
   type: mitigation
@@ -100,6 +107,7 @@
   scope: self
   type: mitigation
   mitPercent: 20
+  abilityId: 7531
   description: 20% damage reduction.
 - id: war_raw_intuition
   name: Raw Intuition
@@ -112,6 +120,7 @@
   chargeGroup: war_bw_nf
   canceledBy:
   - war_shake_it_off
+  abilityId: 3551
   description: 10% damage reduction.
 - id: war_thrill_of_battle
   name: Thrill of Battle
@@ -122,6 +131,7 @@
   type: heal
   canceledBy:
   - war_shake_it_off
+  abilityId: 40
   description: Increases max HP by 20% and restores the amount.
 - id: war_vengeance
   name: Vengeance
@@ -131,4 +141,5 @@
   scope: self
   type: mitigation
   mitPercent: 30
+  abilityId: 44
   description: 30% damage reduction. Counterattacks when hit.

@@ -9,4 +9,5 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7549
   description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.

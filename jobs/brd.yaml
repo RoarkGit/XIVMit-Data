@@ -10,6 +10,7 @@
     minLevel: 88
     cooldown: 90
   mitPercent: 10
+  abilityId: 7405
   description: 10% party damage reduction.
 
 # Targeted
@@ -20,4 +21,5 @@
   minLevel: 66
   scope: single
   type: heal
+  abilityId: 7408
   description: Increases HP recovery via healing actions on target by 20%.

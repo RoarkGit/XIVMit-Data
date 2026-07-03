@@ -3,6 +3,7 @@ name: Dancing Mad (Ultimate)
 shortName: UMAD
 duration: 18:42
 maxLevel: 100
+fflogsEncounterId: 1085
 phases:
   - name: Kefka
     startTime: 0:00

@@ -14,6 +14,7 @@
       minLevel: 98
       cooldown: 60
     maxOffset: 15
+  abilityId: 37013
   description: Party heal + shield. ~10% max HP barrier.
 - id: sch_consolation
   name: Consolation
@@ -26,6 +27,7 @@
   requiresWithin:
     abilityId: sch_seraph
     window: 22
+  abilityId: 16546
   description: Party heal + shield. ~7% max HP barrier per use. 2 charges per Seraph.
 - id: sch_expedient
   name: Expedient
@@ -35,6 +37,7 @@
   scope: party
   type: mitigation
   mitPercent: 10
+  abilityId: 25868
   description: 10% party damage reduction + movement speed buff.
 - id: sch_fey_illumination
   name: Fey Illumination
@@ -46,6 +49,7 @@
   mitPercent: 5
   blockedDuringActive:
   - sch_dissipation
+  abilityId: 16538
   description: 5% magic damage reduction for party. Increases healing potency by 10%.
 - id: sch_sacred_soil
   name: Sacred Soil
@@ -55,6 +59,7 @@
   scope: party
   type: heal
   mitPercent: 10
+  abilityId: 188
   description: 10% party damage reduction in area. Grants regen.
 - id: sch_seraphism
   name: Seraphism
@@ -67,6 +72,7 @@
   - sch_dissipation
   canceledBy:
   - sch_dissipation
+  abilityId: 37014
   description: Transforms Adloquitum and Succor into shield-enhanced versions. Increases healing potency.
 - id: sch_spreadlo
   name: Spreadlo
@@ -87,6 +93,9 @@
       cooldown: 60
     maxOffset: 15
     defaultPaired: true
+  # Real in-game action name is "Deployment Tactics" - "Spreadlo" is this app's
+  # in-house nickname, so match by ID/description, not by `name` string.
+  abilityId: 3585
   description: Spreads Galvanize barrier to all party members. ~25% max HP barrier.
 - id: sch_succor
   name: Succor
@@ -112,6 +121,7 @@
   type: heal
   blockedDuringActive:
   - sch_dissipation
+  abilityId: 16545
   description: Summons Seraph. Enables Consolation and enhances Embrace.
 - id: sch_dissipation
   name: Dissipation
@@ -122,6 +132,7 @@
   type: heal
   blockedDuringActive:
   - sch_seraph
+  abilityId: 3587
   description: Sacrifices fairy to increase own healing magic potency by 20%. Grants Aetherflow.
 
 # Targeted
@@ -132,4 +143,5 @@
   minLevel: 62
   scope: single
   type: heal
+  abilityId: 7434
   description: Heals target when HP drops below 50%, or on expiry.

@@ -7,6 +7,7 @@
   scope: enemy
   type: mitigation
   mitPercent: 80
+  abilityId: 199
   description: Party-wide 80% damage reduction.
 
 # Party
@@ -17,6 +18,7 @@
   minLevel: 56
   scope: enemy
   type: shield
+  abilityId: 3540
   description: Party shield equal to 10% of PLD's max HP.
 - id: pld_passage_of_arms
   name: Passage of Arms
@@ -26,6 +28,7 @@
   scope: enemy
   type: mitigation
   mitPercent: 15
+  abilityId: 7385
   description: 15% party damage reduction. Channeled; buff persists briefly after moving.
 - id: pld_reprisal
   name: Reprisal
@@ -38,6 +41,7 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7535
   description: Debuff on target. Reduces damage dealt by 10%.
 
 # Targeted
@@ -50,6 +54,7 @@
   scope: single
   type: mitigation
   sharedCharge: pld_oath
+  abilityId: 27
   description: Takes all damage intended for target.
 - id: pld_intervention
   name: Intervention
@@ -61,6 +66,7 @@
   type: mitigation
   mitPercent: 10
   chargeGroup: pld_oath
+  abilityId: 7382
   description: 10% damage reduction on target. 20% with active Rampart. Grants Resolve + Benediction with active Sentinel/Guardian.
 
 # Self
@@ -72,6 +78,7 @@
   scope: self
   type: mitigation
   mitPercent: 18
+  abilityId: 22
   description: Guaranteed block for all attacks (~18% damage reduction).
 - id: pld_guardian
   name: Guardian
@@ -82,6 +89,7 @@
   type: mitigation
   mitPercent: 40
   replaces: pld_sentinel
+  abilityId: 36920
   description: 40% damage reduction.
 - id: pld_hallowed_ground
   name: Hallowed Ground
@@ -90,6 +98,7 @@
   minLevel: 50
   scope: self
   type: invuln
+  abilityId: 30
   description: Renders completely immune to most attacks.
 - id: pld_holy_sheltron
   name: Holy Sheltron
@@ -102,11 +111,12 @@
   mitPercent: 15
   chargeGroup: pld_oath
   replaces: pld_sheltron
+  abilityId: 25746
   description: 15% damage reduction. 30% total for first 4s (Knight's Resolve), 25% total for remaining 4s (Knight's Benediction).
 - id: pld_kitchen_sink
   name: Kitchen Sink
   cooldown: null
-  duration: 10
+  duration: 20
   minLevel: 1
   scope: self
   type: mitigation
@@ -126,6 +136,7 @@
   scope: self
   type: mitigation
   mitPercent: 20
+  abilityId: 7531
   description: 20% damage reduction.
 - id: pld_sentinel
   name: Sentinel
@@ -135,6 +146,7 @@
   scope: self
   type: mitigation
   mitPercent: 30
+  abilityId: 17
   description: 30% damage reduction.
 - id: pld_sheltron
   name: Sheltron
@@ -146,4 +158,5 @@
   type: mitigation
   mitPercent: 15
   chargeGroup: pld_oath
+  abilityId: 3542
   description: 15% damage reduction via guaranteed block.

@@ -7,6 +7,7 @@
   scope: enemy
   type: mitigation
   mitPercent: 80
+  abilityId: 17105
   description: Party-wide 80% damage reduction.
 
 # Party
@@ -18,6 +19,7 @@
   scope: enemy
   type: mitigation
   mitPercent: 10
+  abilityId: 16160
   description: 10% magic damage reduction for the party.
 - id: gnb_reprisal
   name: Reprisal
@@ -30,6 +32,7 @@
     minLevel: 98
     duration: 15
   mitPercent: 10
+  abilityId: 7535
   description: Debuff on target. Reduces damage dealt by 10%.
 
 # Targeted
@@ -43,6 +46,7 @@
   mitPercent: 15
   chargeGroup: gnb_hot
   replaces: gnb_heart_of_stone
+  abilityId: 25758
   description: 15% damage reduction on target. 30% total for first 4s (Clarity). Heals when HP drops below 50%.
 
 # Self
@@ -55,6 +59,7 @@
   type: mitigation
   mitPercent: 40
   replaces: gnb_nebula
+  abilityId: 36935
   description: 40% damage reduction. Increases max HP by 20%.
 - id: gnb_heart_of_stone
   name: Heart of Stone
@@ -65,11 +70,12 @@
   type: mitigation
   chargeGroup: gnb_hot
   mitPercent: 15
+  abilityId: 16161
   description: 15% damage reduction.
 - id: gnb_kitchen_sink
   name: Kitchen Sink
   cooldown: null
-  duration: 10
+  duration: 20
   minLevel: 1
   scope: self
   type: mitigation
@@ -89,6 +95,7 @@
   scope: self
   type: mitigation
   mitPercent: 30
+  abilityId: 16148
   description: 30% damage reduction.
 - id: gnb_rampart
   name: Rampart
@@ -98,6 +105,7 @@
   scope: self
   type: mitigation
   mitPercent: 20
+  abilityId: 7531
   description: 20% damage reduction.
 - id: gnb_camouflage
   name: Camouflage
@@ -107,6 +115,7 @@
   scope: self
   type: mitigation
   mitPercent: 10
+  abilityId: 16140
   description: Increases parry rate by 50% and grants 10% damage reduction.
 - id: gnb_superbolide
   name: Superbolide
@@ -115,4 +124,5 @@
   minLevel: 50
   scope: self
   type: invuln
+  abilityId: 16152
   description: Drops HP to 1 and renders immune to most attacks.
