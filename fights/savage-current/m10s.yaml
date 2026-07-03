@@ -4,5 +4,6 @@ wip: true
 shortName: M10S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 102
 phases: []
 bossActions: []

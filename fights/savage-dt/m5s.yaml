@@ -4,5 +4,6 @@ wip: true
 shortName: M5S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 97
 phases: []
 bossActions: []

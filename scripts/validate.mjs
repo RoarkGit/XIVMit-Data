@@ -173,6 +173,8 @@ function validateFightFile(filePath) {
   else if (!VALID_LEVELS.has(raw.maxLevel))       errors.push(`maxLevel: expected one of ${[...VALID_LEVELS].join('|')}, got ${raw.maxLevel}`)
   if (raw.phases !== undefined && !Array.isArray(raw.phases))      errors.push('phases: must be an array')
   if (raw.bossActions !== undefined && !Array.isArray(raw.bossActions)) errors.push('bossActions: must be an array')
+  if (raw.fflogsEncounterId !== undefined && typeof raw.fflogsEncounterId !== 'number')
+    errors.push('fflogsEncounterId: must be a number')
 
   if (Array.isArray(raw.phases)) {
     for (let i = 0; i < raw.phases.length; i++) {

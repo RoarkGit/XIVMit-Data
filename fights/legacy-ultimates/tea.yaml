@@ -4,5 +4,6 @@ wip: true
 shortName: TEA
 duration: 00:00
 maxLevel: 80
+fflogsEncounterId: 1075
 phases: []
 bossActions: []

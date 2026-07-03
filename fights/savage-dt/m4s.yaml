@@ -4,5 +4,6 @@ wip: true
 shortName: M4S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 96
 phases: []
 bossActions: []

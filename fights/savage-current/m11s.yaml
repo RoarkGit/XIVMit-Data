@@ -3,6 +3,7 @@ name: AAC Heavyweight M3 (Savage)
 shortName: M11S
 duration: 11:02
 maxLevel: 100
+fflogsEncounterId: 103
 mechanics:
   - name: Trophy Weapons 1
     startTime: 0:35

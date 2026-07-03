@@ -4,5 +4,6 @@ wip: true
 shortName: M9S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 101
 phases: []
 bossActions: []

@@ -4,5 +4,6 @@ wip: true
 shortName: UWU
 duration: 00:00
 maxLevel: 70
+fflogsEncounterId: 1074
 phases: []
 bossActions: []

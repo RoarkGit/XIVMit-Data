@@ -3,6 +3,7 @@ name: Futures Rewritten (Ultimate)
 shortName: FRU
 duration: 18:45
 maxLevel: 100
+fflogsEncounterId: 1079
 phases:
   - name: Fatebreaker
     startTime: 00:00

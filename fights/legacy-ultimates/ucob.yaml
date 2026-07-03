@@ -4,5 +4,6 @@ wip: true
 shortName: UCOB
 duration: 00:00
 maxLevel: 70
+fflogsEncounterId: 1073
 phases: []
 bossActions: []

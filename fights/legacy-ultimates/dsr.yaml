@@ -3,6 +3,7 @@ name: "Dragonsong's Reprise Ultimate"
 shortName: DSR
 duration: 21:22
 maxLevel: 90
+fflogsEncounterId: 1076
 phases: 
   - name: Knights of the Round
     startTime: 0:00

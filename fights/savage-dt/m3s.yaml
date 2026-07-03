@@ -4,5 +4,6 @@ wip: true
 shortName: M3S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 95
 phases: []
 bossActions: []

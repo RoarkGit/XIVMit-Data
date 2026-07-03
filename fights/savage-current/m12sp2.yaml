@@ -3,6 +3,7 @@ name: AAC Heavyweight M4 (Savage) - Phase 2
 shortName: M12SP2
 duration: 9:05
 maxLevel: 100
+fflogsEncounterId: 105
 phases: []
 mechanics:
   - name: Replication 1

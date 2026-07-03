@@ -4,5 +4,6 @@ wip: true
 shortName: M8S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 100
 phases: []
 bossActions: []

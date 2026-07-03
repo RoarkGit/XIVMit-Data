@@ -3,6 +3,7 @@ name: The Omega Protocol
 shortName: TOP
 duration: 19:12
 maxLevel: 90
+fflogsEncounterId: 1077
 phases:
   - name: Beetle Omega
     startTime: 0:00

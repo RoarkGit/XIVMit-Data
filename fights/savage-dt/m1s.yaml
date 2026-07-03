@@ -4,5 +4,6 @@ wip: true
 shortName: M1S
 duration: 00:00
 maxLevel: 100
+fflogsEncounterId: 93
 phases: []
 bossActions: []

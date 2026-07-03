@@ -3,6 +3,7 @@ name: AAC Heavyweight M4 (Savage) - Phase 1
 shortName: M12SP1
 duration: 7:18
 maxLevel: 100
+fflogsEncounterId: 104
 phases: []
 mechanics:
   - name: Mortal Slayer 1
