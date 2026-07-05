@@ -74,14 +74,9 @@ bossActions:
   - name: Burnished Glory
     time: 01:27
     castTime: 4.7
-  - name: Tether 1
+  - name: Tethers
     time: 01:46.5
-  - name: Tether 2
-    time: 01:49.5
-  - name: Tether 3
-    time: 01:52
-  - name: Tether 4
-    time: 01:54.5
+    hits: [01:49.5, 01:52, 01:54.5]
   - name: Burnished Glory
     time: 02:02.5
   - name: Powder Mark
@@ -97,9 +92,8 @@ bossActions:
   - name: Quadruple Slap
     time: 02:56
     type: tb
-  - name: Quadruple Slap
-    time: 03:00
-    type: tb
+    castTime: 5.0
+    hits: [03:00.1]
   - name: Diamond Dust
     time: 03:18
     castTime: 4.7
@@ -215,6 +209,8 @@ bossActions:
   - name: Akh Morn
     time: 11:20
     tbAlso: true
+    castStart: 11:16.0
+    hits: [11:21.1, 11:22.1, 11:23.2]
   - name: Morn Afah
     time: 11:31.3
     castTime: 5.7
@@ -239,6 +235,8 @@ bossActions:
   - name: Akh Morn
     time: 12:42
     tbAlso: true
+    castStart: 12:38.0
+    hits: [12:43.1, 12:44.1, 12:45.2]
   - name: Crystal Pulse
     time: 12:51
   - name: Morn Afah
@@ -259,16 +257,12 @@ bossActions:
   - name: Wings Dark and Light 1
     time: 15:09
     type: tb
-    castTime: 6.6
+    castTime: 7.35
+    hits: [15:12.7]
   - name: Polarizing Strikes
     time: 15:31
-    castTime: 6.2
-  - name: Polarizing Strikes
-    time: 15:36
-  - name: Polarizing Strikes
-    time: 15:41
-  - name: Polarizing Strikes
-    time: 15:46
+    castTime: 7.05
+    hits: [15:35.6, 15:40.2, 15:44.8]
   - name: Pandora's Box
     time: 16:07
     castTime: 11.7
@@ -285,16 +279,12 @@ bossActions:
   - name: Wings Dark and Light 2
     time: 17:07
     type: tb
-    castTime: 6.6
+    castTime: 7.35
+    hits: [17:10.7]
   - name: Polarizing Strikes
     time: 17:23
-    castTime: 6.2
-  - name: Polarizing Strikes
-    time: 17:28
-  - name: Polarizing Strikes
-    time: 17:33
-  - name: Polarizing Strikes
-    time: 17:38
+    castTime: 7.05
+    hits: [17:27.6, 17:32.2, 17:36.8]
   - name: Fulgent Blade 3
     time: 17:48.3
   - name: Exawaves

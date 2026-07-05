@@ -65,9 +65,8 @@ bossActions:
   - name: Revolting Ruin III
     time: 0:16
     type: tb
-  - name: Revolting Ruin III
-    time: 0:19.2
-    type: tb
+    castStart: 0:10.9
+    hits: [0:19.2]
   - name: Flagrant Fire III
     time: 0:38.7
   - name: Wave Cannon
@@ -79,17 +78,16 @@ bossActions:
   - name: Light of Judgment
     time: 1:03.3
   - name: Hyperdrive
-    time: 1:10.6
+    time: 1:06.6
     type: tb
-    castStart: 1:06.4
+    hits: [1:08.7, 1:10.8]
   - name: Gravitas
     time: 1:28.1
   - name: Revolting Ruin III
     time: 1:38
     type: tb
-  - name: Revolting Ruin III
-    time: 1:41.2
-    type: tb
+    castStart: 1:33.0
+    hits: [1:41.2]
   - name: Gravitas
     time: 1:46.5
   - name: Confetti
@@ -100,9 +98,9 @@ bossActions:
     time: 2:13.1
     castStart: 2:08.1
   - name: Hyperdrive
-    time: 2:20.4
+    time: 2:16.4
     type: tb
-    castStart: 2:16.2
+    hits: [2:18.4, 2:20.5]
   - name: Confetti
     time: 2:48.5
   - name: Sleep/Confuse
@@ -151,23 +149,32 @@ bossActions:
   - name: Elements 1
     time: 7:50.6
   - name: "Thunder III"
-    time: 8:01.9
+    time: 7:59.0
     type: tb
-    castStart: 7:58.9
+    castStart: 7:53.9
+    hits: [8:02.0]
   - name: Elements 2
     time: 8:17
+  - name: Ultima Blaster (Preview)
+    time: 8:28.0
+    hits: [8:30, 8:32, 8:34, 8:36, 8:38, 8:40, 8:42]
   - name: Vacuum Wave
-    time: 8:28
+    time: 8:35
+    castStart: 8:27
+  - name: Cyclone
+    time: 8:38.9
   - name: Ultima Blaster
     time: 8:51.3
   - name: "Thunder III"
-    time: 9:00.5
+    time: 8:57.4
     type: tb
-    castStart: 8:57.5
+    castStart: 8:52.4
+    hits: [9:00.5]
   - name: "Thunder III"
-    time: 9:17.6
+    time: 9:14.8
     type: tb
-    castStart: 9:14.6
+    castStart: 9:09.8
+    hits: [9:17.9]
   - name: Earthquake
     time: 9:21.5
     castTime: 4.7
@@ -178,9 +185,10 @@ bossActions:
   - name: Tether Set 2
     time: 09:53
   - name: "Thunder III"
-    time: 9:59.2
+    time: 9:56.4
     type: tb
-    castStart: 9:56.2
+    castStart: 9:51.4
+    hits: [9:59.5]
   - name: Kefka Slap 2
     time: 10:08.8
   - name: Tether Set 3
@@ -190,9 +198,10 @@ bossActions:
   - name: Tether Set 5
     time: 10:26.5
   - name: "Thunder III"
-    time: 10:40.4
+    time: 10:37.7
     type: tb
-    castStart: 10:37.4
+    castStart: 10:32.6
+    hits: [10:40.7]
   - name: Tether Set 6
     time: 10:50.6
   - name: Tether Set 7
@@ -236,9 +245,9 @@ bossActions:
     time: 15:11.6
     castStart: 15:08.4
   - name: Fell Forces
-    time: 15:20.6
+    time: 15:14.3
     tbAlso: true
-    castStart: 15:14.4
+    hits: [15:17.5, 15:20.6]
   - name: Chaotic Flood
     time: 15:30
     castStart: 15:27
@@ -249,19 +258,20 @@ bossActions:
     time: 15:46.7
     type: tb
   - name: Fell Forces
-    time: 15:54.4
+    time: 15:51.3
     tbAlso: true
-    castStart: 15:51.3
+    hits: [15:54.4]
   - name: Elemental Barrage
-    time: 16:22
-    castStart: 16:10
+    time: 16:09.9
+    castStart: 16:04.9
+    hits: [16:15.9, 16:21.9]
   - name: Ultima Repeater
     time: 16:33.5
     castStart: 16:30.3
   - name: Fell Forces
-    time: 16:39.5
+    time: 16:36.3
     tbAlso: true
-    castStart: 16:36.3
+    hits: [16:39.5]
   - name: Stray Entropy
     time: 17:03
   - name: Holy/Flare
@@ -271,9 +281,9 @@ bossActions:
     time: 17:18.8
     type: tb
   - name: Fell Forces
-    time: 17:29.7
+    time: 17:23.5
     tbAlso: true
-    castStart: 17:23.4
+    hits: [17:26.6, 17:29.7]
   - name: Forsaken
     time: 17:41
     castStart: 17:31

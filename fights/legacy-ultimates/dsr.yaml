@@ -81,12 +81,13 @@ bossActions:
 # Charibert
   - name: Planar Prison
     time: 1:51
-  - name: Shockwave 
-    castStart: 2:02
-    time: 2:09
-  - name: Brightwing 
+  - name: Shockwave
+    time: 2:02.0
+    hits: [2:03.1, 2:04.1, 2:05.2, 2:06.3, 2:07.4, 2:08.4]
+  - name: Brightwing
     castStart: 2:06
     time: 2:25
+    hits: [2:30.0, 2:35.1, 2:40.1]
   - name: Pure of Heart 
     time: 2:27
 # P2
@@ -114,9 +115,10 @@ bossActions:
     time: 4:35
   - name: Hiemal Storm 
     time: 4:48
-  - name: Holy Comet 
+  - name: Holy Comet
     castStart: 4:40
     time: 4:52
+    hits: [4:53.4, 4:54.8, 4:56.2, 4:57.6, 4:59.0, 5:00.4]
   - name: Faith Unmoving 
     time: 5:03
   - name: Ultimate End 
@@ -161,14 +163,15 @@ bossActions:
 # Rewind
   - name: Planar Prison 
     time: 9:39
-  - name: Shockwave 
-    castStart: 9:50
-    time: 10:18
+  - name: Shockwave
+    time: 9:50.2
+    hits: [9:51.3, 9:52.3, 9:53.4, 9:54.5, 9:55.6, 9:56.6, 9:57.7, 9:58.8, 9:59.8, 10:00.9, 10:02.0, 10:03.0, 10:04.1, 10:05.2, 10:06.3, 10:07.3, 10:08.4, 10:09.5, 10:10.5, 10:11.6, 10:12.7, 10:13.7, 10:14.8, 10:15.9, 10:16.9, 10:18.0]
   - name: Pure of Heart 
     time: 10:15
-  - name: Bright Wing 
+  - name: Bright Wing
     castStart: 9:54
     time: 10:05
+    hits: [10:10.0, 10:15.1, 10:20.1]
 # P4 
 # Wrath of the Heavens
   - name: Skyward Leap / Spiral Pierce
@@ -212,6 +215,7 @@ bossActions:
   - name: Akh Morn x4
     castStart: 15:06
     time: 15:14
+    hits: [15:15.7, 15:17.3, 15:18.9]
   - name: Entangled Flames 
     time: 15:28
   - name: Akh Afah 2
@@ -242,31 +246,36 @@ bossActions:
     time: 17:56
     type: mech
   - name: Akh Morn's Edge 1
-    castStart: 18:09
+    castStart: 18:11.1
     time: 18:17
     tbAlso: true
+    hits: [18:19.2, 18:20.3, 18:21.3, 18:22.4]
   - name: Gigaflare's Edge 1
-    castStart: 18:35
+    castStart: 18:37.0
     time: 18:45
+    hits: [18:48.9, 18:52.9]
   - name: Exaflare's Edge 2
     castStart: 19:01
     time: 19:07
     type: mech
   - name: Akh Morn's Edge 2
-    castStart: 19:28
+    castStart: 19:33.0
     time: 19:39
     tbAlso: true
+    hits: [19:40.1, 19:41.2, 19:42.3, 19:43.4, 19:44.5]
   - name: Gigaflare's Edge 2
-    castStart: 19:54
+    castStart: 20:04.0
     time: 20:12
+    hits: [20:15.9, 20:19.9]
   - name: Exaflare's Edge 3
     castStart: 20:28
     time: 20:34
     type: mech
   - name: Akh Morn's Edge 3
-    castStart: 20:50
+    castStart: 20:55.0
     time: 21:01
     tbAlso: true
+    hits: [21:02.1, 21:03.2, 21:04.3, 21:05.4, 21:06.5, 21:07.6]
   - name: Morn Afah's Edge
     castStart: 21:12
     time: 21:22

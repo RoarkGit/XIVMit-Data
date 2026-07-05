@@ -81,9 +81,9 @@ bossActions:
   - name: 4th Solo AOE / Party Stack 
     time: 1:39
   - name: (Diffuse) Wave Cannon
-    castStart: 1:48
-    time: 1:57
+    time: 1:48.4
     tbAlso: true
+    hits: [1:50.5, 1:52.6, 1:54.7]
 # P2
   - name: Solar Ray
     castStart: 2:23
