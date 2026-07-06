@@ -5,14 +5,6 @@
   minLevel: 30
   scope: party
   type: shield
-  pairCooldown:
-    name: Zoe
-    group: sge_zoe
-    cooldown: 120
-    cooldownUpgrade:
-      minLevel: 88
-      cooldown: 90
-    maxOffset: 30
   abilityId: 24292
   description: Party shield. ~8% max HP barrier.
 - id: sge_eukrasian_prognosis_ii
@@ -22,16 +14,24 @@
   scope: party
   type: shield
   replaces: sge_eukrasian_prognosis
-  pairCooldown:
-    name: Zoe
-    group: sge_zoe
-    cooldown: 120
-    cooldownUpgrade:
-      minLevel: 88
-      cooldown: 90
-    maxOffset: 30
   abilityId: 37034
   description: Party shield. ~9% max HP barrier.
+- id: sge_zoe
+  name: Zoe
+  cooldown: 120
+  cooldownUpgrade:
+    minLevel: 88
+    cooldown: 90
+  duration: 30
+  minLevel: 56
+  scope: party
+  type: heal
+  pairBadge: true
+  canceledBy:
+  - sge_eukrasian_prognosis
+  - sge_eukrasian_prognosis_ii
+  - sge_pneuma
+  description: Enhances the next Eukrasian Prognosis or Pneuma cast.
 - id: sge_holos
   name: Holos
   cooldown: 120

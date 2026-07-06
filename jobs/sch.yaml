@@ -6,14 +6,6 @@
   scope: party
   type: shield
   replaces: sch_succor
-  pairCooldown:
-    name: Recitation
-    group: sch_recitation
-    cooldown: 90
-    cooldownUpgrade:
-      minLevel: 98
-      cooldown: 60
-    maxOffset: 15
   abilityId: 37013
   description: Party heal + shield. ~10% max HP barrier.
 - id: sch_consolation
@@ -84,15 +76,6 @@
   cooldownUpgrade:
     minLevel: 88
     cooldown: 90
-  pairCooldown:
-    name: Recitation
-    group: sch_recitation
-    cooldown: 90
-    cooldownUpgrade:
-      minLevel: 98
-      cooldown: 60
-    maxOffset: 15
-    defaultPaired: true
   # Real in-game action name is "Deployment Tactics" - "Spreadlo" is this app's
   # in-house nickname, so match by ID/description, not by `name` string.
   abilityId: 3585
@@ -103,15 +86,26 @@
   minLevel: 35
   scope: party
   type: shield
-  pairCooldown:
-    name: Recitation
-    group: sch_recitation
-    cooldown: 90
-    cooldownUpgrade:
-      minLevel: 98
-      cooldown: 60
-    maxOffset: 15
   description: Party heal + shield. ~8% max HP barrier.
+- id: sch_recitation
+  name: Recitation
+  cooldown: 90
+  cooldownUpgrade:
+    minLevel: 98
+    cooldown: 60
+  duration: 15
+  minLevel: 74
+  scope: self
+  type: heal
+  pairBadge: true
+  canceledBy:
+  - sch_concitation
+  - sch_spreadlo
+  - sch_succor
+  - sch_excogitation
+  - sch_indomitability
+  - sch_lustrate
+  description: Removes the recast time and MP cost of the next Concitation, Spreadlo, Succor, Excogitation, Indomitability, or Lustrate cast.
 - id: sch_seraph
   name: Summon Seraph
   cooldown: 120
