@@ -45,18 +45,12 @@ mechanics:
   - name: Black Hole
     startTime: 9:25
     endTime: 11:35
-  - name: Maddening Orchestra
-    startTime: 15:35
-    endTime: 15:54
   - name: Celestriad (Finale)
     startTime: 16:00
     endTime: 16:42
   - name: Stray Apocalypse
     startTime: 16:44
     endTime: 17:05
-  - name: Maddening Orchestra
-    startTime: 17:08
-    endTime: 17:30
   - name: Forsaken
     startTime: 17:31
     endTime: 18:42
@@ -176,7 +170,7 @@ bossActions:
     castStart: 9:09.8
     hits: [9:17.9]
   - name: Earthquake
-    time: 9:21.5
+    time: 9:19.7
     castTime: 4.7
   - name: Kefka Slap 1
     time: 9:38.4
@@ -220,25 +214,25 @@ bossActions:
 
 # ===== Phase 4: Kefka Says =====
   - name: Grand Cross 1
-    time: 12:43
-  - name: Inferno
-    time: 12:48
+    time: 12:41.5
+  - name: Tsunami/Inferno
+    time: 12:46.6
   - name: Grand Cross 2
-    time: 12:58
-  - name: Tsunami
-    time: 13:01
+    time: 12:56.5
+  - name: Tsunami/Inferno
+    time: 13:01.6
   - name: Grand Cross 3
-    time: 13:13
+    time: 13:11.4
   - name: Antilight
     time: 13:24
   - name: Wave/Bolt
     time: 13:32
   - name: Ultima Upsurge
-    time: 13:53
+    time: 13:50.7
   - name: Wave/Bolt
     time: 13:59
   - name: Ultima Upsurge
-    time: 14:31
+    time: 14:29.7
 
 # ===== Phase 5: Ultima Kefka =====
   - name: Ultima Repeater
@@ -251,9 +245,11 @@ bossActions:
   - name: Chaotic Flood
     time: 15:30
     castStart: 15:27
-  - name: Holy/Flare
-    time: 15:43.2
-    castStart: 15:40
+  - name: Maddening Orchestra
+    time: 15:39.4
+    castStart: 15:33.5
+    tbAlso: true
+    hits: [15:42.5]
   - name: Chaotic Holy
     time: 15:46.7
     type: tb
@@ -274,9 +270,11 @@ bossActions:
     hits: [16:39.5]
   - name: Stray Entropy
     time: 17:03
-  - name: Holy/Flare
-    time: 17:15.3
-    castStart: 17:12.1
+  - name: Maddening Orchestra
+    time: 17:11.4
+    castStart: 17:05.5
+    tbAlso: true
+    hits: [17:14.6]
   - name: Chaotic Holy
     time: 17:18.8
     type: tb
