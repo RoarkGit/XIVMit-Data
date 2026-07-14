@@ -105,6 +105,7 @@
   - sch_excogitation
   - sch_indomitability
   - sch_lustrate
+  abilityId: 16542
   description: Removes the recast time and MP cost of the next Concitation, Spreadlo, Succor, Excogitation, Indomitability, or Lustrate cast.
 - id: sch_seraph
   name: Summon Seraph
