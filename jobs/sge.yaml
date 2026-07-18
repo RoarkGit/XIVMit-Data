@@ -35,7 +35,7 @@
 - id: sge_holos
   name: Holos
   cooldown: 120
-  duration: 30
+  duration: 20
   minLevel: 76
   scope: party
   type: mitigation
