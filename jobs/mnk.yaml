@@ -23,3 +23,15 @@
   mitPercent: 10
   abilityId: 7549
   description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.
+
+# Self
+- id: mnk_riddle_of_earth
+  name: Riddle of Earth
+  cooldown: 120
+  duration: 10
+  minLevel: 64
+  scope: self
+  type: mitigation
+  mitPercent: 20
+  abilityId: 7394
+  description: 20% damage reduction. Grants a HoT on next hit taken (100 potency, 15s) and enables the Earth's Reply follow-up heal.

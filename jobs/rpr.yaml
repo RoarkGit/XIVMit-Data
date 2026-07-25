@@ -11,3 +11,14 @@
   mitPercent: 10
   abilityId: 7549
   description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.
+
+# Self
+- id: rpr_arcane_crest
+  name: Arcane Crest
+  cooldown: 30
+  duration: 5
+  minLevel: 40
+  scope: self
+  type: shield
+  abilityId: 24404
+  description: Self shield. Nullifies damage up to 10% of max HP. If fully absorbed, restores own and nearby party members' HP over 15s (50 potency).

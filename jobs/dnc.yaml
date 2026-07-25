@@ -11,3 +11,15 @@
   mitPercent: 10
   abilityId: 16012
   description: 10% party damage reduction.
+
+# Self
+- id: dnc_improvisation
+  name: Improvisation
+  cooldown: 120
+  duration: 15
+  minLevel: 80
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 16014
+  description: Channeled regen for self and nearby party members (100 potency, 15s). Can be canceled early into Improvised Finish for a party shield instead (5-10% max HP based on stacks, 30s).

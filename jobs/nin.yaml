@@ -11,3 +11,14 @@
   mitPercent: 10
   abilityId: 7549
   description: Debuff on target. Reduces physical damage dealt by 10%, magical by 5%.
+
+# Self
+- id: nin_shade_shift
+  name: Shade Shift
+  cooldown: 120
+  duration: 20
+  minLevel: 2
+  scope: self
+  type: shield
+  abilityId: 2241
+  description: Self shield. Nullifies damage up to 20% of max HP.

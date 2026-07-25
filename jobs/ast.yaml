@@ -104,3 +104,12 @@
   quickHeal: true
   abilityId: 16557
   description: Grants party a buff that heals when triggered a second time. Base duration 10s, but almost always upgraded to Horoscope Helios (30s, bigger heal) via Helios/Helios Conjunction.
+- id: ast_earthly_star
+  name: Earthly Star
+  cooldown: 60
+  duration: 20
+  minLevel: 62
+  scope: party
+  type: heal
+  abilityId: 7439
+  description: Ground-targeted party heal. 540 potency if detonated within 10s (Earthly Dominance), 720 potency plus bonus damage if detonated after 10s (Giant Dominance).

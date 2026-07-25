@@ -131,6 +131,14 @@
   description: Sacrifices fairy to increase own healing magic potency by 20%. Grants Aetherflow.
 
 # Targeted
+- id: sch_adloquium
+  name: Adloquium
+  duration: 30
+  minLevel: 30
+  scope: single
+  type: shield
+  abilityId: 185
+  description: Restores target's HP. 300 potency. Grants Galvanize, a barrier equal to 180% of the amount healed, for 30s.
 - id: sch_excogitation
   name: Excogitation
   cooldown: 45

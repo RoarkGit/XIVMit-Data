@@ -82,6 +82,23 @@
   description: Party heal. Increases HP recovered by healing actions by 10%.
 
 # Targeted
+- id: sge_krasis
+  name: Krasis
+  cooldown: 60
+  duration: 10
+  minLevel: 86
+  scope: single
+  type: heal
+  abilityId: 24317
+  description: Increases HP recovery via healing actions on target (or self) by 20%.
+- id: sge_eukrasian_diagnosis
+  name: Eukrasian Diagnosis
+  duration: 30
+  minLevel: 30
+  scope: single
+  type: shield
+  abilityId: 24291
+  description: Restores target's HP. 300 potency. Grants a barrier equal to 180% of the amount healed, for 30s.
 - id: sge_haima
   name: Haima
   cooldown: 120

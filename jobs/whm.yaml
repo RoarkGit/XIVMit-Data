@@ -91,6 +91,15 @@
   type: heal
   abilityId: 3569
   description: Ground-targeted party heal over time. Increases healing received by 10% within the area.
+- id: whm_assize
+  name: Assize
+  cooldown: 40
+  minLevel: 56
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 3571
+  description: Deals damage and restores own HP and nearby party members' HP. 400 potency. Also restores 5% max MP.
 - id: whm_afflatus_solace
   name: Afflatus Solace
   cooldown: null
