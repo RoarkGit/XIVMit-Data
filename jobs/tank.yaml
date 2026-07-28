@@ -20,6 +20,11 @@
   minLevel: 1
   scope: party
   type: mitigation
+  genericFor:
+    WAR: war_shake_it_off
+    PLD: pld_divine_veil
+    DRK: drk_dark_missionary
+    GNB: gnb_heart_of_light
   description: Party shield / mitigation. (Shake It Off / Divine Veil / Dark Missionary / Heart of Light)
 
 - id: tank_shake_veil
@@ -29,6 +34,9 @@
   minLevel: 1
   scope: party
   type: shield
+  genericFor:
+    WAR: war_shake_it_off
+    PLD: pld_divine_veil
   description: Party shield, cast early. (Shake It Off / Divine Veil)
 
 - id: tank_short_cd
@@ -40,7 +48,12 @@
   type: mitigation
   mitPercent: 15
   chargeGroup: tank_short
-  description: Short self-mitigation. (Heart of Corundum / Bloodwhetting / Holy Sheltron / Oblation)
+  genericFor:
+    PLD: pld_sheltron
+    WAR: war_raw_intuition
+    GNB: gnb_heart_of_stone
+    DRK: drk_the_blackest_night
+  description: Short self-mitigation. (Heart of Corundum / Bloodwhetting / Holy Sheltron / The Blackest Night)
 
 - id: tank_rampart
   name: Rampart
@@ -61,6 +74,11 @@
   scope: self
   type: mitigation
   mitPercent: 20
+  genericFor:
+    GNB: gnb_camouflage
+    WAR: war_thrill_of_battle
+    PLD: pld_bulwark
+    DRK: drk_dark_mind
   description: 90s self-mitigation. (Camouflage / Thrill of Battle / Bulwark / Dark Mind)
 
 - id: tank_long_cd
@@ -71,6 +89,11 @@
   scope: self
   type: mitigation
   mitPercent: 40
+  genericFor:
+    WAR: war_vengeance
+    GNB: gnb_nebula
+    PLD: pld_sentinel
+    DRK: drk_shadow_wall
   description: 120s self-mitigation. (Damnation / Great Nebula / Guardian / Shadowed Vigil)
 
 - id: tank_kitchen_sink
@@ -94,6 +117,11 @@
   minLevel: 50
   scope: self
   type: invuln
+  genericFor:
+    PLD: pld_hallowed_ground
+    WAR: war_holmgang
+    DRK: drk_living_dead
+    GNB: gnb_superbolide
   description: Tank invulnerability. No shared cooldown, since each tank's invuln recast differs. Represents any tank's invuln. (Hallowed Ground / Holmgang / Living Dead / Superbolide)
 
 - id: tank_lb3
@@ -103,6 +131,11 @@
   minLevel: 1
   scope: party
   type: mitigation
+  genericFor:
+    PLD: pld_tank_lb3
+    WAR: war_tank_lb3
+    DRK: drk_tank_lb3
+    GNB: gnb_tank_lb3
   description: Tank LB3. Large HP-based barrier for all party members. (Last Bastion / Land Waker / Dark Force / Gunmetal Soul)
 
 - id: tank_buddy_mit
@@ -114,7 +147,12 @@
   type: mitigation
   mitPercent: 10
   chargeGroup: tank_short
-  description: Targeted mitigation. Shares cooldown with Short CD. (Nascent Flash / Intervention / Oblation)
+  genericFor:
+    WAR: war_nascent_flash
+    PLD: pld_intervention
+    DRK: drk_oblation
+    GNB: gnb_heart_of_stone
+  description: Targeted mitigation. Shares cooldown with Short CD. (Nascent Flash / Intervention / Oblation / Heart of Corundum)
 
 - id: tank_provoke
   name: Provoke

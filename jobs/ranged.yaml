@@ -7,4 +7,8 @@
   scope: party
   type: mitigation
   mitPercent: 10
+  genericFor:
+    BRD: brd_troubadour
+    MCH: mch_tactician
+    DNC: dnc_shield_samba
   description: 10% damage reduction for the party. (Troubadour / Tactician / Shield Samba)
