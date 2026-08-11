@@ -29,6 +29,7 @@
   type: mitigation
   mitPercent: 15
   abilityId: 7385
+  resizable: true
   description: 15% party damage reduction. Channeled; buff persists briefly after moving.
 - id: pld_reprisal
   name: Reprisal
