@@ -1,34 +1,42 @@
 id: dsr
 name: "Dragonsong's Reprise Ultimate"
 shortName: DSR
-duration: 21:22
+duration: 21:28
 maxLevel: 90
 fflogsEncounterId: 1076
 phases: 
   - name: Knights of the Round
     startTime: 0:00
     endTime: 2:35
+  # P1 ends at a checkpoint: the party always arrives here from a clean slate, so the
+  # displayed clock restarts at 0:00 and cooldowns don't carry across the boundary.
+  # Times below stay absolute (seconds from pull) - only the display and the conflict
+  # checker's lookback change. See Phase.clockReset in shared/index.d.ts.
   - name: Thordan
-    startTime: 2:39
-    endTime: 5:49
+    # Sits in the downtime gap: after P1's last damage (Brightwing's final hit at 2:40.1)
+    # and before P2's first event (Ascalon's Might at 3:03). This time defines what P2 0:00
+    # means, so moving it re-labels every timestamp from here on.
+    startTime: 2:45
+    endTime: 5:55
+    clockReset: true
   - name: Nidstinien
-    startTime: 5:53
-    endTime: 7:57
+    startTime: 5:59
+    endTime: 8:03
   - name: Eyes
-    startTime: 8:13
-    endTime: 9:19
+    startTime: 8:19
+    endTime: 9:25
   - name: Rewind
-    startTime: 9:33
-    endTime: 10:28
+    startTime: 9:39
+    endTime: 10:34
   - name: Dark Thordan
-    startTime: 10:46
-    endTime: 13:45
+    startTime: 10:52
+    endTime: 13:51
   - name: Double Dragons
-    startTime: 14:03
-    endTime: 16:39
+    startTime: 14:09
+    endTime: 16:45
   - name: Dragon-king Thordan
-    startTime: 17:39
-    endTime: 21:22
+    startTime: 17:45
+    endTime: 21:28
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
     startTime: 0:03
@@ -37,23 +45,23 @@ mechanics:
     startTime: 1:46
     endTime: 2:35
   - name: Strength of the Ward
-    startTime: 3:06
-    endTime: 3:58
+    startTime: 3:12
+    endTime: 4:04
   - name: Sanctity of the Ward 
-    startTime: 4:16
-    endTime: 5:04
+    startTime: 4:22
+    endTime: 5:10
   - name: Dive from Grace
-    startTime: 6:09
-    endTime: 6:48
+    startTime: 6:15
+    endTime: 6:54
   - name: Wrath of the Heavens
-    startTime: 11:14
-    endTime: 11:37
+    startTime: 11:20
+    endTime: 11:43
   - name: Death of the Heavens
-    startTime: 12:10
-    endTime: 12:44
+    startTime: 12:16
+    endTime: 12:50
   - name: Wroth Flames
-    startTime: 15:03
-    endTime: 15:28
+    startTime: 15:09
+    endTime: 15:34
 bossActions: 
 # P1
 # Adelphel/Grinnaux
@@ -92,191 +100,191 @@ bossActions:
     time: 2:27
 # P2
   - name: Ascalon's Might
-    time: 2:57
+    time: 3:03
     type: tb
 # Strength of the Ward
   - name: Lightning Storm
-    time: 3:21
+    time: 3:27
   - name: The Dragon's Rage / Holy Shield Bash
-    time: 3:36
+    time: 3:42
     tbAlso: true
   - name: Holy Bladedance
-    time: 3:42
+    time: 3:48
     type: tb
   - name: Ancient Quaga 
-    time: 3:49
+    time: 3:55
   - name: Heavenly Heel / Ascalon's Might
-    castStart: 3:59
-    time: 4:05
+    castStart: 4:05
+    time: 4:11
     type: tb
 # Sanctity of the Ward 
   - name: Sacred Sever 1-4
-    castStart: 4:30
-    time: 4:35
+    castStart: 4:36
+    time: 4:41
   - name: Hiemal Storm 
-    time: 4:48
+    time: 4:54
   - name: Holy Comet
-    castStart: 4:40
-    time: 4:52
-    hits: [4:53.4, 4:54.8, 4:56.2, 4:57.6, 4:59.0, 5:00.4]
+    castStart: 4:46
+    time: 4:58
+    hits: [4:59.4, 5:00.8, 5:02.2, 5:03.6, 5:05.0, 5:06.4]
   - name: Faith Unmoving 
-    time: 5:03
+    time: 5:09
   - name: Ultimate End 
-    time: 5:24
+    time: 5:30
 # P3 
   - name: Final Chorus
-    time: 5:59
+    time: 6:05
 # Dive from Grace 
   - name: First Towers
-    time: 6:28
-  - name: Second Towers
     time: 6:34
+  - name: Second Towers
+    time: 6:40
   - name: Third Towers
-    time: 6:44
+    time: 6:50
   - name: Darkdragon Dive - 4 Towers
-    time: 6:55
+    time: 7:01
   - name: Soul Tether
-    time: 7:21
+    time: 7:27
     type: tb
   - name: Revenge of the Horde
-    time: 7:58
+    time: 8:04
     type: enrage
 # Eyes 
   - name: Resentment 
-    time: 8:19
+    time: 8:25
   - name: Flare Nova (approximate)
-    time: 8:28
-  - name: Flare Star (approximate)
     time: 8:34
+  - name: Flare Star (approximate)
+    time: 8:40
   - name: Mirage Dive 1
-    time: 8:53
-  - name: Mirage Dive 2
     time: 8:59
+  - name: Mirage Dive 2
+    time: 9:05
   - name: Mirage Dive 3
-    time: 9:04
-  - name: Mirage Dive 4
     time: 9:10
+  - name: Mirage Dive 4
+    time: 9:16
   - name: Steep in Rage
-    castStart: 9:13
-    time: 9:19
+    castStart: 9:19
+    time: 9:25
     type: enrage 
 # Rewind
   - name: Planar Prison 
-    time: 9:39
+    time: 9:45
   - name: Shockwave
-    time: 9:50.2
-    hits: [9:51.3, 9:52.3, 9:53.4, 9:54.5, 9:55.6, 9:56.6, 9:57.7, 9:58.8, 9:59.8, 10:00.9, 10:02.0, 10:03.0, 10:04.1, 10:05.2, 10:06.3, 10:07.3, 10:08.4, 10:09.5, 10:10.5, 10:11.6, 10:12.7, 10:13.7, 10:14.8, 10:15.9, 10:16.9, 10:18.0]
+    time: 9:56.2
+    hits: [9:57.3, 9:58.3, 9:59.4, 10:00.5, 10:01.6, 10:02.6, 10:03.7, 10:04.8, 10:05.8, 10:06.9, 10:08.0, 10:09.0, 10:10.1, 10:11.2, 10:12.3, 10:13.3, 10:14.4, 10:15.5, 10:16.5, 10:17.6, 10:18.7, 10:19.7, 10:20.8, 10:21.9, 10:22.9, 10:24.0]
   - name: Pure of Heart 
-    time: 10:15
+    time: 10:21
   - name: Bright Wing
-    castStart: 9:54
-    time: 10:05
-    hits: [10:10.0, 10:15.1, 10:20.1]
+    castStart: 10:00
+    time: 10:11
+    hits: [10:16.0, 10:21.1, 10:26.1]
 # P4 
 # Wrath of the Heavens
   - name: Skyward Leap / Spiral Pierce
-    time: 11:24
+    time: 11:30
   - name: Ascalon's Mercy Revealed 
-    time: 11:27
+    time: 11:33
   - name: Altar Flare / Liquid Heaven
-    castStart: 11:31
-    time: 11:38
-  - name: Ancient Quaga 
+    castStart: 11:37
     time: 11:44
+  - name: Ancient Quaga 
+    time: 11:50
   - name: Heavenly Heel / Ascalon's Might 
-    castStart: 11:52
-    time: 11:59
+    castStart: 11:58
+    time: 12:05
     type: tb
 # Death of the Heavens
   - name: Spear of the Fury / Lightning Storm
-    time: 12:26
+    time: 12:32
   - name: Heavensflame 
-    time: 12:41
+    time: 12:47
   - name: Ancient Quaga 
-    time: 13:18
+    time: 13:24
   - name: Heavenly Heel / Ascalon's Might
-    castStart: 13:28
-    time: 13:35
+    castStart: 13:34
+    time: 13:41
     type: tb
   - name: Aetheric Burst 
-    castStart: 13:40
-    time: 13:46
+    castStart: 13:46
+    time: 13:52
     type: enrage 
 # P5 
   - name: Wyrmsbreath 1
-    time: 14:15
+    time: 14:21
     tbAlso: true
   - name: Akh Afah 1
-    time: 14:34
+    time: 14:40
   - name: Hallowed Plume 1
-    time: 14:49
+    time: 14:55
     type: tb
 # Wroth Flames
   - name: Akh Morn x4
-    castStart: 15:06
-    time: 15:14
-    hits: [15:15.7, 15:17.3, 15:18.9]
+    castStart: 15:12
+    time: 15:20
+    hits: [15:21.7, 15:23.3, 15:24.9]
   - name: Entangled Flames 
-    time: 15:28
+    time: 15:34
   - name: Akh Afah 2
-    time: 15:44
+    time: 15:50
   - name: Hallowed Plume 2
-    time: 15:57
+    time: 16:03
     type: tb
   - name: Wyrmsbreath 2
-    time: 16:16
+    time: 16:22
     tbAlso: true
   - name: Cauterize 
-    time: 16:29
+    time: 16:35
     tbAlso: true
   - name: Revenge of the Horde 
-    castStart: 16:37
-    time: 16:42
+    castStart: 16:43
+    time: 16:48
     type: enrage
 # Transition
   - name: Resentment + Bleeding
-    time: 17:02
+    time: 17:08
   - name: Shockwave + Bleeding
-    time: 17:19
+    time: 17:25
   - name: Alternate End
-    time: 17:34
+    time: 17:40
 # P6
   - name: Exaflare's Edge 1 
-    castStart: 17:49
-    time: 17:56
+    castStart: 17:55
+    time: 18:02
     type: mech
   - name: Akh Morn's Edge 1
-    castStart: 18:11.1
-    time: 18:17
+    castStart: 18:17.1
+    time: 18:23
     tbAlso: true
-    hits: [18:19.2, 18:20.3, 18:21.3, 18:22.4]
+    hits: [18:25.2, 18:26.3, 18:27.3, 18:28.4]
   - name: Gigaflare's Edge 1
-    castStart: 18:37.0
-    time: 18:45
-    hits: [18:48.9, 18:52.9]
+    castStart: 18:43.0
+    time: 18:51
+    hits: [18:54.9, 18:58.9]
   - name: Exaflare's Edge 2
-    castStart: 19:01
-    time: 19:07
+    castStart: 19:07
+    time: 19:13
     type: mech
   - name: Akh Morn's Edge 2
-    castStart: 19:33.0
-    time: 19:39
+    castStart: 19:39.0
+    time: 19:45
     tbAlso: true
-    hits: [19:40.1, 19:41.2, 19:42.3, 19:43.4, 19:44.5]
+    hits: [19:46.1, 19:47.2, 19:48.3, 19:49.4, 19:50.5]
   - name: Gigaflare's Edge 2
-    castStart: 20:04.0
-    time: 20:12
-    hits: [20:15.9, 20:19.9]
+    castStart: 20:10.0
+    time: 20:18
+    hits: [20:21.9, 20:25.9]
   - name: Exaflare's Edge 3
-    castStart: 20:28
-    time: 20:34
+    castStart: 20:34
+    time: 20:40
     type: mech
   - name: Akh Morn's Edge 3
-    castStart: 20:55.0
-    time: 21:01
+    castStart: 21:01.0
+    time: 21:07
     tbAlso: true
-    hits: [21:02.1, 21:03.2, 21:04.3, 21:05.4, 21:06.5, 21:07.6]
+    hits: [21:08.1, 21:09.2, 21:10.3, 21:11.4, 21:12.5, 21:13.6]
   - name: Morn Afah's Edge
-    castStart: 21:12
-    time: 21:22
+    castStart: 21:18
+    time: 21:28
     type: enrage
