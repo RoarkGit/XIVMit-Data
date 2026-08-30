@@ -14,6 +14,7 @@ phases:
   - name: Intermission
     startTime: 05:55
     endTime: 07:09
+    intermission: true
   - name: Gaia
     startTime: 07:23
     endTime: 10:05
