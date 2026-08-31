@@ -9,20 +9,20 @@ phases:
     startTime: 00:00
     endTime: 02:40
   - name: Usurper of Frost
-    startTime: 02:45
+    startTime: 02:45.9
     endTime: 05:51.5
   - name: Intermission
-    startTime: 05:55
+    startTime: 06:14.8
     endTime: 07:09
     intermission: true
   - name: Gaia
-    startTime: 07:23
+    startTime: 07:23.9
     endTime: 10:05
   - name: Enter the Dragon
-    startTime: 10:10
+    startTime: 10:10.9
     endTime: 12:55
   - name: Pandora
-    startTime: 14:13
+    startTime: 14:13.0
     endTime: 18:43
 mechanics:
   - name: Utopian Sky

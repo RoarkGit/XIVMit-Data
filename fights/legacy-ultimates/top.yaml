@@ -9,7 +9,7 @@ phases:
     startTime: 0:00
     endTime: 2:03
   - name: Omega M/F
-    startTime: 2:12
+    startTime: 2:15.8
     endTime: 4:32
   - name: P3 Transition
     startTime: 4:43
@@ -19,13 +19,13 @@ phases:
     startTime: 5:05
     endTime: 7:39
   - name: Blue Screen
-    startTime: 7:46
+    startTime: 7:45.8
     endTime: 8:43
   - name: Dynamis Omega
-    startTime: 8:59
+    startTime: 8:57.5
     endTime: 13:45
   - name: Alpha-Omega
-    startTime: 14:41
+    startTime: 14:51.1
     endTime: 19:12
 mechanics:
   - name: Program Loop

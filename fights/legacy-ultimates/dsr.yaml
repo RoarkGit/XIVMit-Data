@@ -23,19 +23,19 @@ phases:
     startTime: 5:59
     endTime: 8:03
   - name: Eyes
-    startTime: 8:19
+    startTime: 8:14.8
     endTime: 9:25
   - name: Rewind
-    startTime: 9:39
+    startTime: 9:44.5
     endTime: 10:34
   - name: Dark Thordan
-    startTime: 10:52
+    startTime: 10:46.9
     endTime: 13:51
   - name: Double Dragons
-    startTime: 14:09
+    startTime: 14:03.8
     endTime: 16:45
   - name: Dragon-king Thordan
-    startTime: 17:45
+    startTime: 17:51.8
     endTime: 21:28
 mechanics:
   - name: Ser Adelphel and Ser Grinnaux
