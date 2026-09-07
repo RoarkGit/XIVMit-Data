@@ -1,9 +1,603 @@
 id: ucob
-name: Unending Coil of Bahamut (Ultimate)
-wip: true
+name: "Unending Coil of Bahamut (Ultimate)"
 shortName: UCOB
-duration: 00:00
+duration: 18:22.0
 maxLevel: 70
 fflogsEncounterId: 1073
-phases: []
-bossActions: []
+phases:
+  - name: "Twintania"
+    startTime: 0:00.0
+    endTime: 2:39.7
+  - name: "Nael deus Darnus"
+    startTime: 2:39.7
+    endTime: 5:40.8
+  - name: "Bahamut Prime"
+    startTime: 5:40.8
+    endTime: 11:19.4
+  - name: "Adds"
+    startTime: 11:19.4
+    endTime: 14:24.0
+  - name: "Golden Bahamut"
+    startTime: 14:24.0
+    endTime: 18:22.0
+bossActions:
+  - name: "Plummet"
+    time: 0:06.9
+    type: tb
+    actionId: 9896
+  - name: "Twister"
+    castStart: 0:11.1
+    time: 0:13.1
+    type: mech
+    actionId: 9898
+  - name: "Fireball"
+    time: 0:16.3
+    actionId: 9900
+  - name: "Death Sentence"
+    castStart: 0:20.4
+    time: 0:24.4
+    type: tb
+    actionId: 9897
+  - name: "Liquid Hell"
+    time: 0:36.2
+    hits: [0:38.4, 0:39.6, 0:40.7, 0:41.9]
+    actionId: 9901
+  - name: "Generate"
+    castStart: 0:42.0
+    time: 0:45.0
+    type: mech
+    actionId: 9902
+  - name: "Liquid Hell"
+    time: 0:48.4
+    hits: [0:50.6, 0:51.8, 0:52.9, 0:54.1]
+    actionId: 9901
+  - name: "Death Sentence"
+    castStart: 0:56.2
+    time: 1:00.2
+    type: tb
+    actionId: 9897
+  - name: "Generate"
+    castStart: 1:04.3
+    time: 1:07.3
+    type: mech
+    actionId: 9902
+  - name: "Twister"
+    castStart: 1:08.5
+    time: 1:10.5
+    type: mech
+    actionId: 9898
+  - name: "Liquid Hell"
+    time: 1:21.0
+    hits: [1:23.2, 1:24.4, 1:25.6, 1:26.7]
+    actionId: 9901
+  - name: "Generate"
+    castStart: 1:26.9
+    time: 1:29.8
+    type: mech
+    actionId: 9902
+  - name: "Liquid Hell"
+    time: 1:33.1
+    hits: [1:35.3, 1:36.5, 1:37.6, 1:38.8]
+    actionId: 9901
+  - name: "Fireball"
+    time: 1:40.0
+    actionId: 9900
+  - name: "Death Sentence"
+    castStart: 1:45.1
+    time: 1:49.1
+    type: tb
+    actionId: 9897
+  - name: "Plummet"
+    time: 1:52.2
+    type: tb
+    actionId: 9896
+  - name: "Generate"
+    castStart: 1:56.3
+    time: 1:59.3
+    type: mech
+    actionId: 9902
+  - name: "Twister"
+    castStart: 2:00.5
+    time: 2:02.4
+    type: mech
+    actionId: 9898
+  - name: "Plummet"
+    time: 2:07.6
+    type: tb
+    actionId: 9896
+  - name: "Liquid Hell"
+    time: 2:09.9
+    hits: [2:12.2, 2:13.3, 2:14.5, 2:15.6]
+    actionId: 9901
+  - name: "Generate"
+    castStart: 2:15.8
+    time: 2:18.7
+    type: mech
+    actionId: 9902
+  - name: "Heavensfall"
+    time: 2:28.2
+    actionId: 9912
+  - name: "Meteor Stream"
+    time: 2:33.7
+    actionId: 9920
+  - name: "Meteor Stream"
+    time: 2:37.0
+    actionId: 9920
+  - name: "Dalamud Dive"
+    time: 2:39.7
+    type: tb
+    actionId: 9921
+  - name: "Bahamut's Claw"
+    time: 2:41.8
+    hits: [2:43.2, 2:44.0, 2:44.8, 2:45.6]
+    type: tb
+    actionId: 9909
+  - name: "Chain Lightning (Debuff)"
+    time: 2:57.9
+    type: mech
+    actionId: 9927
+  - name: "Chain Lightning (Damage)"
+    time: 3:04.0
+    actionId: 9928
+  - name: "Nael Quote 1 (In → Out/Stack)"
+    time: 3:04.1
+    actionId: 9916
+  - name: "Fireball 1"
+    time: 3:09.9
+    actionId: 9925
+  - name: "Bahamut's Claw"
+    time: 3:18.5
+    hits: [3:19.8, 3:20.6, 3:21.4, 3:22.2]
+    type: tb
+    actionId: 9909
+  - name: "Chain Lightning (Debuff)"
+    time: 3:23.0
+    type: mech
+    actionId: 9927
+  - name: "Fireball 2"
+    time: 3:25.1
+    actionId: 9925
+  - name: "Chain Lightning (Damage)"
+    time: 3:29.1
+    actionId: 9928
+  - name: "Nael Quote 2 (Stack → In/Out)"
+    time: 3:32.6
+    actionId: 9917
+  - name: "Chain Lightning (Debuff)"
+    time: 3:42.2
+    type: mech
+    actionId: 9927
+  - name: "Chain Lightning (Damage)"
+    time: 3:48.3
+    actionId: 9928
+  - name: "Fireball 3"
+    time: 3:51.2
+    actionId: 9925
+  - name: "Bahamut's Claw"
+    time: 3:54.9
+    hits: [3:56.2, 3:57.0, 3:57.8, 3:58.6]
+    type: tb
+    actionId: 9909
+  - name: "Raven Dive"
+    time: 4:06.1
+    actionId: 9918
+  - name: "Nael Quote 3 (Spread → In/Out)"
+    time: 4:09.2
+    actionId: 9916
+  - name: "Chain Lightning (Debuff)"
+    time: 4:09.3
+    type: mech
+    actionId: 9927
+  - name: "Fireball 4"
+    time: 4:12.4
+    actionId: 9925
+  - name: "Chain Lightning (Damage)"
+    time: 4:15.4
+    actionId: 9928
+  - name: "Ravensbeak"
+    castStart: 4:30.3
+    time: 4:34.2
+    type: tb
+    actionId: 9910
+  - name: "Hypernova"
+    time: 4:44.6
+    hits: [4:47.3, 4:48.9, 4:50.5]
+    actionId: 9919
+  - name: "Divebomb"
+    castStart: 4:46.8
+    time: 4:50.7
+    type: mech
+    actionId: 9932
+    # Missing from the reference pull specifically - it happened to land two of these three
+    # waves within 0.1s of each other, hiding the middle one. Reconstructed from a pull
+    # (t7GrpLcBXfRhN1P3) where all three land as cleanly separated single hits ~4s apart
+    # (4:50.6, 4:54.6, 4:58.5) - actionId is a best guess (9933 shows at this slot in 2 of the
+    # other 4 pulls; the exact id shuffles pull-to-pull, unlike the flanking two).
+    # Re-anchored to the real Spread cast (Meteor Stream, by Nael Geminus) that precedes the
+    # Dalamud Dive by ~3s - hits can only list moments after time, so the earlier of the two real
+    # damage instances has to be the anchor.
+  - name: "Nael Quote 4 (Spread → Dive, or Dive → Stack)"
+    time: 4:54.1
+    hits: [4:57.1]
+    actionId: 9920
+  - name: "Divebomb"  # reconstructed, not from the reference pull
+    castStart: 4:50.7
+    time: 4:54.6
+    type: mech
+    actionId: 9933
+  - name: "Divebomb"
+    castStart: 4:54.8
+    time: 4:58.7
+    type: mech
+    actionId: 9931
+  - name: "Bahamut's Claw"
+    time: 5:01.2
+    hits: [5:02.6, 5:03.4, 5:04.2, 5:05.0]
+    type: tb
+    actionId: 9909
+  - name: "Nael Quote 5 (Random)"
+    time: 5:18.4
+    actionId: 9917
+  - name: "P3 Transition Sequence"
+    time: 5:29.7
+    actionId: 9937
+  - name: "Flare Breath"
+    time: 5:47.0
+    type: tb
+    actionId: 9940
+  - name: "Flatten"
+    castStart: 5:51.1
+    time: 5:55.0
+    type: tb
+    actionId: 9941
+  - name: "Quickmarch Trio"
+    castStart: 5:58.2
+    time: 6:02.1
+    type: mech
+    actionId: 9954
+  - name: "Dives"  # the three simultaneous impacts (Megaflare Dive/Lunar Dive/Twisting Dive)
+    time: 6:10.5
+    type: mech
+    actionId: 9953
+  - name: "Megaflare Spread"
+    time: 6:14.5
+    actionId: 9948
+  - name: "Megaflare Stack"
+    time: 6:18.6
+    actionId: 9950
+  - name: "Earth Shaker"
+    time: 6:20.9
+    actionId: 9946
+  - name: "Tempest Wing"
+    time: 6:22.9
+    type: tb
+    actionId: 9943
+  - name: "Flare Breath"
+    time: 6:27.0
+    type: tb
+    actionId: 9940
+  - name: "Flatten"
+    castStart: 6:31.1
+    time: 6:35.1
+    type: tb
+    actionId: 9941
+  - name: "Blackfire Trio"
+    castStart: 6:39.3
+    time: 6:43.2
+    type: mech
+    actionId: 9955
+    # 5 real casts (407.6/408.8/409.9/411.1/412.2s in the reference pull).
+  - name: "Liquid Hell"
+    time: 6:47.6
+    hits: [6:48.8, 6:49.9, 6:51.1, 6:52.2]
+    actionId: 9901
+  - name: "Thermionic Beam"
+    time: 6:50.6
+    actionId: 9917
+  - name: "Hypernova"
+    time: 6:57.8
+    hits: [7:00.5, 7:03.7]
+    actionId: 9919
+  - name: "Megaflare Stack"
+    time: 6:59.7
+    actionId: 9950
+  - name: "Towers"
+    time: 7:01.6
+    actionId: 9951
+  - name: "Gigaflare"
+    castStart: 7:02.0
+    time: 7:07.9
+    actionId: 9942
+  - name: "Flare Breath"
+    time: 7:17.1
+    hits: [7:19.2, 7:21.4]
+    type: tb
+    actionId: 9940
+  - name: "Fellruin Trio"
+    castStart: 7:30.5
+    time: 7:34.5
+    type: mech
+    actionId: 9956
+  - name: "Nael Quote (In → Spread, or Spread → In)"
+    time: 7:43.9
+    actionId: 9918
+  - name: "Tempest Wing"
+    time: 7:50.0
+    type: tb
+    actionId: 9943
+  - name: "Aetheric Profusion"
+    time: 7:50.9
+    actionId: 9905
+  - name: "Meteor Stream"
+    time: 7:54.2
+    actionId: 9920
+  - name: "Gigaflare"
+    castStart: 7:53.1
+    time: 7:59.1
+    actionId: 9942
+  - name: "Flare Breath"
+    time: 8:04.4
+    type: tb
+    actionId: 9940
+  - name: "Flatten"
+    castStart: 8:09.6
+    time: 8:13.5
+    type: tb
+    actionId: 9941
+  - name: "Flare Breath"
+    time: 8:18.7
+    type: tb
+    actionId: 9940
+  - name: "Heavensfall Trio"
+    castStart: 8:22.8
+    time: 8:26.8
+    type: mech
+    actionId: 9957
+  - name: "Dives"
+    castStart: 8:31.2
+    time: 8:35.2
+    type: mech
+    actionId: 9953
+  - name: "Heavensfall"
+    time: 8:42.8
+    actionId: 9912
+  - name: "Towers"
+    time: 8:45.2
+    actionId: 9951
+  - name: "Hypernova"
+    time: 8:48.3
+    hits: [8:51.1, 8:52.6]
+    actionId: 9919
+  - name: "Fireball"
+    time: 8:57.6
+    actionId: 9900
+  - name: "Gigaflare"
+    castStart: 8:56.5
+    time: 9:02.5
+    actionId: 9942
+  - name: "Flare Breath"
+    time: 9:11.7
+    hits: [9:13.8, 9:15.9]
+    type: tb
+    actionId: 9940
+  - name: "Tenstrike Trio"
+    castStart: 9:24.0
+    time: 9:28.0
+    type: mech
+    actionId: 9958
+  - name: "Generate"
+    castStart: 9:32.4
+    time: 9:35.3
+    type: mech
+    actionId: 9902
+  - name: "Meteor Stream"
+    time: 9:36.3
+    hits: [9:37.9, 9:38.9, 9:39.9, 9:40.9, 9:41.9, 9:42.9, 9:43.9]
+    actionId: 9920
+  - name: "Generate"
+    castStart: 9:36.5
+    time: 9:39.5
+    type: mech
+    actionId: 9902
+  - name: "Earth Shaker"
+    time: 9:49.5
+    actionId: 9946
+  - name: "Earth Shaker"
+    time: 9:54.5
+    actionId: 9946
+  - name: "Gigaflare"
+    castStart: 9:56.6
+    time: 10:02.6
+    actionId: 9942
+  - name: "Flatten"
+    castStart: 10:09.8
+    time: 10:13.7
+    type: tb
+    actionId: 9941
+  - name: "Flare Breath"
+    time: 10:16.9
+    type: tb
+    actionId: 9940
+  - name: "Grand Octet"
+    castStart: 10:21.0
+    time: 10:25.0
+    type: mech
+    actionId: 9959
+  - name: "Lunar Dive"
+    castStart: 10:33.4
+    time: 10:37.4
+    type: mech
+    actionId: 9923
+  - name: "Divebomb"
+    time: 10:44.6
+    hits: [10:46.7, 10:48.7, 10:50.7, 10:52.6]
+    type: mech
+    actionId: 9932
+  - name: "Megaflare Dive"
+    castStart: 10:50.7
+    time: 10:54.6
+    type: mech
+    actionId: 9953
+  - name: "Megaflare Stack"
+    time: 11:02.5
+    actionId: 9950
+  - name: "Twisting Dive"
+    castStart: 10:59.6
+    time: 11:03.6
+    actionId: 9906
+  - name: "Towers"
+    time: 11:04.4
+    actionId: 9951
+  - name: "Twister"
+    time: 11:05.3
+    type: mech
+    actionId: 9899
+  - name: "Plummet/Claw (Minibuster)"
+    time: 11:29.0
+    type: tb
+    actionId: 9909
+  - name: "Liquid Hell"
+    time: 11:32.4
+    hits: [11:34.6, 11:35.7, 11:36.9, 11:38.1]
+    actionId: 9901
+  - name: "Generate"
+    castStart: 11:38.2
+    time: 11:41.2
+    type: mech
+    actionId: 9902
+  - name: "Twister"
+    castStart: 11:43.4
+    time: 11:45.3
+    type: mech
+    actionId: 9898
+  - name: "Nael Quote 1"
+    time: 11:53.1
+    hits: [11:56.2, 11:59.4]
+    actionId: 9915
+  - name: "Twister"
+    castStart: 12:00.5
+    time: 12:02.5
+    type: mech
+    actionId: 9898
+  - name: "Megaflare"
+    castStart: 12:08.5
+    time: 12:13.5
+    actionId: 9914
+  - name: "Death Sentence/Ravensbeak (Big Buster)"
+    castStart: 12:17.7
+    time: 12:21.6
+    type: tb
+    actionId: 9910
+  - name: "Plummet/Claw (Minibuster)"
+    time: 12:25.8
+    type: tb
+    actionId: 9909
+  - name: "Liquid Hell"
+    time: 12:35.1
+    hits: [12:37.3, 12:38.5, 12:39.6, 12:40.8]
+    actionId: 9901
+  - name: "Generate"
+    castStart: 12:40.9
+    time: 12:43.9
+    type: mech
+    actionId: 9902
+  - name: "Twister"
+    castStart: 12:46.1
+    time: 12:48.1
+    type: mech
+    actionId: 9898
+  - name: "Nael Quote 2"
+    time: 12:55.9
+    hits: [12:59.0, 13:02.2]
+    actionId: 9916
+  - name: "Twister"
+    castStart: 13:03.3
+    time: 13:05.2
+    type: mech
+    actionId: 9898
+  - name: "Death Sentence/Ravensbeak (Big Buster)"
+    castStart: 13:13.4
+    time: 13:17.3
+    type: tb
+    actionId: 9897
+  - name: "Megaflare"
+    castStart: 13:25.5
+    time: 13:30.5
+    actionId: 9914
+  - name: "Teraflare"
+    time: 13:58.9
+    actionId: 9961
+  - name: "Morn Afah 1"
+    castStart: 14:43.9
+    time: 14:49.9
+    actionId: 9964
+  - name: "Akh Morn 1"
+    castStart: 14:52.0
+    time: 14:56.0
+    hits: [14:58.3, 15:00.3]
+    type: tb
+    actionId: 9962
+  - name: "Exaflare"
+    castStart: 15:04.5
+    time: 15:08.5
+    type: mech
+    actionId: 9967
+  - name: "Akh Morn 2"
+    castStart: 15:23.7
+    time: 15:27.7
+    hits: [15:29.8, 15:31.7, 15:32.8]
+    type: tb
+    actionId: 9962
+  - name: "Morn Afah 2"
+    castStart: 15:39.0
+    time: 15:45.0
+    actionId: 9964
+  - name: "Exaflare"
+    castStart: 15:53.2
+    time: 15:57.2
+    type: mech
+    actionId: 9967
+  - name: "Morn Afah 3"
+    castStart: 16:12.4
+    time: 16:18.3
+    actionId: 9964
+  - name: "Akh Morn 3"
+    castStart: 16:26.5
+    time: 16:30.5
+    hits: [16:32.5, 16:34.5, 16:35.6, 16:36.6]
+    type: tb
+    actionId: 9962
+  - name: "Exaflare"
+    castStart: 16:42.9
+    time: 16:46.8
+    type: mech
+    actionId: 9967
+  - name: "Morn Afah 4"
+    castStart: 17:02.0
+    time: 17:08.0
+    actionId: 9964
+  - name: "Akh Morn 4"
+    castStart: 17:16.1
+    time: 17:20.1
+    hits: [17:22.2, 17:24.2, 17:25.2, 17:26.3, 17:27.4]
+    type: tb
+    actionId: 9962
+  - name: "Exaflare"
+    castStart: 17:33.6
+    time: 17:37.6
+    type: mech
+    actionId: 9967
+  - name: "Morn Afah 5"
+    castStart: 17:52.8
+    time: 17:58.7
+    actionId: 9964
+    # The enrage - keeps casting Morn Afah back to back until it wipes the group, not a fixed
+    # count. Only the first 4 hits (18:10.9-18:16.3) are from the reference pull itself, which
+    # was a kill and didn't run the sequence out; the remaining 4 are extrapolated at the same
+    # ~1.2s cadence to give a full 8 (one per party member) for planning purposes.
+  - name: "Morn Afah"
+    castStart: 18:00.9
+    time: 18:10.9
+    hits: [18:13.1, 18:15.1, 18:16.3, 18:17.5, 18:18.7, 18:19.9, 18:21.1]
+    type: enrage
+    actionId: 9965
