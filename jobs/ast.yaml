@@ -40,6 +40,15 @@
   mitPercent: 10
   abilityId: 37031
   description: 10% party damage reduction.
+- id: ast_lady_of_crowns
+  name: Lady of Crowns
+  cooldown: 110
+  minLevel: 70
+  scope: party
+  type: heal
+  quickHeal: true
+  abilityId: 7445
+  description: AoE party heal, ~400 potency. Drawn from Umbral Draw (Minor Arcana); alternates with Lord of Crowns every other draw.
 
 # Targeted
 - id: ast_celestial_intersection
@@ -62,6 +71,25 @@
   mitPercent: 10
   abilityId: 25873
   description: 10% damage reduction on target. Heals on expiry.
+- id: ast_the_bole
+  name: The Bole
+  cooldown: 110
+  duration: 15
+  minLevel: 30
+  scope: single
+  type: mitigation
+  mitPercent: 10
+  abilityId: 37027
+  description: 10% damage reduction on target. Drawn from Umbral Draw; alternates with The Arrow every other draw.
+- id: ast_the_spire
+  name: The Spire
+  cooldown: 110
+  duration: 30
+  minLevel: 30
+  scope: single
+  type: shield
+  abilityId: 37025
+  description: Shield on target absorbing ~400 potency of damage. Drawn from Astral Draw; alternates with the Ewer every other draw.
 
 # Heal
 - id: ast_essential_dignity
@@ -113,3 +141,23 @@
   type: heal
   abilityId: 7439
   description: Ground-targeted party heal. 540 potency if detonated within 10s (Earthly Dominance), 720 potency plus bonus damage if detonated after 10s (Giant Dominance).
+- id: ast_the_arrow
+  name: The Arrow
+  cooldown: 110
+  duration: 15
+  minLevel: 30
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 37024
+  description: Increases healing received by target by 10%. Drawn from Astral Draw; alternates with The Bole every other draw.
+- id: ast_the_ewer
+  name: The Ewer
+  cooldown: 110
+  duration: 15
+  minLevel: 30
+  scope: single
+  type: heal
+  quickHeal: true
+  abilityId: 37028
+  description: Regen effect on target, ~1000 potency total over 15s. Drawn from Umbral Draw; alternates with The Spire every other draw.
